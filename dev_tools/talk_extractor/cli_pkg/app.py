@@ -17,7 +17,10 @@ from talk_extractor.cli_pkg.drawers_audit_command import DrawersAuditCommand
 from talk_extractor.cli_pkg.desk_tasks_command import DeskTasksCommand
 from talk_extractor.cli_pkg.desk_pills_command import DeskPillsCommand
 from talk_extractor.cli_pkg.desk_board_command import DeskBoardCommand
-
+from talk_extractor.cli_pkg.exec_run_command import ExecRunCommand
+from talk_extractor.cli_pkg.exec_dispatch_command import ExecDispatchCommand
+from talk_extractor.cli_pkg.capture_rescue_command import CaptureRescueCommand
+from talk_extractor.cli_pkg.capture_normalize_command import CaptureNormalizeCommand
 
 CATEGORIES = {
     "extract": [
@@ -30,17 +33,16 @@ CATEGORIES = {
     ],
     "standardize": [("create", StandardizeCreateCommand(), "Create module.", [])],
     "drawers": [
-        ("add", DrawersAddCommand(), "Add spec.", []),
-        ("list", DrawersListCommand(), "List specs.", []),
-        ("promote", DrawersPromoteCommand(), "Promote spec.", []),
-        ("audit", DrawersAuditCommand(), "Audit specs.", []),
+        ("add", DrawersAddCommand(), "Add spec.", []), ("list", DrawersListCommand(), "List specs.", []),
+        ("promote", DrawersPromoteCommand(), "Promote spec.", []), ("audit", DrawersAuditCommand(), "Audit specs.", []),
     ],
     "desk": [
-        ("tasks", DeskTasksCommand(), "Tasks.", []),
-        ("pills", DeskPillsCommand(), "Pills.", []),
+        ("tasks", DeskTasksCommand(), "Tasks.", []), ("pills", DeskPillsCommand(), "Pills.", []),
         ("board", DeskBoardCommand(), "Board.", []),
     ],
-    "exec": [], "capture": [], "eval": [], "integrate": [],
+    "exec": [("run", ExecRunCommand(), "Run agent.", []), ("dispatch", ExecDispatchCommand(), "Dispatch tasks.", [])],
+    "capture": [("rescue", CaptureRescueCommand(), "Rescue logs.", []), ("normalize", CaptureNormalizeCommand(), "Normalize logs.", [])],
+    "eval": [], "integrate": [],
 }
 class CliApp:
     """Build and run the talk_extractor CLI."""
