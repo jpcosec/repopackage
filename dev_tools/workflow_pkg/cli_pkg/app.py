@@ -1,9 +1,6 @@
 """CLI application builder."""
-
 from __future__ import annotations
-
 import argparse
-
 from workflow_pkg.cli_pkg.agent_prompt_command import AgentPromptCommand
 from workflow_pkg.cli_pkg.extract_artifacts_command import ExtractArtifactsCommand
 from workflow_pkg.cli_pkg.extract_turns_command import ExtractTurnsCommand
@@ -31,15 +28,15 @@ from workflow_pkg.cli_pkg.integrate_promote_command import IntegratePromoteComma
 from workflow_pkg.cli_pkg.init_command import InitCommand
 
 CATEGORIES = {
-    "system": [("initialize", InitCommand(), "Scaffold.", ["init"])],
-    "distill": [("turns", ExtractTurnsCommand(), "Turns.", ["extract-turns"]), ("artifacts", ExtractArtifactsCommand(), "Artifacts.", ["extract-artifacts"]), ("prepare", PrepareSemanticCommand(), "Prep.", ["prepare-semantic"]), ("run", RunSemanticCommand(), "Run.", ["run-semantic"]), ("prompt", AgentPromptCommand(), "Prompt.", ["agent-prompt"])],
-    "standardize": [("create", StandardizeCreateCommand(), "Create.", [])],
-    "drawers": [("add", DrawersAddCommand(), "Add.", []), ("list", DrawersListCommand(), "List.", []), ("promote", DrawersPromoteCommand(), "Promote.", []), ("audit", DrawersAuditCommand(), "Audit.", [])],
-    "desk": [("tasks", DeskTasksCommand(), "Tasks.", []), ("pills", DeskPillsCommand(), "Pills.", []), ("board", DeskBoardCommand(), "Board.", [])],
-    "exec": [("run", ExecRunCommand(), "Run.", []), ("dispatch", ExecDispatchCommand(), "Dispatch.", [])],
-    "capture": [("rescue", CaptureRescueCommand(), "Rescue.", []), ("normalize", CaptureNormalizeCommand(), "Normalize.", [])],
-    "eval": [("test", EvalTestCommand(), "Test.", []), ("lint", EvalLintCommand(), "Lint.", []), ("audit", EvalAuditCommand(), "Audit.", []), ("constraints", LintConstraintsCommand(), "Constraints.", ["lint-constraints"])],
-    "integrate": [("merge", IntegrateMergeCommand(), "Merge.", []), ("rollback", IntegrateRollbackCommand(), "Rollback.", []), ("promote", IntegratePromoteCommand(), "Promote.", [])],
+    "system": [("initialize", InitCommand(), "Setup project.", ["init"])],
+    "distill": [("turns", ExtractTurnsCommand(), "Extract turns.", ["extract-turns"]), ("artifacts", ExtractArtifactsCommand(), "Extract code.", ["extract-artifacts"]), ("prepare", PrepareSemanticCommand(), "Setup shells.", ["prepare-semantic"]), ("run", RunSemanticCommand(), "Next prompt.", ["run-semantic"]), ("prompt", AgentPromptCommand(), "Show entrypoints.", ["agent-prompt"])],
+    "standardize": [("create", StandardizeCreateCommand(), "Scaffold modules.", [])],
+    "drawers": [("add", DrawersAddCommand(), "Defer spec.", []), ("list", DrawersListCommand(), "List deferred.", []), ("promote", DrawersPromoteCommand(), "Promote spec.", []), ("audit", DrawersAuditCommand(), "Check health.", [])],
+    "desk": [("tasks", DeskTasksCommand(), "Manage tasks.", []), ("pills", DeskPillsCommand(), "Manage pills.", []), ("board", DeskBoardCommand(), "Sync board.", [])],
+    "exec": [("run", ExecRunCommand(), "Run agent.", []), ("dispatch", ExecDispatchCommand(), "Batch tasks.", [])],
+    "capture": [("rescue", CaptureRescueCommand(), "Pull logs.", []), ("normalize", CaptureNormalizeCommand(), "Convert evidence.", [])],
+    "eval": [("test", EvalTestCommand(), "Run tests.", []), ("lint", EvalLintCommand(), "Run linters.", []), ("audit", EvalAuditCommand(), "Quality gate.", []), ("constraints", LintConstraintsCommand(), "Check rules.", ["lint-constraints"])],
+    "integrate": [("merge", IntegrateMergeCommand(), "Merge work.", []), ("rollback", IntegrateRollbackCommand(), "Revert.", []), ("promote", IntegratePromoteCommand(), "Push prod.", [])],
 }
 
 class CliApp:
@@ -47,27 +44,26 @@ class CliApp:
 
     def build(self) -> argparse.ArgumentParser:
         """Return the root parser."""
-        parser = self._root_parser()
-        self._register_all(parser.add_subparsers(dest="command", required=True))
+        parser = argparse.ArgumentParser(prog="workflow", description="Workflow Management CLI.")
+        sub = parser.add_subparsers(dest="command", required=True, metavar="CATEGORY")
+        for cat, cmds in CATEGORIES.items(): self._register_category(sub, cat, cmds)
         return parser
-
-    def _root_parser(self) -> argparse.ArgumentParser:
-        """Build the root parser."""
-        return argparse.ArgumentParser(prog="workflow", description="Central CLI for Workflow.")
-
-    def _register_all(self, subparsers) -> None:
-        """Register all configured categories and commands."""
-        for cat, cmds in CATEGORIES.items(): self._register_category(subparsers, cat, cmds)
 
     def _register_category(self, subparsers, category, commands) -> None:
         """Register a category and its commands."""
-        cat_parser = subparsers.add_parser(category, help=f"{category.capitalize()} commands.")
-        cat_subparsers = cat_parser.add_subparsers(dest="subcommand", required=True)
+        cat_parser = subparsers.add_parser(category, help=f"{category.capitalize()} phase.")
+        cat_sub = cat_parser.add_subparsers(dest="subcommand", required=True, metavar="COMMAND")
         for name, cmd, hlp, als in commands:
-            self._register(cat_subparsers, name, cmd, hlp)
-            for alias in als: self._register(subparsers, alias, cmd, hlp)
+            self._register(cat_sub, name, cmd, hlp)
+            for alias in als: self._register_alias(subparsers, alias, cmd)
 
-    def _register(self, subparsers, name: str, command, help_text: str) -> None:
+    def _register_alias(self, subparsers, name: str, command) -> None:
+        """Register an invisible legacy alias."""
+        parser = subparsers.add_parser(name, help=argparse.SUPPRESS)
+        command.configure(parser)
+        parser.set_defaults(func=command.run)
+
+    def _register(self, subparsers, name: str, command, help_text: str | None) -> None:
         """Register one subcommand."""
         parser = subparsers.add_parser(name, help=help_text)
         command.configure(parser)
