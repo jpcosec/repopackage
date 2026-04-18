@@ -31,8 +31,8 @@ from workflow_pkg.cli_pkg.integrate_promote_command import IntegratePromoteComma
 from workflow_pkg.cli_pkg.init_command import InitCommand
 
 CATEGORIES = {
-    "system": [("initialize", InitCommand(), "Scaffold structure.", ["init"])],
-    "extract": [("turns", ExtractTurnsCommand(), "Turns.", ["extract-turns"]), ("artifacts", ExtractArtifactsCommand(), "Artifacts.", ["extract-artifacts"]), ("prepare", PrepareSemanticCommand(), "Prep.", ["prepare-semantic"]), ("run", RunSemanticCommand(), "Run.", ["run-semantic"]), ("prompt", AgentPromptCommand(), "Prompt.", ["agent-prompt"])],
+    "system": [("initialize", InitCommand(), "Scaffold.", ["init"])],
+    "distill": [("turns", ExtractTurnsCommand(), "Turns.", ["extract-turns"]), ("artifacts", ExtractArtifactsCommand(), "Artifacts.", ["extract-artifacts"]), ("prepare", PrepareSemanticCommand(), "Prep.", ["prepare-semantic"]), ("run", RunSemanticCommand(), "Run.", ["run-semantic"]), ("prompt", AgentPromptCommand(), "Prompt.", ["agent-prompt"])],
     "standardize": [("create", StandardizeCreateCommand(), "Create.", [])],
     "drawers": [("add", DrawersAddCommand(), "Add.", []), ("list", DrawersListCommand(), "List.", []), ("promote", DrawersPromoteCommand(), "Promote.", []), ("audit", DrawersAuditCommand(), "Audit.", [])],
     "desk": [("tasks", DeskTasksCommand(), "Tasks.", []), ("pills", DeskPillsCommand(), "Pills.", []), ("board", DeskBoardCommand(), "Board.", [])],

@@ -7,7 +7,7 @@ A sophisticated Python toolkit for distilling AI conversations into structured e
 The `workflow` CLI provides a hierarchical command structure to manage the entire development lifecycle:
 
 - **`system`**: Initialize project structure (`workflow init`).
-- **`extract`**: Ingest raw AI transcripts and extract turns or artifacts.
+- **`distill`**: Ingest AI transcripts and extract turns/artifacts (formerly talk-extractor).
 - **`standardize`**: Scaffold reusable or normed modules.
 - **`drawers`**: Manage deferred specifications and design documents.
 - **`desk`**: Orchestrate active work with automated boards and pills.
