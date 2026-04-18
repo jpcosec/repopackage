@@ -1,0 +1,20 @@
+
+flowchart TD
+
+    A["main-project<br/>(project)"]
+
+    B["diagnostics-platform<br/>(project + repopackage)"]
+
+    C["code-quality-auditor<br/>(repopackage)"]
+
+    D["testing-engine<br/>(repopackage)"]
+
+    E["task-context-engine<br/>(repopackage)"]
+
+    A --> B
+
+    B --> C
+
+    B --> D
+
+    C --> E

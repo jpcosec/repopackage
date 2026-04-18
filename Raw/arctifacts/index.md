@@ -1,0 +1,24 @@
+# Extracted artifacts
+
+- `mermaid_turn001_diagrama-minimo.mmd` - turn 001, user, mermaid, source `Talk.md`
+- `mermaid_turn001_grafo-composicional.mmd` - turn 001, user, mermaid, source `Talk.md`
+- `yaml_turn001_define-lo-que-el-paquete-promete-hacia-afuera.yaml` - turn 001, user, yaml, source `Talk.md`
+- `yaml_turn001_define-que-puede-conectarse-dentro-del-proyecto.yaml` - turn 001, user, yaml, source `Talk.md`
+- `yaml_turn001_local-traits.yaml` - turn 001, user, yaml, source `Talk.md`
+- `yaml_turn001_necesitas-una-relacion-explicita.yaml` - turn 001, user, yaml, source `Talk.md`
+- `yaml_turn001_contextual-versions.yaml` - turn 001, user, yaml, source `Talk.md`
+- `yaml_turn001_composition-index.yaml` - turn 001, user, yaml, source `Talk.md`
+- `yaml_turn001_para-desarrollar-testear-un-repopackage-sin-contaminar-el-proyecto-real.yaml` - turn 001, user, yaml, source `Talk.md`
+- `yaml_turn001_contrato.yaml` - turn 001, user, yaml, source `Talk.md`
+- `mermaid_turn001_composable-unit-composable-unit.mmd` - turn 001, user, mermaid, source `Talk.md`
+- `yaml_turn001_por-eso-el-modelo-base-deberia-ser.yaml` - turn 001, user, yaml, source `Talk.md`
+- `mermaid_turn001_diagrama-final-mas-limpio.mmd` - turn 001, user, mermaid, source `Talk.md`
+- `plantuml_turn006_01.puml` - turn 006, assistant, plantuml, source `Talk.md`
+- `plantuml_turn008_01.puml` - turn 008, assistant, plantuml, source `Talk.md`
+- `plantuml_turn008_volvamos-a-este-dibujo-que-hiciste-antes.puml` - turn 008, assistant, plantuml, source `Talk.md`
+- `plantuml_turn010_01.puml` - turn 010, assistant, plantuml, source `Talk.md`
+- `plantuml_turn012_01.puml` - turn 012, assistant, plantuml, source `Talk.md`
+- `plantuml_turn014_01.puml` - turn 014, assistant, plantuml, source `Talk.md`
+- `plantuml_turn014_desde-este-mismo.puml` - turn 014, assistant, plantuml, source `Talk.md`
+- `plantuml_turn016_01.puml` - turn 016, assistant, plantuml, source `Talk.md`
+- `plantuml_turn017_01.puml` - turn 017, assistant, plantuml, source `Talk.md`

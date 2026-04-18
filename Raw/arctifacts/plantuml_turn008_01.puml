@@ -1,0 +1,37 @@
+@startuml
+skinparam componentStyle rectangle
+skinparam monochrome true
+skinparam shadowing false
+
+component "Composable Unit: main-project\n<<Rol: Project>>" as main_project {
+
+    component "Project Local Code" as local_code
+
+    component "Composition Index (main)" as ci_main {
+
+        component "Composable Unit: diagnostics-platform\n<<Rol: Project + Repopackage>>" as diagnostics_platform {
+
+            interface "Integration Contract\n(Exports)" as contract_diag
+
+            component "Composition Index (diagnostics)" as ci_diag {
+
+                component "code-quality-auditor\n<<Rol: Repopackage>>" as auditor
+                component "testing-engine\n<<Rol: Repopackage>>" as testing
+                component "task-context-engine\n<<Rol: Repopackage>>" as task_context
+
+                auditor ..> task_context : consumes
+                testing ..> task_context : consumes
+            }
+
+            contract_diag -down- ci_diag
+        }
+
+        component "Composable Unit: ui-kit\n<<Rol: Repopackage>>" as ui_kit {
+            interface "Integration Contract" as contract_ui
+        }
+    }
+
+    local_code ..> contract_diag : consumes
+    local_code ..> contract_ui : consumes
+}
+@enduml

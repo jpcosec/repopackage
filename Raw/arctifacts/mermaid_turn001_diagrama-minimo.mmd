@@ -1,0 +1,16 @@
+
+flowchart TD
+
+    CU["Composable Unit"]
+
+    RP["Repopackage<br/>repo reutilizable"]
+
+    PR["Project<br/>repo ensamblador + código propio"]
+
+    CU --> RP
+
+    CU --> PR
+
+    PR -->|"usa"| RP
+
+    PR -->|"también puede exponerse como"| RP

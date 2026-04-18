@@ -1,0 +1,125 @@
+@startuml
+
+skinparam monochrome true
+
+skinparam shadowing false
+
+skinparam classAttributeIconSize 0
+
+abstract class ComposableUnit {
+
+  + git_repository
+
+  + history
+
+  + tests
+
+}
+
+class Repopackage {
+
+  + role: reusable_module
+
+}
+
+class Project {
+
+  + role: assembler
+
+  + proprietary_code
+
+}
+
+class IntegrationContract {
+
+  + exports
+
+  + consumes
+
+  + schemas
+
+  + compatibility_rules
+
+}
+
+class LocalTraits {
+
+  + formatter
+
+  + test_runner
+
+  + docs_style
+
+}
+
+class CentralLine {
+
+  + branch: main
+
+  + version: canonical
+
+}
+
+class DevelopmentLine {
+
+  + branch: contextual
+
+  + base_commit
+
+  + integration_status
+
+}
+
+class CompositionIndex {
+
+  + package_refs
+
+  + branches
+
+  + exact_commits
+
+}
+
+class FocusWorktree {
+
+  + target_package
+
+  + mock_ecosystem
+
+}
+
+Repopackage -up-|> ComposableUnit
+
+Project -up-|> ComposableUnit
+
+ComposableUnit *-- "1" IntegrationContract
+
+ComposableUnit *-- "1" LocalTraits
+
+Repopackage *-- "1" CentralLine
+
+Repopackage *-- "0..*" DevelopmentLine
+
+Project *-- "1" CompositionIndex
+
+CompositionIndex --> "1..*" DevelopmentLine : resolves to (lock)
+
+CompositionIndex --> "1..*" CentralLine : resolves to (lock)
+
+Project "0..*" o-- "1..*" Repopackage : uses >
+
+Repopackage "0..*" o-- "0..*" Repopackage : uses >
+
+Project ..> Repopackage : can act as >
+
+FocusWorktree ..> Repopackage : isolates >
+
+FocusWorktree ..> Project : mocks context of >
+
+note bottom of ComposableUnit
+
+  Nodos en un Composition Graph
+
+end note
+
+@enduml

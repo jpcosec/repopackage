@@ -1,0 +1,543 @@
+{
+  "topic": "TBD",
+  "work_type": [],
+  "source": {
+    "conversation": "Talk.md",
+    "turn_count": 42,
+    "artifact_count": 22,
+    "curated_artifact_count": 0
+  },
+  "final_state": {
+    "summary": "TBD",
+    "accepted_decisions": [],
+    "final_artifacts": [],
+    "open_questions": []
+  },
+  "decisions": [],
+  "artifacts": [
+    {
+      "artifact_id": "ART-001",
+      "source_path": "arctifacts/mermaid_turn001_diagrama-minimo.mmd",
+      "extracted_path": "arctifacts/mermaid_turn001_diagrama-minimo.mmd",
+      "turn_id": "turn-001",
+      "kind": "mermaid",
+      "speaker": "user",
+      "label": "diagrama-minimo"
+    },
+    {
+      "artifact_id": "ART-002",
+      "source_path": "arctifacts/mermaid_turn001_grafo-composicional.mmd",
+      "extracted_path": "arctifacts/mermaid_turn001_grafo-composicional.mmd",
+      "turn_id": "turn-001",
+      "kind": "mermaid",
+      "speaker": "user",
+      "label": "grafo-composicional"
+    },
+    {
+      "artifact_id": "ART-003",
+      "source_path": "arctifacts/yaml_turn001_define-lo-que-el-paquete-promete-hacia-afuera.yaml",
+      "extracted_path": "arctifacts/yaml_turn001_define-lo-que-el-paquete-promete-hacia-afuera.yaml",
+      "turn_id": "turn-001",
+      "kind": "yaml",
+      "speaker": "user",
+      "label": "define-lo-que-el-paquete-promete-hacia-afuera"
+    },
+    {
+      "artifact_id": "ART-004",
+      "source_path": "arctifacts/yaml_turn001_define-que-puede-conectarse-dentro-del-proyecto.yaml",
+      "extracted_path": "arctifacts/yaml_turn001_define-que-puede-conectarse-dentro-del-proyecto.yaml",
+      "turn_id": "turn-001",
+      "kind": "yaml",
+      "speaker": "user",
+      "label": "define-que-puede-conectarse-dentro-del-proyecto"
+    },
+    {
+      "artifact_id": "ART-005",
+      "source_path": "arctifacts/yaml_turn001_local-traits.yaml",
+      "extracted_path": "arctifacts/yaml_turn001_local-traits.yaml",
+      "turn_id": "turn-001",
+      "kind": "yaml",
+      "speaker": "user",
+      "label": "local-traits"
+    },
+    {
+      "artifact_id": "ART-006",
+      "source_path": "arctifacts/yaml_turn001_necesitas-una-relacion-explicita.yaml",
+      "extracted_path": "arctifacts/yaml_turn001_necesitas-una-relacion-explicita.yaml",
+      "turn_id": "turn-001",
+      "kind": "yaml",
+      "speaker": "user",
+      "label": "necesitas-una-relacion-explicita"
+    },
+    {
+      "artifact_id": "ART-007",
+      "source_path": "arctifacts/yaml_turn001_contextual-versions.yaml",
+      "extracted_path": "arctifacts/yaml_turn001_contextual-versions.yaml",
+      "turn_id": "turn-001",
+      "kind": "yaml",
+      "speaker": "user",
+      "label": "contextual-versions"
+    },
+    {
+      "artifact_id": "ART-008",
+      "source_path": "arctifacts/yaml_turn001_composition-index.yaml",
+      "extracted_path": "arctifacts/yaml_turn001_composition-index.yaml",
+      "turn_id": "turn-001",
+      "kind": "yaml",
+      "speaker": "user",
+      "label": "composition-index"
+    },
+    {
+      "artifact_id": "ART-009",
+      "source_path": "arctifacts/yaml_turn001_para-desarrollar-testear-un-repopackage-sin-contaminar-el-proyecto-real.yaml",
+      "extracted_path": "arctifacts/yaml_turn001_para-desarrollar-testear-un-repopackage-sin-contaminar-el-proyecto-real.yaml",
+      "turn_id": "turn-001",
+      "kind": "yaml",
+      "speaker": "user",
+      "label": "para-desarrollar-testear-un-repopackage-sin-contaminar-el-proyecto-real"
+    },
+    {
+      "artifact_id": "ART-010",
+      "source_path": "arctifacts/yaml_turn001_contrato.yaml",
+      "extracted_path": "arctifacts/yaml_turn001_contrato.yaml",
+      "turn_id": "turn-001",
+      "kind": "yaml",
+      "speaker": "user",
+      "label": "contrato"
+    },
+    {
+      "artifact_id": "ART-011",
+      "source_path": "arctifacts/mermaid_turn001_composable-unit-composable-unit.mmd",
+      "extracted_path": "arctifacts/mermaid_turn001_composable-unit-composable-unit.mmd",
+      "turn_id": "turn-001",
+      "kind": "mermaid",
+      "speaker": "user",
+      "label": "composable-unit-composable-unit"
+    },
+    {
+      "artifact_id": "ART-012",
+      "source_path": "arctifacts/yaml_turn001_por-eso-el-modelo-base-deberia-ser.yaml",
+      "extracted_path": "arctifacts/yaml_turn001_por-eso-el-modelo-base-deberia-ser.yaml",
+      "turn_id": "turn-001",
+      "kind": "yaml",
+      "speaker": "user",
+      "label": "por-eso-el-modelo-base-deberia-ser"
+    },
+    {
+      "artifact_id": "ART-013",
+      "source_path": "arctifacts/mermaid_turn001_diagrama-final-mas-limpio.mmd",
+      "extracted_path": "arctifacts/mermaid_turn001_diagrama-final-mas-limpio.mmd",
+      "turn_id": "turn-001",
+      "kind": "mermaid",
+      "speaker": "user",
+      "label": "diagrama-final-mas-limpio"
+    },
+    {
+      "artifact_id": "ART-014",
+      "source_path": "arctifacts/plantuml_turn006_01.puml",
+      "extracted_path": "arctifacts/plantuml_turn006_01.puml",
+      "turn_id": "turn-006",
+      "kind": "plantuml",
+      "speaker": "assistant",
+      "label": "01"
+    },
+    {
+      "artifact_id": "ART-015",
+      "source_path": "arctifacts/plantuml_turn008_01.puml",
+      "extracted_path": "arctifacts/plantuml_turn008_01.puml",
+      "turn_id": "turn-008",
+      "kind": "plantuml",
+      "speaker": "assistant",
+      "label": "01"
+    },
+    {
+      "artifact_id": "ART-016",
+      "source_path": "arctifacts/plantuml_turn008_volvamos-a-este-dibujo-que-hiciste-antes.puml",
+      "extracted_path": "arctifacts/plantuml_turn008_volvamos-a-este-dibujo-que-hiciste-antes.puml",
+      "turn_id": "turn-008",
+      "kind": "plantuml",
+      "speaker": "assistant",
+      "label": "volvamos-a-este-dibujo-que-hiciste-antes"
+    },
+    {
+      "artifact_id": "ART-017",
+      "source_path": "arctifacts/plantuml_turn010_01.puml",
+      "extracted_path": "arctifacts/plantuml_turn010_01.puml",
+      "turn_id": "turn-010",
+      "kind": "plantuml",
+      "speaker": "assistant",
+      "label": "01"
+    },
+    {
+      "artifact_id": "ART-018",
+      "source_path": "arctifacts/plantuml_turn012_01.puml",
+      "extracted_path": "arctifacts/plantuml_turn012_01.puml",
+      "turn_id": "turn-012",
+      "kind": "plantuml",
+      "speaker": "assistant",
+      "label": "01"
+    },
+    {
+      "artifact_id": "ART-019",
+      "source_path": "arctifacts/plantuml_turn014_01.puml",
+      "extracted_path": "arctifacts/plantuml_turn014_01.puml",
+      "turn_id": "turn-014",
+      "kind": "plantuml",
+      "speaker": "assistant",
+      "label": "01"
+    },
+    {
+      "artifact_id": "ART-020",
+      "source_path": "arctifacts/plantuml_turn014_desde-este-mismo.puml",
+      "extracted_path": "arctifacts/plantuml_turn014_desde-este-mismo.puml",
+      "turn_id": "turn-014",
+      "kind": "plantuml",
+      "speaker": "assistant",
+      "label": "desde-este-mismo"
+    },
+    {
+      "artifact_id": "ART-021",
+      "source_path": "arctifacts/plantuml_turn016_01.puml",
+      "extracted_path": "arctifacts/plantuml_turn016_01.puml",
+      "turn_id": "turn-016",
+      "kind": "plantuml",
+      "speaker": "assistant",
+      "label": "01"
+    },
+    {
+      "artifact_id": "ART-022",
+      "source_path": "arctifacts/plantuml_turn017_01.puml",
+      "extracted_path": "arctifacts/plantuml_turn017_01.puml",
+      "turn_id": "turn-017",
+      "kind": "plantuml",
+      "speaker": "assistant",
+      "label": "01"
+    }
+  ],
+  "turns": [
+    {
+      "turn_id": "turn-001",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-001.md",
+      "artifact_paths": [
+        "arctifacts/mermaid_turn001_diagrama-minimo.mmd",
+        "arctifacts/mermaid_turn001_grafo-composicional.mmd",
+        "arctifacts/yaml_turn001_define-lo-que-el-paquete-promete-hacia-afuera.yaml",
+        "arctifacts/yaml_turn001_define-que-puede-conectarse-dentro-del-proyecto.yaml",
+        "arctifacts/yaml_turn001_local-traits.yaml",
+        "arctifacts/yaml_turn001_necesitas-una-relacion-explicita.yaml",
+        "arctifacts/yaml_turn001_contextual-versions.yaml",
+        "arctifacts/yaml_turn001_composition-index.yaml",
+        "arctifacts/yaml_turn001_para-desarrollar-testear-un-repopackage-sin-contaminar-el-proyecto-real.yaml",
+        "arctifacts/yaml_turn001_contrato.yaml",
+        "arctifacts/mermaid_turn001_composable-unit-composable-unit.mmd",
+        "arctifacts/yaml_turn001_por-eso-el-modelo-base-deberia-ser.yaml",
+        "arctifacts/mermaid_turn001_diagrama-final-mas-limpio.mmd"
+      ]
+    },
+    {
+      "turn_id": "turn-002",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-002.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-003",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-003.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-004",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-004.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-005",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-005.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-006",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-006.md",
+      "artifact_paths": [
+        "arctifacts/plantuml_turn006_01.puml"
+      ]
+    },
+    {
+      "turn_id": "turn-007",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-007.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-008",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-008.md",
+      "artifact_paths": [
+        "arctifacts/plantuml_turn008_01.puml",
+        "arctifacts/plantuml_turn008_volvamos-a-este-dibujo-que-hiciste-antes.puml"
+      ]
+    },
+    {
+      "turn_id": "turn-009",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-009.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-010",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-010.md",
+      "artifact_paths": [
+        "arctifacts/plantuml_turn010_01.puml"
+      ]
+    },
+    {
+      "turn_id": "turn-011",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-011.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-012",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-012.md",
+      "artifact_paths": [
+        "arctifacts/plantuml_turn012_01.puml"
+      ]
+    },
+    {
+      "turn_id": "turn-013",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-013.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-014",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-014.md",
+      "artifact_paths": [
+        "arctifacts/plantuml_turn014_01.puml",
+        "arctifacts/plantuml_turn014_desde-este-mismo.puml"
+      ]
+    },
+    {
+      "turn_id": "turn-015",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-015.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-016",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-016.md",
+      "artifact_paths": [
+        "arctifacts/plantuml_turn016_01.puml"
+      ]
+    },
+    {
+      "turn_id": "turn-017",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-017.md",
+      "artifact_paths": [
+        "arctifacts/plantuml_turn017_01.puml"
+      ]
+    },
+    {
+      "turn_id": "turn-018",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-018.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-019",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-019.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-020",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-020.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-021",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-021.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-022",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-022.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-023",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-023.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-024",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-024.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-025",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-025.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-026",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-026.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-027",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-027.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-028",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-028.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-029",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-029.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-030",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-030.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-031",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-031.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-032",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-032.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-033",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-033.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-034",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-034.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-035",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-035.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-036",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-036.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-037",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-037.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-038",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-038.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-039",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-039.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-040",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-040.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-041",
+      "source_path": "Talk.md",
+      "speaker": "assistant",
+      "turn_path": "semantic_output/turns/turn-041.md",
+      "artifact_paths": []
+    },
+    {
+      "turn_id": "turn-042",
+      "source_path": "Talk.md",
+      "speaker": "user",
+      "turn_path": "semantic_output/turns/turn-042.md",
+      "artifact_paths": []
+    }
+  ]
+}

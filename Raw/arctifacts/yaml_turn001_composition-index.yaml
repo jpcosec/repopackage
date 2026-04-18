@@ -1,0 +1,40 @@
+
+kind: composition_index
+
+project: main-project
+
+uses:
+
+  code-quality-auditor:
+
+    repo: git@...
+
+    branch: main-project/auditor-rules
+
+    commit: def456
+
+    based_on: main@abc123
+
+    contract: AuditContract.v1
+
+  ui-kit:
+
+    repo: git@...
+
+    branch: main
+
+    commit: 111aaa
+
+    contract: ComponentRegistry.v1
+
+  testing-engine:
+
+    repo: git@...
+
+    branch: main-project/test-strategy
+
+    commit: 222bbb
+
+    based_on: main@999ccc
+
+    contract: TestReport.v1

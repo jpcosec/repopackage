@@ -1,0 +1,24 @@
+@startuml
+skinparam componentStyle rectangle
+skinparam monochrome true
+skinparam shadowing false
+
+component "Project" as project {
+    component "Composition Index" as comp_index
+    component "Development Line" as dev_line
+}
+
+component "Repopackage" as repopackage {
+    component "Integration Contract" as int_contract
+    component "Local Traits" as local_traits
+    component "Central Line" as central_line
+}
+
+' Relaciones de ensamblaje
+project --> repopackage : compone
+comp_index ..> int_contract : valida compatibilidad
+comp_index ..> central_line : resuelve versión canónica
+comp_index ..> dev_line : resuelve versión contextual
+dev_line --> repopackage : aplica mutación al repositorio base
+
+@enduml

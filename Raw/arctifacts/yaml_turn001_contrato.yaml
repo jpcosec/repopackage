@@ -1,0 +1,32 @@
+
+kind: focus_worktree
+
+name: auditor-mock-ecosystem
+
+target:
+
+  repopackage: code-quality-auditor
+
+  branch: feature/new-rules
+
+mock_ecosystem:
+
+  task-context-engine:
+
+    mode: real
+
+    ref: main
+
+  project-fixture:
+
+    mode: mock
+
+    ref: fixtures/minimal-project
+
+validates:
+
+  - AuditReport.v1
+
+  - Finding.v1
+
+  - compatibility_with_project_contract.main-project

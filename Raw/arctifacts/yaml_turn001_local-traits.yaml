@@ -1,0 +1,22 @@
+
+integration_contract:
+
+  exports:
+
+    - AuditReport.v1
+
+  consumes:
+
+    - CodebaseSnapshot.v1
+
+local_traits:
+
+  formatter: ruff
+
+  test_runner: pytest
+
+  docs_style: mkdocs
+
+  branch_strategy: trunk_based
+
+  preferred_language: python

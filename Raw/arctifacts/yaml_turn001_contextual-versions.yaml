@@ -1,0 +1,30 @@
+
+repopackage: code-quality-auditor
+
+central:
+
+  branch: main
+
+  version: 0.4.0
+
+contexts:
+
+  main-project:
+
+    branch: main-project/auditor-rules
+
+    based_on: main@abc123
+
+    current_commit: def456
+
+    integration_status: compatible
+
+  project-b:
+
+    branch: project-b/typescript-support
+
+    based_on: main@abc123
+
+    current_commit: 789abc
+
+    integration_status: partial

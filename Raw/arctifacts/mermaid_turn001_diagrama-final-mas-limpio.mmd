@@ -1,0 +1,52 @@
+
+flowchart TD
+
+    CU["Composable Unit"]
+
+    RP["Repopackage<br/>unidad reutilizable"]
+
+    PR["Project<br/>unidad ensambladora"]
+
+    CT["Contract<br/>IO + tipos + compatibilidad"]
+
+    LT["Local Traits<br/>estilo + tests + docs + configs"]
+
+    DL["Development Lines<br/>branches por contexto"]
+
+    CL["Central Line<br/>versión canónica"]
+
+    CI["Composition Index<br/>qué branch/commit/contrato usa cada composición"]
+
+    FW["Focus Worktree<br/>ecosistema parcial/mock"]
+
+    CG["Composition Graph<br/>dependencias recursivas"]
+
+    CU --> RP
+
+    CU --> PR
+
+    RP --> CT
+
+    PR --> CT
+
+    RP --> LT
+
+    PR --> LT
+
+    RP --> CL
+
+    RP --> DL
+
+    PR --> CI
+
+    CI --> CG
+
+    FW --> RP
+
+    FW --> PR
+
+    PR -->|"usa"| RP
+
+    RP -->|"puede usar otros"| RP
+
+    PR -->|"puede exponerse como"| RP

@@ -1,0 +1,49 @@
+@startuml
+skinparam componentStyle rectangle
+skinparam monochrome true
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+
+component "Project" {
+    class "Project Core" as project_core {
+        + proprietary_code
+    }
+    class "Composition Index" as comp_index {
+        + lock_state
+    }
+    class "Development Line" as dev_line {
+        + branch: main (contextual)
+        + base_commit
+    }
+}
+
+component "Repopackage" {
+    class "Repopackage Core" as repo_core {
+        + git_repository
+        + tests
+    }
+    class "Integration Contract" as int_contract {
+        + scope: external
+        + exports
+        + consumes
+        + schemas
+    }
+    class "Local Traits" as local_traits {
+        + scope: internal
+        + formatting
+        + test_runner
+    }
+    class "Central Line" as central_line {
+        + branch: main (default clone)
+        + status: canonical
+    }
+}
+
+' Relaciones de ensamblaje y composición
+project_core --> repo_core : compone
+comp_index ..> int_contract : valida compatibilidad
+comp_index ..> central_line : resuelve versión canónica
+comp_index ..> dev_line : resuelve versión contextual
+dev_line --> repo_core : aplica mutación al repositorio base
+
+@enduml

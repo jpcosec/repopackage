@@ -1,0 +1,40 @@
+
+kind: repopackage_contract
+
+name: code-quality-auditor
+
+exports:
+
+  - name: run_audit
+
+    input: CodebaseSnapshot
+
+    output: AuditReport
+
+consumes:
+
+  - name: TaskContext
+
+    version: ">=1.0 <2.0"
+
+integration_surface:
+
+  schemas:
+
+    - AuditReport.v1
+
+    - Finding.v1
+
+central_version:
+
+  branch: main
+
+  release_line: "0.x"
+
+non_integrating_traits:
+
+  style: ruff
+
+  test_runner: pytest
+
+  docs_format: markdown

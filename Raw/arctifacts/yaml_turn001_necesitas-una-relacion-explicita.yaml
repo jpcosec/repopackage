@@ -1,0 +1,26 @@
+
+development_lines:
+
+  central:
+
+    branch: main
+
+  project_a_line:
+
+    branch: project-a/doc-rules
+
+    base: main
+
+    intended_merge_target: main
+
+    status: experimental
+
+  project_b_line:
+
+    branch: project-b/ts-support
+
+    base: main
+
+    intended_merge_target: main
+
+    status: candidate

@@ -1,0 +1,22 @@
+
+kind: composable_unit
+
+name: diagnostics-platform
+
+roles:
+
+  - project
+
+  - repopackage
+
+uses:
+
+  - code-quality-auditor
+
+  - testing-engine
+
+  - task-context-engine
+
+exports:
+
+  - DiagnosticsPlatform.v1

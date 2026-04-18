@@ -1,0 +1,34 @@
+@startuml
+skinparam componentStyle rectangle
+skinparam monochrome true
+skinparam shadowing false
+
+component "Project\n<<Repopackage Ensamblador>>" as project {
+
+    ' Atributos base (por ser un Repopackage)
+    interface "Integration Contract" as p_contract
+    component "Local Traits" as p_traits
+    component "CentralLine" as p_central
+
+    ' Atributos específicos de Project
+    component "Composition Index" as comp_index
+    component "Development Line\n(Main contextual)" as dev_line
+
+    ' Dependencia interna
+    component "Repopackage\n<<Dependencia>>" as repo {
+        interface "Integration Contract" as r_contract
+        component "Local Traits" as r_traits
+        component "CentralLine" as r_central
+
+        r_contract -up- repo
+    }
+
+    p_contract -up- project
+
+    ' Flujo de ensamblaje dentro del Project
+    comp_index ..> r_contract : consume
+    comp_index ..> r_central : resuelve versión base
+    comp_index ..> dev_line : resuelve versión contextual
+    dev_line --> repo : bifurca historia de
+}
+@enduml

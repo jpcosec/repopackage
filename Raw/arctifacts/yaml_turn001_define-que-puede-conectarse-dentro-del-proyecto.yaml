@@ -1,0 +1,36 @@
+
+kind: project_contract
+
+name: main-project
+
+accepts:
+
+  ui:
+
+    requires:
+
+      - ComponentRegistry.v1
+
+  diagnostics:
+
+    requires:
+
+      - AuditReport.v1
+
+      - Finding.v1
+
+dependencies:
+
+  code-quality-auditor:
+
+    allowed_versions: ">=0.3 <0.5"
+
+  ui-kit:
+
+    allowed_versions: ">=0.2 <0.4"
+
+composition_rules:
+
+  - code-quality-auditor.output.AuditReport must_match ui-diagnostics.input.AuditReport
+
+  - testing-engine.output.TestReport must_match docs-engine.input.TestReport
