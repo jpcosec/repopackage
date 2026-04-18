@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+
 from talk_extractor.cli_pkg.agent_prompt_command import AgentPromptCommand
 from talk_extractor.cli_pkg.extract_artifacts_command import ExtractArtifactsCommand
 from talk_extractor.cli_pkg.extract_turns_command import ExtractTurnsCommand
@@ -21,42 +22,34 @@ from talk_extractor.cli_pkg.exec_run_command import ExecRunCommand
 from talk_extractor.cli_pkg.exec_dispatch_command import ExecDispatchCommand
 from talk_extractor.cli_pkg.capture_rescue_command import CaptureRescueCommand
 from talk_extractor.cli_pkg.capture_normalize_command import CaptureNormalizeCommand
+from talk_extractor.cli_pkg.eval_test_command import EvalTestCommand
+from talk_extractor.cli_pkg.eval_lint_command import EvalLintCommand
+from talk_extractor.cli_pkg.eval_audit_command import EvalAuditCommand
+from talk_extractor.cli_pkg.integrate_merge_command import IntegrateMergeCommand
+from talk_extractor.cli_pkg.integrate_rollback_command import IntegrateRollbackCommand
 
 CATEGORIES = {
-    "extract": [
-        ("turns", ExtractTurnsCommand(), "Extract turns.", ["extract-turns"]),
-        ("artifacts", ExtractArtifactsCommand(), "Extract artifacts.", ["extract-artifacts"]),
-        ("prepare", PrepareSemanticCommand(), "Prepare semantic.", ["prepare-semantic"]),
-        ("run", RunSemanticCommand(), "Run semantic.", ["run-semantic"]),
-        ("prompt", AgentPromptCommand(), "Agent prompt.", ["agent-prompt"]),
-        ("lint-constraints", LintConstraintsCommand(), "Lint constraints.", ["lint-constraints"]),
-    ],
-    "standardize": [("create", StandardizeCreateCommand(), "Create module.", [])],
-    "drawers": [
-        ("add", DrawersAddCommand(), "Add spec.", []), ("list", DrawersListCommand(), "List specs.", []),
-        ("promote", DrawersPromoteCommand(), "Promote spec.", []), ("audit", DrawersAuditCommand(), "Audit specs.", []),
-    ],
-    "desk": [
-        ("tasks", DeskTasksCommand(), "Tasks.", []), ("pills", DeskPillsCommand(), "Pills.", []),
-        ("board", DeskBoardCommand(), "Board.", []),
-    ],
-    "exec": [("run", ExecRunCommand(), "Run agent.", []), ("dispatch", ExecDispatchCommand(), "Dispatch tasks.", [])],
-    "capture": [("rescue", CaptureRescueCommand(), "Rescue logs.", []), ("normalize", CaptureNormalizeCommand(), "Normalize logs.", [])],
-    "eval": [], "integrate": [],
+    "extract": [("turns", ExtractTurnsCommand(), "Turns.", ["extract-turns"]), ("artifacts", ExtractArtifactsCommand(), "Artifacts.", ["extract-artifacts"]), ("prepare", PrepareSemanticCommand(), "Prep.", ["prepare-semantic"]), ("run", RunSemanticCommand(), "Run.", ["run-semantic"]), ("prompt", AgentPromptCommand(), "Prompt.", ["agent-prompt"]), ("lint-constraints", LintConstraintsCommand(), "Lint.", ["lint-constraints"])],
+    "standardize": [("create", StandardizeCreateCommand(), "Create.", [])],
+    "drawers": [("add", DrawersAddCommand(), "Add.", []), ("list", DrawersListCommand(), "List.", []), ("promote", DrawersPromoteCommand(), "Promote.", []), ("audit", DrawersAuditCommand(), "Audit.", [])],
+    "desk": [("tasks", DeskTasksCommand(), "Tasks.", []), ("pills", DeskPillsCommand(), "Pills.", []), ("board", DeskBoardCommand(), "Board.", [])],
+    "exec": [("run", ExecRunCommand(), "Run.", []), ("dispatch", ExecDispatchCommand(), "Dispatch.", [])],
+    "capture": [("rescue", CaptureRescueCommand(), "Rescue.", []), ("normalize", CaptureNormalizeCommand(), "Normalize.", [])],
+    "eval": [("test", EvalTestCommand(), "Test.", []), ("lint", EvalLintCommand(), "Lint.", []), ("audit", EvalAuditCommand(), "Audit.", [])],
+    "integrate": [("merge", IntegrateMergeCommand(), "Merge.", []), ("rollback", IntegrateRollbackCommand(), "Rollback.", [])],
 }
+
 class CliApp:
     """Build and run the talk_extractor CLI."""
 
     def build(self) -> argparse.ArgumentParser:
         """Return the root parser."""
-
         parser = self._root_parser()
         self._register_all(parser.add_subparsers(dest="command", required=True))
         return parser
 
     def _root_parser(self) -> argparse.ArgumentParser:
         """Build the root parser."""
-
         return argparse.ArgumentParser(prog="talk-extractor", description="Central CLI for talk_extractor.")
 
     def _register_all(self, subparsers) -> None:
@@ -67,12 +60,12 @@ class CliApp:
         """Register a category and its commands."""
         cat_parser = subparsers.add_parser(category, help=f"{category.capitalize()} commands.")
         cat_subparsers = cat_parser.add_subparsers(dest="subcommand", required=True)
-        for name, command, help_text, aliases in commands:
-            self._register(cat_subparsers, name, command, help_text)
-            for alias in aliases: self._register(subparsers, alias, command, help_text)
+        for name, cmd, hlp, als in commands:
+            self._register(cat_subparsers, name, cmd, hlp)
+            for alias in als: self._register(subparsers, alias, cmd, hlp)
+
     def _register(self, subparsers, name: str, command, help_text: str) -> None:
         """Register one subcommand."""
-
         parser = subparsers.add_parser(name, help=help_text)
         command.configure(parser)
         parser.set_defaults(func=command.run)
