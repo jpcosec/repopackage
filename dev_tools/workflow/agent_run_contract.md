@@ -24,6 +24,10 @@ runs/RUN-XXX/
 - agent id or role
 - task id(s)
 - prompt source
+- prompt template id
+- prompt version
+- prompt hydration context
+- prompt operator
 - active instructions
 - active contracts
 - pills injected

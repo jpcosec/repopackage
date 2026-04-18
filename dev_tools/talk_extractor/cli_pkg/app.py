@@ -27,6 +27,7 @@ from talk_extractor.cli_pkg.eval_lint_command import EvalLintCommand
 from talk_extractor.cli_pkg.eval_audit_command import EvalAuditCommand
 from talk_extractor.cli_pkg.integrate_merge_command import IntegrateMergeCommand
 from talk_extractor.cli_pkg.integrate_rollback_command import IntegrateRollbackCommand
+from talk_extractor.cli_pkg.integrate_promote_command import IntegratePromoteCommand
 
 CATEGORIES = {
     "extract": [("turns", ExtractTurnsCommand(), "Turns.", ["extract-turns"]), ("artifacts", ExtractArtifactsCommand(), "Artifacts.", ["extract-artifacts"]), ("prepare", PrepareSemanticCommand(), "Prep.", ["prepare-semantic"]), ("run", RunSemanticCommand(), "Run.", ["run-semantic"]), ("prompt", AgentPromptCommand(), "Prompt.", ["agent-prompt"]), ("lint-constraints", LintConstraintsCommand(), "Lint.", ["lint-constraints"])],
@@ -36,7 +37,7 @@ CATEGORIES = {
     "exec": [("run", ExecRunCommand(), "Run.", []), ("dispatch", ExecDispatchCommand(), "Dispatch.", [])],
     "capture": [("rescue", CaptureRescueCommand(), "Rescue.", []), ("normalize", CaptureNormalizeCommand(), "Normalize.", [])],
     "eval": [("test", EvalTestCommand(), "Test.", []), ("lint", EvalLintCommand(), "Lint.", []), ("audit", EvalAuditCommand(), "Audit.", [])],
-    "integrate": [("merge", IntegrateMergeCommand(), "Merge.", []), ("rollback", IntegrateRollbackCommand(), "Rollback.", [])],
+    "integrate": [("merge", IntegrateMergeCommand(), "Merge.", []), ("rollback", IntegrateRollbackCommand(), "Rollback.", []), ("promote", IntegratePromoteCommand(), "Promote.", [])],
 }
 
 class CliApp:

@@ -5,7 +5,7 @@
 - Language: python
 - Module: talk_extractor
 - Phase: A
-- Status: open
+- Status: done
 - Priority: high
 - Depends On:
   - T-01
@@ -31,4 +31,4 @@
 
 ## Completion Evidence
 - `talk_extractor/cli_pkg/drawers_command.py`
-- commit: `feat: #03 implement drawers management commands`
+- commit: `c330f66`

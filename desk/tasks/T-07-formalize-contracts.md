@@ -5,7 +5,7 @@
 - Language: en
 - Module: dev_tools
 - Phase: A
-- Status: completed
+- Status: done
 - Priority: high
 - Depends On:
 - Pills:
@@ -31,4 +31,4 @@
 
 ## Completion Evidence
 - Contract files in `dev_tools/workflow/`
-- commit: `docs: #07 formalize missing workflow contracts`
+- commit: `50a5180`

@@ -5,7 +5,7 @@
 - Language: python
 - Module: talk_extractor
 - Phase: A
-- Status: open
+- Status: done
 - Priority: high
 - Depends On:
   - T-05
@@ -31,4 +31,4 @@
 
 ## Completion Evidence
 - `talk_extractor/cli_pkg/integrate_command.py`
-- commit: `feat: #06 implement evaluation and integration commands`
+- commit: `3abf65e`

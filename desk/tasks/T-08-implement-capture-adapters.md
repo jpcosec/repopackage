@@ -5,7 +5,7 @@
 - Language: python
 - Module: talk_extractor
 - Phase: A
-- Status: open
+- Status: done
 - Priority: medium
 - Depends On:
   - T-05
@@ -30,4 +30,4 @@
 
 ## Completion Evidence
 - Adapter files in `talk_extractor/semantic/adapters/`
-- commit: `feat: #08 implement agent capture adapters`
+- commit: `ee16ffa`

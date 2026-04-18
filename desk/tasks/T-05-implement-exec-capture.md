@@ -5,7 +5,7 @@
 - Language: python
 - Module: talk_extractor
 - Phase: A
-- Status: open
+- Status: done
 - Priority: high
 - Depends On:
   - T-01
@@ -34,4 +34,4 @@
 
 ## Completion Evidence
 - `talk_extractor/cli_pkg/exec_command.py`
-- commit: `feat: #05 implement execution and capture commands`
+- commit: `1782c3d`
