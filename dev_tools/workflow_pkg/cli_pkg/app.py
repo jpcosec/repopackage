@@ -28,8 +28,8 @@ from workflow_pkg.cli_pkg.integrate_promote_command import IntegratePromoteComma
 from workflow_pkg.cli_pkg.init_command import InitCommand
 
 CATEGORIES = {
-    "system": [("initialize", InitCommand(), "Setup project.", ["init"])],
-    "distill": [("turns", ExtractTurnsCommand(), "Extract turns.", ["extract-turns"]), ("artifacts", ExtractArtifactsCommand(), "Extract code.", ["extract-artifacts"]), ("prepare", PrepareSemanticCommand(), "Setup shells.", ["prepare-semantic"]), ("run", RunSemanticCommand(), "Next prompt.", ["run-semantic"]), ("prompt", AgentPromptCommand(), "Show entrypoints.", ["agent-prompt"])],
+    "system": [("init", InitCommand(), "Setup project structure.", [])],
+    "distill": [("turns", ExtractTurnsCommand(), "Extract turns.", ["extract-turns"]), ("artifacts", ExtractArtifactsCommand(), "Extract artifacts.", ["extract-artifacts"]), ("prepare", PrepareSemanticCommand(), "Setup shells.", ["prepare-semantic"]), ("run", RunSemanticCommand(), "Next prompt.", ["run-semantic"]), ("prompt", AgentPromptCommand(), "Show entrypoints.", ["agent-prompt"])],
     "standardize": [("create", StandardizeCreateCommand(), "Scaffold modules.", [])],
     "drawers": [("add", DrawersAddCommand(), "Defer spec.", []), ("list", DrawersListCommand(), "List deferred.", []), ("promote", DrawersPromoteCommand(), "Promote spec.", []), ("audit", DrawersAuditCommand(), "Check health.", [])],
     "desk": [("tasks", DeskTasksCommand(), "Manage tasks.", []), ("pills", DeskPillsCommand(), "Manage pills.", []), ("board", DeskBoardCommand(), "Sync board.", [])],
@@ -44,27 +44,23 @@ class CliApp:
 
     def build(self) -> argparse.ArgumentParser:
         """Return the root parser."""
-        parser = argparse.ArgumentParser(prog="workflow", description="Workflow Management CLI.")
-        sub = parser.add_subparsers(dest="command", required=True, metavar="CATEGORY")
-        for cat, cmds in CATEGORIES.items(): self._register_category(sub, cat, cmds)
-        return parser
+        p = argparse.ArgumentParser(prog="workflow", description="Workflow Management CLI.")
+        s = p.add_subparsers(dest="command", required=True, metavar="PHASE")
+        for cat, cmds in CATEGORIES.items(): self._register_phase(s, cat, cmds)
+        return p
 
-    def _register_category(self, subparsers, category, commands) -> None:
-        """Register a category and its commands."""
-        cat_parser = subparsers.add_parser(category, help=f"{category.capitalize()} phase.")
-        cat_sub = cat_parser.add_subparsers(dest="subcommand", required=True, metavar="COMMAND")
+    def _register_phase(self, subparsers, phase_name, commands) -> None:
+        """Register a phase and its commands."""
+        p_help = f"{phase_name.capitalize()} lifecycle phase."
+        p_parser = subparsers.add_parser(phase_name, help=p_help)
+        p_sub = p_parser.add_subparsers(dest="subcommand", required=True, metavar="COMMAND")
         for name, cmd, hlp, als in commands:
-            self._register(cat_sub, name, cmd, hlp)
-            for alias in als: self._register_alias(subparsers, alias, cmd)
+            self._register(p_sub, name, cmd, hlp)
+            for alias in als:
+                self._register(subparsers, alias, cmd, argparse.SUPPRESS)
 
-    def _register_alias(self, subparsers, name: str, command) -> None:
-        """Register an invisible legacy alias."""
-        parser = subparsers.add_parser(name, help=argparse.SUPPRESS)
-        command.configure(parser)
-        parser.set_defaults(func=command.run)
-
-    def _register(self, subparsers, name: str, command, help_text: str | None) -> None:
+    def _register(self, sub, name: str, command, help_text: str | None) -> None:
         """Register one subcommand."""
-        parser = subparsers.add_parser(name, help=help_text)
+        parser = sub.add_parser(name, help=help_text)
         command.configure(parser)
         parser.set_defaults(func=command.run)
