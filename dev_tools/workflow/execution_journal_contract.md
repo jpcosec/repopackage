@@ -3,7 +3,7 @@
 ## Purpose
 - Persist a durable, reviewable trace of how an agent executed a task.
 
-## Required Structure
+## Base Journal
 
 ```markdown
 # JOURNAL-XXX - <task title>
@@ -26,6 +26,9 @@
 ## Validations Run
 - tests: <result>
 - lint: <result>
+
+## Reasoning Summary
+- <reasoning>
 
 ## Decisions During Execution
 - <decision>

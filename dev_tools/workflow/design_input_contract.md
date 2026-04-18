@@ -3,7 +3,7 @@
 ## Purpose
 - Define the input package consumed by the Design Ritual.
 
-## Required Fields
+## Base Design Input
 
 ```markdown
 # DESIGN-INPUT-XXX - <title>

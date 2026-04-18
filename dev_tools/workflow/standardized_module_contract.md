@@ -3,7 +3,7 @@
 ## Purpose
 - Define reusable module families with stronger constraints and repeatable implementation shape.
 
-## Required Fields
+## Base Module
 
 ```markdown
 # STD-MODULE-XXX - <family>
@@ -22,6 +22,9 @@
   - TEST-XXX
 - Lint Contract:
   - LINT-XXX
+
+## Example Shape
+- <shape description or snippet>
 ```
 
 ## Rules

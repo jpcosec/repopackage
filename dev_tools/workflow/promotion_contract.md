@@ -3,7 +3,7 @@
 ## Purpose
 - Define the transition from drawer material into executable tasks and pills.
 
-## Required Fields
+## Base Promotion
 
 ```markdown
 # PROMOTION-XXX - <title>

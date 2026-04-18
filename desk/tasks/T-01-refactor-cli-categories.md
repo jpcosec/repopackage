@@ -5,7 +5,7 @@
 - Language: python
 - Module: talk_extractor
 - Phase: A
-- Status: open
+- Status: done
 - Priority: high
 - Depends On:
 - Pills:
@@ -32,4 +32,4 @@
 
 ## Completion Evidence
 - `talk_extractor/cli_pkg/app.py`
-- commit: `refactor: #01 support hierarchical CLI categories and aliases`
+- commit: `892438b`
