@@ -11,6 +11,10 @@ from talk_extractor.cli_pkg.lint_constraints_command import LintConstraintsComma
 from talk_extractor.cli_pkg.prepare_semantic_command import PrepareSemanticCommand
 from talk_extractor.cli_pkg.run_semantic_command import RunSemanticCommand
 from talk_extractor.cli_pkg.standardize_command import StandardizeCreateCommand
+from talk_extractor.cli_pkg.drawers_add_command import DrawersAddCommand
+from talk_extractor.cli_pkg.drawers_list_command import DrawersListCommand
+from talk_extractor.cli_pkg.drawers_promote_command import DrawersPromoteCommand
+from talk_extractor.cli_pkg.drawers_audit_command import DrawersAuditCommand
 
 
 CATEGORIES = {
@@ -25,14 +29,18 @@ CATEGORIES = {
     "standardize": [
         ("create", StandardizeCreateCommand(), "Create a new module.", []),
     ],
-    "drawers": [],
+    "drawers": [
+        ("add", DrawersAddCommand(), "Add a spec to drawers.", []),
+        ("list", DrawersListCommand(), "List all specs in drawers.", []),
+        ("promote", DrawersPromoteCommand(), "Promote spec from drawers.", []),
+        ("audit", DrawersAuditCommand(), "Audit all specs in drawers.", []),
+    ],
     "desk": [],
     "exec": [],
     "capture": [],
     "eval": [],
     "integrate": [],
 }
-
 class CliApp:
     """Build and run the talk_extractor CLI."""
 
@@ -64,7 +72,6 @@ class CliApp:
             self._register(cat_subparsers, name, command, help_text)
             for alias in aliases:
                 self._register(subparsers, alias, command, help_text)
-
     def _register(self, subparsers, name: str, command, help_text: str) -> None:
         """Register one subcommand."""
 
