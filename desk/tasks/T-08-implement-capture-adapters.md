@@ -5,7 +5,7 @@
 - Language: python
 - Module: talk_extractor
 - Phase: A
-- Status: done
+- Status: closed
 - Priority: medium
 - Depends On:
   - T-05
