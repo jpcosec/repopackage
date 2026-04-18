@@ -7,10 +7,10 @@
 ## Reference
 
 All agents must read and follow:
-- [WORKFLOW.md](../WORKFLOW.md) — Execution rituals and policies
-- [contracts/README.md](./contracts/README.md) — Workflow data contracts
-- [desk/tasks/Board.md](../desk/tasks/Board.md) — Active task board
-- [desk/pills/README.md](../desk/pills/README.md) — Context pill format
+- [WORKFLOW.md](./WORKFLOW.md) — Execution rituals and policies
+- [dev_tools/workflow/README.md](./dev_tools/workflow/README.md) — Workflow data contracts
+- [desk/tasks/Board.md](./desk/tasks/Board.md) — Active task board
+- [desk/pills/README.md](./desk/pills/README.md) — Context pill format
 
 ---
 

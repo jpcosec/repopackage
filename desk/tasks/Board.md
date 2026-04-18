@@ -6,6 +6,11 @@
 | ID | Type | Domain | Task | Priority | Depends On | Pills | Phase |
 |----|------|--------|------|----------|------------|-------|-------|
 
+## Completed
+| ID | Type | Domain | Task | Resolving Commit |
+|----|------|--------|------|------------------|
+| 00 | chore| workflow| Initial Workflow Setup | [TBD] |
+
 ## Blocked (status=blocked)
 | ID | Type | Domain | Blocker | Gate |
 |----|------|--------|--------|------|
