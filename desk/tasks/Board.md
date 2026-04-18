@@ -9,7 +9,7 @@
 ## Completed
 | ID | Type | Domain | Task | Resolving Commit |
 |----|------|--------|------|------------------|
-| 00 | chore| workflow| Initial Workflow Setup | [TBD] |
+| 00 | chore| workflow| Initial Workflow Setup | a5a3650 |
 
 ## Blocked (status=blocked)
 | ID | Type | Domain | Blocker | Gate |
