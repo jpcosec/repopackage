@@ -1,0 +1,4 @@
+name: cli-verify
+kind: standardized
+domain: test
+language: python

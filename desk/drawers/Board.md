@@ -38,3 +38,4 @@ Standardized contracts for workflow artifacts.
 | ID | Contract | Purpose | Status | Stale After |
 |----|----------|---------|--------|-------------|
 | CONTR-01 | agent_run_contract | prompt provenance | pending expansion | 2026-10-18 |
+| SPEC-001 | Verification Spec | verification | docs/spec.md | pending |
