@@ -10,6 +10,7 @@ from talk_extractor.cli_pkg.extract_turns_command import ExtractTurnsCommand
 from talk_extractor.cli_pkg.lint_constraints_command import LintConstraintsCommand
 from talk_extractor.cli_pkg.prepare_semantic_command import PrepareSemanticCommand
 from talk_extractor.cli_pkg.run_semantic_command import RunSemanticCommand
+from talk_extractor.cli_pkg.standardize_command import StandardizeCreateCommand
 
 
 CATEGORIES = {
@@ -21,7 +22,9 @@ CATEGORIES = {
         ("agent-prompt", AgentPromptCommand(), "Show semantic agent entrypoints.", ["agent-prompt"]),
         ("lint-constraints", LintConstraintsCommand(), "Lint local structural constraints.", ["lint-constraints"]),
     ],
-    "standardize": [],
+    "standardize": [
+        ("create", StandardizeCreateCommand(), "Create a new module.", []),
+    ],
     "drawers": [],
     "desk": [],
     "exec": [],
