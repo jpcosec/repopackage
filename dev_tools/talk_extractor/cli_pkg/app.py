@@ -30,13 +30,13 @@ from talk_extractor.cli_pkg.integrate_rollback_command import IntegrateRollbackC
 from talk_extractor.cli_pkg.integrate_promote_command import IntegratePromoteCommand
 
 CATEGORIES = {
-    "extract": [("turns", ExtractTurnsCommand(), "Turns.", ["extract-turns"]), ("artifacts", ExtractArtifactsCommand(), "Artifacts.", ["extract-artifacts"]), ("prepare", PrepareSemanticCommand(), "Prep.", ["prepare-semantic"]), ("run", RunSemanticCommand(), "Run.", ["run-semantic"]), ("prompt", AgentPromptCommand(), "Prompt.", ["agent-prompt"]), ("lint-constraints", LintConstraintsCommand(), "Lint.", ["lint-constraints"])],
+    "extract": [("turns", ExtractTurnsCommand(), "Turns.", ["extract-turns"]), ("artifacts", ExtractArtifactsCommand(), "Artifacts.", ["extract-artifacts"]), ("prepare", PrepareSemanticCommand(), "Prep.", ["prepare-semantic"]), ("run", RunSemanticCommand(), "Run.", ["run-semantic"]), ("prompt", AgentPromptCommand(), "Prompt.", ["agent-prompt"])],
     "standardize": [("create", StandardizeCreateCommand(), "Create.", [])],
     "drawers": [("add", DrawersAddCommand(), "Add.", []), ("list", DrawersListCommand(), "List.", []), ("promote", DrawersPromoteCommand(), "Promote.", []), ("audit", DrawersAuditCommand(), "Audit.", [])],
     "desk": [("tasks", DeskTasksCommand(), "Tasks.", []), ("pills", DeskPillsCommand(), "Pills.", []), ("board", DeskBoardCommand(), "Board.", [])],
     "exec": [("run", ExecRunCommand(), "Run.", []), ("dispatch", ExecDispatchCommand(), "Dispatch.", [])],
     "capture": [("rescue", CaptureRescueCommand(), "Rescue.", []), ("normalize", CaptureNormalizeCommand(), "Normalize.", [])],
-    "eval": [("test", EvalTestCommand(), "Test.", []), ("lint", EvalLintCommand(), "Lint.", []), ("audit", EvalAuditCommand(), "Audit.", [])],
+    "eval": [("test", EvalTestCommand(), "Test.", []), ("lint", EvalLintCommand(), "Lint.", []), ("audit", EvalAuditCommand(), "Audit.", []), ("constraints", LintConstraintsCommand(), "Constraints.", ["lint-constraints"])],
     "integrate": [("merge", IntegrateMergeCommand(), "Merge.", []), ("rollback", IntegrateRollbackCommand(), "Rollback.", []), ("promote", IntegratePromoteCommand(), "Promote.", [])],
 }
 
