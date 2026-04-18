@@ -11,9 +11,10 @@ class IntegratePromoteCommand(CommandBase):
     """Stub for promoting items from drawers to official boards."""
 
     def configure(self, parser: argparse.ArgumentParser) -> None:
-        """Configure arguments for promote command."""
+        """Configure arguments for promotion."""
 
-        parser.add_argument("item_id", help="The item ID to promote.")
+        parser.add_argument("item", help="ID or path of the artifact to promote.")
+
 
     def run(self, args: argparse.Namespace) -> int:
         """Execute the promote stub."""

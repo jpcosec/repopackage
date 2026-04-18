@@ -13,18 +13,19 @@ from workflow_pkg.cli_pkg.command_types import CommandBase
 class StandardizeCreateCommand(CommandBase):
     """Create a new standardized or normed module."""
 
-    def configure(self, parser: argparse.ArgumentParser) -> None:
-        """Configure the command arguments."""
+    def _configure_create(self, parser: argparse.ArgumentParser) -> None:
+        """Configure the create subcommand."""
 
         group = parser.add_mutually_exclusive_group(required=True)
-        group.add_argument("--standardized", action="store_true")
-        group.add_argument("--normed", action="store_true")
+        group.add_argument("--standardized", action="store_true", help="Create a reusable system module.")
+        group.add_argument("--normed", action="store_true", help="Create a domain-specific module.")
 
-        parser.add_argument("--name", required=True)
-        parser.add_argument("--domain", required=True)
-        parser.add_argument("--language", default="python")
-        parser.add_argument("--template")
-        parser.add_argument("--rules")
+        parser.add_argument("--name", required=True, help="Unique name for the module.")
+        parser.add_argument("--domain", required=True, help="Problem domain (e.g., cli, io, domain).")
+        parser.add_argument("--language", default="python", help="Primary implementation language.")
+        parser.add_argument("--template", help="Path to a boilerplate template.")
+        parser.add_argument("--rules", help="Path to a business rules file.")
+
 
     def run(self, args: argparse.Namespace) -> int:
         """Run the command."""

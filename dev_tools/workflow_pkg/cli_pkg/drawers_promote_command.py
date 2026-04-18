@@ -14,8 +14,9 @@ class DrawersPromoteCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure arguments for promotion."""
 
-        parser.add_argument("id", help="The ID of the spec to promote.")
-        parser.add_argument("--to", required=True, choices=["tasks", "pills"])
+        parser.add_argument("id", help="The ID of the spec in drawers (e.g., SPEC-001).")
+        parser.add_argument("--to", required=True, choices=["tasks", "pills"],
+                            help="Target destination for promotion.")
 
     def run(self, args: argparse.Namespace) -> int:
         """Execute the promote command."""

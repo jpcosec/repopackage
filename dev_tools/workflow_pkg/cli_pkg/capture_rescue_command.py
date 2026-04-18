@@ -13,7 +13,8 @@ class CaptureRescueCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure the command arguments."""
 
-        parser.add_argument("run_id", help="Run ID (e.g., RUN-001).")
+        parser.add_argument("run_id", help="Unique identifier for the agent run (RUN-XXX).")
+
 
     def run(self, args: argparse.Namespace) -> int:
         """Run the command stub."""

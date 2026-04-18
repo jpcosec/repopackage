@@ -14,11 +14,13 @@ class DeskPillsCommand(CommandBase):
         """Register arguments on a subparser."""
 
         subparsers = parser.add_subparsers(dest="desk_pill_command", required=True)
-        inject_parser = subparsers.add_parser("inject", help="Inject context into a pill.")
-        inject_parser.add_argument("pill_id", help="Target pill/task ID.")
+        inject_parser = subparsers.add_parser("inject", help="Bind context pills to a task.")
+        inject_parser.add_argument("pill_id", help="Target task ID (T-XXX) or pill ID (PILL-XXX).")
         inject_parser.add_argument(
-            "--with", "-w", action="append", required=True, help="Context pill IDs to inject."
+            "--with", "-w", action="append", required=True, 
+            help="Context pill IDs to inject (can be repeated)."
         )
+
 
     def run(self, args: argparse.Namespace) -> int:
         """Execute the pills command."""

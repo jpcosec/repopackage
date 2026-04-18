@@ -16,9 +16,9 @@ class DrawersAddCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure arguments for adding a spec."""
 
-        parser.add_argument("spec", help="Path to the specification file.")
-        parser.add_argument("--title", "-t", required=True, help="Spec title.")
-        parser.add_argument("--domain", required=True, help="Domain area.")
+        parser.add_argument("spec", help="Path to the design specification file.")
+        parser.add_argument("--title", "-t", required=True, help="Descriptive title of the spec.")
+        parser.add_argument("--domain", required=True, help="Problem domain for this spec.")
 
     def run(self, args: argparse.Namespace) -> int:
         """Execute the add command."""

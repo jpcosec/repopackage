@@ -13,7 +13,7 @@ class EvalTestCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure arguments for test command."""
 
-        parser.add_argument("run_id", help="The run ID to test.")
+        parser.add_argument("run_id", help="Unique identifier for the agent run (RUN-XXX).")
 
     def run(self, args: argparse.Namespace) -> int:
         """Execute the test stub."""

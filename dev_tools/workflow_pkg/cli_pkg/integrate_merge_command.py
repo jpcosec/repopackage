@@ -13,7 +13,7 @@ class IntegrateMergeCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure arguments for merge command."""
 
-        parser.add_argument("run_id", help="The run ID to merge.")
+        parser.add_argument("run_id", help="Unique identifier for the verified agent run (RUN-XXX).")
 
     def run(self, args: argparse.Namespace) -> int:
         """Execute the merge stub."""

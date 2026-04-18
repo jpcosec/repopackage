@@ -13,7 +13,7 @@ class EvalAuditCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure arguments for audit command."""
 
-        parser.add_argument("run_id", help="The run ID to audit.")
+        parser.add_argument("run_id", help="Unique identifier for the agent run (RUN-XXX).")
 
     def run(self, args: argparse.Namespace) -> int:
         """Execute the audit stub."""

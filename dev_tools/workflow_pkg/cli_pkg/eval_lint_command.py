@@ -13,7 +13,7 @@ class EvalLintCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure arguments for lint command."""
 
-        parser.add_argument("run_id", help="The run ID to lint.")
+        parser.add_argument("run_id", help="Unique identifier for the agent run (RUN-XXX).")
 
     def run(self, args: argparse.Namespace) -> int:
         """Execute the lint stub."""

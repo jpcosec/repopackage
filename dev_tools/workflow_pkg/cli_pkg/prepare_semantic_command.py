@@ -14,12 +14,12 @@ class PrepareSemanticCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure command arguments."""
 
-        parser.add_argument("source")
-        parser.add_argument("--turns-dir", default="extracted talk")
-        parser.add_argument("--artifacts-dir", default="arctifacts")
-        parser.add_argument("--semantic-dir", default="semantic_output")
-        parser.add_argument("--include-text", action="store_true")
-        parser.add_argument("--clean", action="store_true")
+        parser.add_argument("source", help="Path to the input chat transcript.")
+        parser.add_argument("--turns-dir", default="extracted talk", help="Input turns directory.")
+        parser.add_argument("--artifacts-dir", default="arctifacts", help="Input artifacts directory.")
+        parser.add_argument("--semantic-dir", default="semantic_output", help="Output workspace directory.")
+        parser.add_argument("--include-text", action="store_true", help="Include turn text in evidence.")
+        parser.add_argument("--clean", action="store_true", help="Wipe output directory before starting.")
 
     def run(self, args: argparse.Namespace) -> int:
         """Run the command."""

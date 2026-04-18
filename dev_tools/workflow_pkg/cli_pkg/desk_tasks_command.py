@@ -14,10 +14,11 @@ class DeskTasksCommand(CommandBase):
         """Register arguments on a subparser."""
 
         subparsers = parser.add_subparsers(dest="desk_task_command", required=True)
-        atomize_parser = subparsers.add_parser("atomize", help="Atomize a task.")
-        atomize_parser.add_argument("task", help="Task ID or description.")
+        atomize_parser = subparsers.add_parser("atomize", help="Break a task into atomic pills.")
+        atomize_parser.add_argument("task", help="Task ID (T-XXX) or short description.")
         atomize_parser.add_argument(
-            "--min-size", "-m", type=int, default=1, help="Minimum pill size."
+            "--min-size", "-m", type=int, default=1, 
+            help="Minimum number of context pills to generate."
         )
 
     def run(self, args: argparse.Namespace) -> int:

@@ -13,7 +13,7 @@ class IntegrateRollbackCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure arguments for rollback command."""
 
-        parser.add_argument("run_id", help="The run ID to rollback.")
+        parser.add_argument("run_id", help="Unique identifier for the agent run to revert (RUN-XXX).")
 
     def run(self, args: argparse.Namespace) -> int:
         """Execute the rollback stub."""

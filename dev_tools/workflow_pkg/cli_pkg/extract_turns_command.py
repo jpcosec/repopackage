@@ -14,8 +14,9 @@ class ExtractTurnsCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure command arguments."""
 
-        parser.add_argument("source")
-        parser.add_argument("--output-dir", default="extracted talk")
+        parser.add_argument("source", help="Path to the input chat transcript (Markdown or HTML).")
+        parser.add_argument("--output-dir", default="extracted talk", 
+                            help="Directory where individual turn files will be saved.")
 
     def run(self, args: argparse.Namespace) -> int:
         """Run the command."""

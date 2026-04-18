@@ -12,8 +12,8 @@ class ExecRunCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure the command arguments."""
 
-        parser.add_argument("agent", help="Agent name or ID.")
-        parser.add_argument("--task", required=True, help="Task ID to execute.")
+        parser.add_argument("agent", help="Type of AI agent (e.g., claude, gemini, opencode).")
+        parser.add_argument("--task", required=True, help="ID of the task to execute (T-XXX).")
 
     def run(self, args: argparse.Namespace) -> int:
         """Run the command stub."""

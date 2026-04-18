@@ -14,8 +14,9 @@ class ExtractArtifactsCommand(CommandBase):
     def configure(self, parser: argparse.ArgumentParser) -> None:
         """Configure command arguments."""
 
-        parser.add_argument("source")
-        parser.add_argument("--output-dir", default="arctifacts")
+        parser.add_argument("source", help="Path to the input chat transcript.")
+        parser.add_argument("--output-dir", default="arctifacts",
+                            help="Directory where extracted artifacts (UML, YAML, etc.) will be saved.")
         parser.add_argument("--include-text", action="store_true")
 
     def run(self, args: argparse.Namespace) -> int:
