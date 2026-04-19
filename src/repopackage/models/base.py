@@ -1,7 +1,5 @@
-from typing import ClassVar, Literal
-from pydantic import BaseModel
+from repopackage.nldb_engine.engine import StructuredNLDoc
 
-
-class BaseArtifactModel(BaseModel):
-    __template__: ClassVar[str] = ""
-    __format__: ClassVar[Literal["markdown", "yaml"]] = "markdown"
+class BaseArtifactModel(StructuredNLDoc):
+    """Base class for all RepoPackage artifacts."""
+    pass

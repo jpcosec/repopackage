@@ -1,32 +1,35 @@
-from typing import Any, ClassVar, Dict, List, Literal
-from pydantic import BaseModel, Field, model_validator
+from typing import List, ClassVar
+from pydantic import BaseModel, Field
 from repopackage.models.base import BaseArtifactModel
-
 
 class ContractField(BaseModel):
     name: str
     type: str
     description: str
 
-
 class ValidationState(BaseModel):
     unit_tests: bool = False
     contract_tests: bool = False
     linting_passed: bool = False
 
-
 class ModuleContractModel(BaseArtifactModel):
-    __template__: ClassVar[str] = "module_contract.yaml.jinja2"
-    __format__: ClassVar[Literal["markdown", "yaml"]] = "yaml"
-
-    @model_validator(mode="before")
-    @classmethod
-    def _flatten_interface(cls, data: Any) -> Any:
-        if isinstance(data, dict) and "interface" in data:
-            iface = data.pop("interface") or {}
-            data.setdefault("inputs", iface.get("inputs", []))
-            data.setdefault("outputs", iface.get("outputs", []))
-        return data
+    __template__: ClassVar[str] = """
+module_name: "⸢rev|module_name⸥"
+version: "⸢rev|version⸥"
+description: "⸢rev|description⸥"
+interface:
+  inputs:
+⸢rev|table|inputs⸥
+  outputs:
+⸢rev|table|outputs⸥
+traits:
+⸢jinja2|{% for t in traits %}  - "{{ t }}"
+{% endfor %}⸥
+validation:
+  unit_tests: ⸢jinja2|{{ validation.unit_tests | lower }}⸥
+  contract_tests: ⸢jinja2|{{ validation.contract_tests | lower }}⸥
+  linting_passed: ⸢jinja2|{{ validation.linting_passed | lower }}⸥
+""".strip()
 
     module_name: str
     version: str

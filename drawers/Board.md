@@ -102,6 +102,17 @@ Detailed instructions for workflow roles and rituals.
 
 ---
 
+## Feature: NLDB Engine (Natural Language Database)
+
+High-fidelity bidirectional extraction and rendering of structured data in Markdown.
+
+| ID | Task | Purpose | Status | Stale After |
+|----|------|---------|--------|-------------|
+| NLDB-DICT-01 | Reversible Dicts | Implement `rev_dict(" : ")` for structured mapping of dictionaries | deferred | 2026-10-19 |
+| NLDB-LIST-01 | List Extraction | Refine bullet/ordered list extraction logic | pending | 2026-10-19 |
+
+---
+
 ## Specs In Drawers
 
 | ID | Topic | Source | Promotion Gate |
