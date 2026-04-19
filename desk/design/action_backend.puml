@@ -1,0 +1,225 @@
+@startuml action_backend
+skinparam monochrome true
+skinparam defaultFontName "Monospace"
+
+title Action Backend: Artifact Read / Write / Compose / Check
+
+' ─────────────────────────────────────────
+' MODEL LAYER  (Pydantic — pure data shape)
+' ─────────────────────────────────────────
+package "repopackage.models" <<Pydantic>> {
+
+    abstract class BaseArtifactModel {
+        +__template__: ClassVar[str]
+        +__format__: ClassVar[Literal["markdown", "yaml"]]
+    }
+
+    ' Zone: Drawers (backlog)
+    class DesignSpecModel {
+        +name: str
+        +layer_0..5: str
+    }
+
+    class ModuleContractModel {
+        +module_name: str
+        +version: str
+        +description: str
+        +inputs: List[ContractField]
+        +outputs: List[ContractField]
+        +traits: List[str]
+        +validation: ValidationState
+    }
+
+    ' Zone: Desk (active)
+    class TaskModel {
+        +id: str
+        +title: str
+        +traits: List[str]
+        +explanation: str
+        +reference: List[str]
+        +what_to_fix: str
+        +how_to_do_it: str
+        +induced_changes: Optional[str]
+        +depends_on: List[str]
+        +priority: TaskPriority
+        +status: TaskStatus
+        +lifecycle: TaskLifecycle
+        +phase: Optional[str]
+        +pills: List[str]
+        +commit_sha: Optional[str]
+    }
+
+    class PillModel {
+        +title: str
+        +metadata: PillMetadata
+        +why: str
+        +what: str
+        +when: str
+        +where: str
+        +how: str
+        +lifecycle: PillLifecycle
+    }
+
+    class BoardModel {
+        +phases: List[PhaseModel]
+        +pills: List[str]
+    }
+
+    class PhaseModel {
+        +id: str
+        +tasks: List[str]
+    }
+
+    ' Zone: Runs (past)
+    class EvidenceModel {
+        +task_id: str
+        +passed: bool
+        +lint_ok: bool
+        +tests_ok: bool
+        +raw_log: str
+        +commit_sha: Optional[str]
+    }
+
+    BaseArtifactModel <|-- DesignSpecModel
+    BaseArtifactModel <|-- ModuleContractModel
+    BaseArtifactModel <|-- TaskModel
+    BaseArtifactModel <|-- PillModel
+    BaseArtifactModel <|-- BoardModel
+    BaseArtifactModel <|-- EvidenceModel
+
+    BoardModel *-- "many" PhaseModel
+}
+
+' ─────────────────────────────────────────
+' ARTIFACT INTERFACE  (R / W / Check)
+' ─────────────────────────────────────────
+package "repopackage.artifact" <<Core>> {
+
+    class ArtifactInterface<M: BaseArtifactModel> {
+        +model: M
+        --
+        ' READ
+        +{static} from_disk(path: Path): Self
+        +{static} create(**kwargs): Self
+        ' WRITE
+        +to_disk(path: Path): None
+        +to_agent(): str
+        ' CHECK
+        +check(): CheckResult
+    }
+
+    note right of ArtifactInterface
+        from_disk()  → delegates to ArtifactParser
+        to_disk()    → renders M.__template__ via Jinja2
+        to_agent()   → yaml.dump(model.model_dump())
+        check()      → delegates to ArtifactChecker
+    end note
+
+    ' ── Value Objects ──────────────────────
+
+    class CheckResult {
+        +passed: bool
+        +violations: List[Violation]
+    }
+
+    class Violation {
+        +rule: str
+        +message: str
+        +field: Optional[str]
+    }
+
+    CheckResult *-- "many" Violation
+    ArtifactInterface --> CheckResult
+
+    ' ── Parser (READ backend) ──────────────
+
+    abstract class ArtifactParser<M: BaseArtifactModel> {
+        +{abstract} parse(raw: str): M
+    }
+
+    class MarkdownParser<M> {
+        +parse(raw: str): M
+    }
+
+    class YamlParser<M> {
+        +parse(raw: str): M
+    }
+
+    ArtifactParser <|-- MarkdownParser
+    ArtifactParser <|-- YamlParser
+    ArtifactInterface ..> ArtifactParser : uses (via M.__format__)
+
+    ' ── Checker (CHECK backend) ────────────
+
+    abstract class ArtifactChecker<M: BaseArtifactModel> {
+        +{abstract} check(model: M): CheckResult
+    }
+
+    class TaskChecker {
+        +check(model: TaskModel): CheckResult
+        ' rules: status transitions, depends_on ids exist,
+        '        required fields non-empty
+    }
+
+    class BoardChecker {
+        +check(model: BoardModel): CheckResult
+        ' rules: all task refs exist on disk,
+        '        no circular dependencies
+    }
+
+    class DesignSpecChecker {
+        +check(model: DesignSpecModel): CheckResult
+        ' rules: all 6 layers non-empty
+    }
+
+    ArtifactChecker <|-- TaskChecker
+    ArtifactChecker <|-- BoardChecker
+    ArtifactChecker <|-- DesignSpecChecker
+    ArtifactInterface ..> ArtifactChecker : uses (via M type)
+}
+
+' ─────────────────────────────────────────
+' COMPOSE LAYER  (multi-artifact → artifact)
+' ─────────────────────────────────────────
+package "repopackage.composers" <<Compose>> {
+
+    abstract class Composer<Out: BaseArtifactModel> {
+        +{abstract} compose(): ArtifactInterface[Out]
+    }
+
+    class BoardComposer {
+        -tasks: List[ArtifactInterface[TaskModel]]
+        +compose(): ArtifactInterface[BoardModel]
+        ' scans desk/tasks/, groups by phase,
+        ' resolves dependency order
+    }
+
+    class DispatchPackageComposer {
+        -task: ArtifactInterface[TaskModel]
+        -pills: List[ArtifactInterface[PillModel]]
+        +compose(): str
+        ' produces a single agent-ready string:
+        ' task.to_agent() + pills[*].to_agent()
+    }
+
+    class EvidenceComposer {
+        -task: ArtifactInterface[TaskModel]
+        -test_log: str
+        -lint_log: str
+        +compose(): ArtifactInterface[EvidenceModel]
+    }
+
+    Composer <|-- BoardComposer
+    Composer <|-- DispatchPackageComposer
+    Composer <|-- EvidenceComposer
+}
+
+' ─────────────────────────────────────────
+' CROSS-LAYER BINDINGS
+' ─────────────────────────────────────────
+ArtifactInterface --> BaseArtifactModel : bound to M
+BoardComposer ..> ArtifactInterface : reads TaskModel
+DispatchPackageComposer ..> ArtifactInterface : reads TaskModel + PillModel
+EvidenceComposer ..> ArtifactInterface : reads TaskModel
+
+@enduml

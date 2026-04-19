@@ -6,6 +6,9 @@ src/repopackage.egg-info/SOURCES.txt
 src/repopackage.egg-info/dependency_links.txt
 src/repopackage.egg-info/requires.txt
 src/repopackage.egg-info/top_level.txt
+src/repopackage/cli/templates/board.md.jinja2
+src/repopackage/cli/templates/pill.md.jinja2
+src/repopackage/cli/templates/task.md.jinja2
 tests/test_cli_load.py
 tests/test_markdown_engine.py
 tests/test_pill_inject.py

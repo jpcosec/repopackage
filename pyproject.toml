@@ -22,4 +22,8 @@ packages = ["repopackage"]
 "" = "src"
 
 [tool.setuptools.package-data]
-repopackage = ["cli/templates/*.jinja2"]
+repopackage = ["templates/*.jinja2", "templates/*.yaml.jinja2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["tests/legacy"]
