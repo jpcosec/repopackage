@@ -2,53 +2,79 @@
 skinparam monochrome true
 skinparam componentStyle rectangle
 
-title Arquitectura del CLI (Componentes y Flujo de Datos)
+title Arquitectura del CLI (Capas y Flujo de Datos)
 
 package "Repopackage CLI (rp)" #FEFEFE {
     [cli.core] as Core <<Typer App>>
-    
-    folder "Sub-Modules" {
+
+    folder "CLI Submodules (Thin Shells)" {
         [cli.system] as System
         [cli.desk] as Desk
-        [cli.drawers] as Drawers
-        [cli.exec] as Exec
-        [cli.eval] as Eval
+        [cli.drawers] as DrawersCLI
+        [cli.eval] as EvalCLI
     }
-    
-    [contract_validator] as Validator <<Pydantic>>
+}
+
+package "Workflow Domain Layer" #F0F8FF {
+    [workflow.Workspace] as WS
+    [workflow.Desk] as WDesk
+    [workflow.Drawers] as WDrawers
+    [workflow.Phase] as WPhase
+    [workflow.Task/Pill] as WTask
+}
+
+package "IO Layer" #F9F9F9 {
+    [MarkdownEngine] as MD <<Regex Reader>>
+    [BoardWriter] as BW <<Jinja2 Writer>>
+    [Jinja2 Templates] as J2 <<.jinja2 files>>
+    [models.TaskModel] as TM <<Pydantic>>
+    [models.PillModel] as PM <<Pydantic>>
 }
 
 database "File System (4-Zone)" {
     folder "desk/" {
         [tasks/*.md] as TasksDB
         [pills/*.md] as PillsDB
-        [design/*.md] as SpecsDB
     }
     folder "drawers/" {
-        [Board.md] as Backlog
+        [Board.md + specs] as DrawersDB
     }
     folder "runs/" {
         [RUN-XXX/] as RunArtifacts
     }
 }
 
-' Flujos
+' CLI -> Domain (thin shells only)
 Core --> System
 Core --> Desk
-Core --> Drawers
-Core --> Exec
-Core --> Eval
+Core --> DrawersCLI
+Core --> EvalCLI
 
-Desk ..> Validator : Valida .md
-Desk --> TasksDB : Escritura/Sync
-Desk --> PillsDB : Inyección
+Desk --> WS
+DrawersCLI --> WS
+EvalCLI --> WS
 
-Drawers --> Backlog : Listar/Añadir
-Drawers --> SpecsDB : Leer
-Drawers --> TasksDB : Promover a
+' Domain internal
+WS --> WDesk
+WS --> WDrawers
+WS --> WPhase
+WDesk --> WTask
+WDrawers --> WTask
 
-Exec --> RunArtifacts : Crear/Scaffold
-Eval --> Validator : Check Laws
-Eval --> RunArtifacts : Audit logs
+' Domain -> IO
+WTask --> MD : reads .md
+WTask --> J2 : writes via Jinja2
+WDesk --> BW : board_sync
+BW --> J2
+
+' IO -> Pydantic
+MD --> TM
+MD --> PM
+
+' IO -> FileSystem
+BW --> TasksDB
+WTask --> TasksDB
+WTask --> PillsDB
+WDrawers --> DrawersDB
 
 @enduml

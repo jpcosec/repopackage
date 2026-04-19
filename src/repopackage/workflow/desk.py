@@ -34,14 +34,29 @@ class PillCollection:
             pill_id = f"PILL-{pill_id}"
         task_file = self.workspace.root / "desk" / "tasks" / f"{task_id}.md"
         if not task_file.exists():
-            raise FileNotFoundError(f"Task {task_id} not found")
+            raise FileNotFoundError(f"Task file desk/tasks/{task_id}.md not found.")
         engine = MarkdownEngine(task_file.read_text())
         current_refs = engine.read_metadata_list("Reference")
         pill_ref = f"desk/pills/{pill_id}.md"
         if pill_ref not in current_refs:
+            # Update Traits
+            traits_content = engine.extract_section("Traits (Composición)") or ""
+            if pill_id not in traits_content:
+                clean_traits = traits_content.strip("`").strip()
+                new_traits = f"{clean_traits} | [{pill_id}]".strip(" |")
+                engine.update_section("Traits (Composición)", f"`[{new_traits}]`" if not new_traits.startswith("[") else f"`{new_traits}`")
+
+            # Update Reference
             current_refs.append(pill_ref)
             formatted = [f"- `{r}`" if not r.startswith("`") else f"- {r}" for r in current_refs]
             engine.update_section("Reference", "\n".join(formatted))
+
+            # Update Induced Changes
+            current_changes = engine.extract_section("Induced Changes") or ""
+            current_changes = current_changes.replace("(Completar por Executor)", "").strip()
+            new_changes = current_changes + f"\n- Injected pill {pill_id}"
+            engine.update_section("Induced Changes", new_changes.strip())
+
             task_file.write_text(engine.content)
 
 
