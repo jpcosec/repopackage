@@ -9,7 +9,7 @@ if TYPE_CHECKING:
 
 class PillCollection:
     def __init__(self, workspace: "Workspace"):
-        self.workspace = workspace
+        self.workspace: "Workspace" = workspace
 
     def all(self) -> List["WorkflowPill"]:
         from repopackage.workflow.pill import WorkflowPill
@@ -62,7 +62,7 @@ class PillCollection:
 
 class TaskCollection:
     def __init__(self, workspace: "Workspace"):
-        self.workspace = workspace
+        self.workspace: "Workspace" = workspace
 
     def all(self) -> List["WorkflowTask"]:
         from repopackage.workflow.task import WorkflowTask
@@ -152,15 +152,9 @@ class TaskCollection:
 
 class Desk:
     def __init__(self, workspace: "Workspace"):
-        self.workspace = workspace
-
-    @property
-    def tasks(self) -> TaskCollection:
-        return TaskCollection(self.workspace)
-
-    @property
-    def pills(self) -> PillCollection:
-        return PillCollection(self.workspace)
+        self.workspace: "Workspace" = workspace
+        self.tasks: TaskCollection = TaskCollection(workspace)
+        self.pills: PillCollection = PillCollection(workspace)
 
     def board_sync(self) -> None:
         from repopackage.cli.engines.board_writer import BoardWriter

@@ -8,9 +8,9 @@ if TYPE_CHECKING:
 
 class WorkflowPill:
     def __init__(self, model: PillModel, path: Path, workspace: "Workspace"):
-        self.model = model
-        self.path = path
-        self.workspace = workspace
+        self.model: PillModel = model
+        self.path: Path = path
+        self.workspace: "Workspace" = workspace
 
     @property
     def id(self) -> str:

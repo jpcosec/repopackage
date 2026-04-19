@@ -1,25 +1,18 @@
 from pathlib import Path
 from typing import List, Optional, TYPE_CHECKING
 
+from repopackage.workflow.desk import Desk
+from repopackage.workflow.drawers import Drawers
+
 if TYPE_CHECKING:
     from repopackage.workflow.phase import Phase
-    from repopackage.workflow.desk import Desk
-    from repopackage.workflow.drawers import Drawers
 
 
 class Workspace:
     def __init__(self, root: Optional[Path] = None):
-        self.root = root or Path.cwd()
-
-    @property
-    def desk(self) -> "Desk":
-        from repopackage.workflow.desk import Desk
-        return Desk(self)
-
-    @property
-    def drawers(self) -> "Drawers":
-        from repopackage.workflow.drawers import Drawers
-        return Drawers(self)
+        self.root: Path = root or Path.cwd()
+        self.desk: Desk = Desk(self)
+        self.drawers: Drawers = Drawers(self)
 
     def phases(self) -> List["Phase"]:
         from repopackage.workflow.phase import Phase

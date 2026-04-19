@@ -17,8 +17,8 @@ class EvalResult(BaseModel):
 
 class Phase:
     def __init__(self, id: str, workspace: "Workspace"):
-        self.id = id
-        self.workspace = workspace
+        self.id: str = id
+        self.workspace: "Workspace" = workspace
 
     def tasks(self) -> List["WorkflowTask"]:
         from repopackage.workflow.task import WorkflowTask

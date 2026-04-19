@@ -8,9 +8,9 @@ if TYPE_CHECKING:
 
 class WorkflowTask:
     def __init__(self, model: TaskModel, path: Path, workspace: "Workspace"):
-        self.model = model
-        self.path = path
-        self.workspace = workspace
+        self.model: TaskModel = model
+        self.path: Path = path
+        self.workspace: "Workspace" = workspace
 
     @property
     def id(self) -> str:
