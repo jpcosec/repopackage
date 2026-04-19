@@ -1,0 +1,18 @@
+module_name: "{{ contract.module_name }}"
+version: "{{ contract.version }}"
+description: "{{ contract.description }}"
+interface:
+  inputs:
+{% for f in contract.inputs %}    - name: "{{ f.name }}"
+      type: {{ f.type }}
+      description: "{{ f.description }}"
+{% endfor %}  outputs:
+{% for f in contract.outputs %}    - name: "{{ f.name }}"
+      type: {{ f.type }}
+      description: "{{ f.description }}"
+{% endfor %}traits:
+{% for t in contract.traits %}  - "{{ t }}"
+{% endfor %}validation:
+  unit_tests: {{ contract.validation.unit_tests | lower }}
+  contract_tests: {{ contract.validation.contract_tests | lower }}
+  linting_passed: {{ contract.validation.linting_passed | lower }}

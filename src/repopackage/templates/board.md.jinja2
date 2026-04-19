@@ -1,0 +1,12 @@
+# Board
+{% for phase in board.phases %}
+## Phase {{ phase.id }}
+
+| Task | Status |
+|------|--------|
+{% for task_id in phase.tasks %}| {{ task_id }} | - |
+{% endfor %}{% endfor %}
+{% if board.pills %}
+## Pills
+{% for pill_id in board.pills %}- {{ pill_id }}
+{% endfor %}{% endif %}

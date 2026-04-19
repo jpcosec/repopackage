@@ -1,0 +1,14 @@
+# Evidence: {{ evidence.task_id }}
+
+## Result
+- **Passed:** {{ evidence.passed }}
+- **Lint OK:** {{ evidence.lint_ok }}
+- **Tests OK:** {{ evidence.tests_ok }}
+
+## Raw Log
+```
+{{ evidence.raw_log }}
+```
+
+---
+**Commit SHA:** {{ evidence.commit_sha or '' }}
