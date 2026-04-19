@@ -20,6 +20,8 @@ def _extract_sections(raw: str) -> Dict[str, str]:
     current = None
     lines = []
     for line in raw.splitlines():
+        if line.strip() == "---":
+            break
         if line.startswith("## "):
             if current is not None:
                 sections[current] = "\n".join(lines).strip()
