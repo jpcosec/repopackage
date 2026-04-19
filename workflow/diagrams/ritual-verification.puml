@@ -1,0 +1,18 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+
+title Ritual 3: Verification (Audit Phase)
+
+start
+:1. **TRACE REVIEW**\nSupervisor lee evidence.json;
+:¿Lógica coincide con el Diseño?;
+if (¿Pass?) then (No)
+  :2. **FAILURE-REPORT**\nDocumentar drift o errores;
+  :Reabrir Tarea;
+  detach
+else (Sí)
+  :3. **MERGE**\nCommit atómico en Git;
+  stop
+endif
+@enduml

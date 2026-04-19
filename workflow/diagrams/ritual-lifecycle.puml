@@ -1,0 +1,54 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam state {
+    BackgroundColor White
+    BorderColor Black
+}
+
+title Workflow Rituals Lifecycle
+
+[*] --> Initialization : New Spec Promoted
+
+state Initialization {
+  state "1. Plan Phase" as Plan
+  Plan : * Atomize Tasks
+  Plan : * Bind Context Pills
+  Plan : * Audit existing code/git
+}
+
+Initialization --> Execution : Tasks Ready
+
+state Execution {
+  state "2. Do Phase" as Do
+  Do : * Agent A: Test Gen
+  Do : * Agent B: Implementation
+  Do : * Quality Gates (Lint/Tests)
+  Do : * Rescue Traces
+}
+
+Execution --> Verification : Run Completed
+
+state Verification {
+  state "3. Audit Phase" as Audit
+  Audit : * Supervisor Review
+  Audit : * Evidence Check
+  Audit : * Failure Report (if needed)
+}
+
+Verification --> PhaseCompletion : Audit Green
+Verification --> Execution : Audit Red (Fix/Repeat)
+
+state PhaseCompletion {
+  state "4. Wrap Phase" as Wrap
+  Wrap : * Knowledge Flow (Pills -> Code)
+  Wrap : * Atomic Commit
+  Wrap : * Task/Pill Cleanup
+}
+
+PhaseCompletion --> Initialization : Next Phase / Sub-task
+PhaseCompletion --> [*] : All Tasks Done
+
+footer Rituals based on Ontology (Plan, Do, Audit, Wrap)
+@enduml

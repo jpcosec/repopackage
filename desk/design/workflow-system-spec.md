@@ -11,7 +11,7 @@
 
 ## Core Concepts
 - `desk` is the active top-level workspace and replaces legacy `plan` terminology.
-- `drawers` stores deferred work and concrete specs/planning that are not yet executable tasks.
+- `drawers` stores deferred work and concrete specs/spec that are not yet executable tasks.
 - `pills` are typed context units with explicit contracts and reuse semantics.
 - `tasks` are executable units derived from promoted drawer material plus pills.
 - `design distillation` is a formal ritual that transforms text inputs into specs.
@@ -36,7 +36,7 @@
 - Standardization
   - Identify reusable module patterns, guardrails, and contracts.
 - Drawers
-  - Persist concrete specs, planning, and deferred work until promoted.
+  - Persist concrete specs, spec, and deferred work until promoted.
 - Promotion
   - Supervisor checks ambiguity, coverage, dependencies, and reusable pills.
 - Task/Pill Generation

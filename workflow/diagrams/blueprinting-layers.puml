@@ -1,0 +1,25 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam componentStyle rectangle
+
+title Blueprinting Layer Diagram
+
+stack "Layer 5: Code (Final Implementation)" as L5
+stack "Layer 4: Tests (Behavioral Guard)" as L4
+stack "Layer 3: Patterns (Structural Logic)" as L3
+stack "Layer 2: Pseudocode (Logic Flow)" as L2
+stack "Layer 1: Skeleton (FileSystem Hierarchy)" as L1
+
+L1 -[hidden]down-> L2
+L2 -[hidden]down-> L3
+L3 -[hidden]down-> L4
+L4 -[hidden]down-> L5
+
+note right of L1 : Folder structure & Empty files
+note right of L2 : Step-by-step logic in comments
+note right of L3 : Design patterns (Adapter, Service)
+note right of L4 : Failing tests (Agent A)
+note right of L5 : Passing implementation (Agent B)
+
+@enduml

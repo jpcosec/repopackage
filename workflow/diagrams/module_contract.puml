@@ -1,0 +1,36 @@
+@startuml
+skinparam monochrome true
+skinparam componentStyle rectangle
+
+title Estructura de un "Repopackage Module" (Independiente y Testeable)
+
+package "Module: [Nombre]" #FEFEFE {
+    [contract.yaml] as Meta <<Metadata & I/O>>
+    [README.md] as Doc <<Usage & Context>>
+    
+    folder "src" {
+        [logic.py] as Logic
+        [interface.py] as API <<Entry Points>>
+    }
+    
+    folder "tests" {
+        [test_unit.py] as Unit
+        [test_contract.py] as Contract <<I/O Validation>>
+    }
+}
+
+note right of Meta
+  Define:
+  - Input Schema
+  - Output Schema
+  - Dependencies (otros módulos)
+  - External Libs (Prioridad: Repackage)
+end note
+
+note bottom of Contract
+  Valida que el módulo cumple 
+  su contrato de entrada/salida 
+  independientemente de la lógica interna.
+end note
+
+@enduml

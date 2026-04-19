@@ -1,0 +1,27 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName "Monospace"
+
+title Ciclo de Vida del Blueprinting (Refinamiento Sucesivo)
+
+state "0. Recolección (Drawers)" as S0 : Extraer info, ideas y\nreferencias acumuladas.
+state "1. Microspec" as S1 : - Qué vamos a hacer\n- Referencias (Repackaging)\n- UML de Alto Nivel (Fases/Etapas)
+state "2. Esqueleto" as S2 : - Contratos de E/S\n- Flujo de Datos\n- Diagrama de Componentes\n- Módulos y Conexiones
+state "3. Pseudocode" as S3 : - Lógica en comentarios\n- Conexión con componentes existentes\n- UML de Clases/Funciones
+state "4. Patterns" as S4 : - Reglas de Estilo/Código\n- Reglas de Conectividad (Libs/API)\n- Contratos Finales (Tipado)
+state "5. Unit Tests" as S5 : - Behavioral Guard (Tests fallando)\n- Casos de borde definidos
+
+S0 --> S1
+S1 --> S2
+S2 --> S3
+S3 --> S4
+S4 --> S5
+
+note right of S1 : "El Mapa"
+note right of S2 : "Las Fronteras"
+note right of S3 : "El Cerebro"
+note right of S4 : "El Estilo"
+note right of S5 : "La Muralla"
+
+@enduml

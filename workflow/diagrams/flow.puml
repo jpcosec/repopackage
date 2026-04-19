@@ -1,0 +1,58 @@
+@startuml
+skinparam handwritten false
+skinparam monochrome false
+skinparam defaultFontName "Monospace"
+
+title Flujo de Trabajo: Supervisor / Executor
+
+|#FEFEFE|Mundo de las Ideas / Diseño|
+start
+:Diseño / Spec de la Feature;
+note right: Ubicado en desk/design/
+
+|#F9F9F9|Supervisor|
+:Evaluar y Atomizar;
+note right
+  - Evaluar salud del código
+  - Refactorizar si >80/10 líneas
+  - Crear Tareas y Píldoras
+end note
+
+repeat
+    |#F9F9F9|Supervisor|
+    :Indexar Fase en Board.md;
+    note right: Identificar tareas paralelas sin dependencias
+
+    |#E3F2FD|Executor|
+    :Ejecución Paralela de la Fase;
+    note right
+        1. Implementar en src/
+        2. Unit Testing individual
+        3. Registrar "Induced Changes"
+        4. Commit Atómico por tarea
+    end note
+
+    |#F9F9F9|Supervisor|
+    :Ritual de Cierre de Fase;
+    note right
+        1. Auditar Commits vs Tareas
+        2. Actualizar y Limpiar Tests E2E
+        3. Validar estado esperado
+    end note
+
+repeat while (¿Quedan tareas en el grafo?) is (Sí)
+
+|#F9F9F9|Supervisor|
+:Limpieza Final (Feature Cleanup);
+note right
+    - Promocionar Píldoras útiles a Docs
+    - Borrar Píldoras temporales
+    - Limpiar desk/design/
+    - Resetear Board.md y tasks/
+end note
+
+|#FEFEFE|Mundo de la Realidad|
+:Feature 100% Integrada;
+stop
+
+@enduml

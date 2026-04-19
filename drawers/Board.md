@@ -17,9 +17,9 @@ Items untouched for 6 months → promote to desk or delete. No graveyard.
 
 ---
 
-## Feature: Agent Trace Ingestion
+## Feature: Agent Trace Ingestion & Conversation Recovery
 
-Capture observable artifacts from agent runs.
+Capture observable artifacts and full transcripts from agent runs to feed the improvement loop.
 
 | ID | Topic | Source | Status | Stale After |
 |----|-------|--------|--------|-------------|
@@ -28,6 +28,7 @@ Capture observable artifacts from agent runs.
 | ADAPTER-02 | agent_adapter_contract | design-ritual | completed | - |
 | RESCUE-01 | prompt-rescue-instructions | design-ritual | completed | - |
 | CAPTURE-01 | agent-capture-instructions | design-ritual | pending | 2026-10-18 |
+| RECOVER-01 | conversation-recovery-ritual | feedback-loop | pending | 2026-10-18 |
 
 ### Enhancement Tools
 | ID | Tool | Purpose | Priority | Stale After |
@@ -39,8 +40,18 @@ Capture observable artifacts from agent runs.
 | TOOL-05 | opencode-adapter.py | Extract from OpenCode output | medium | 2026-10-18 |
 | TOOL-06 | pi-adapter.py | Extract from pi output | medium | 2026-10-18 |
 | TOOL-07 | run-indexer.sh | Index runs for evaluation | low | 2026-10-18 |
+| TOOL-08 | transcript-rescuer | CLI to fetch and save full agent logs | high | 2026-10-18 |
 
-→ [CLI Extension Spec](./design/cli-extension-spec.md)
+---
+
+## Feature: Workflow Meta-Iteration
+
+Rituals for continuous improvement of the Supervisor/Executor system.
+
+| ID | Ritual | Purpose | Status | Stale After |
+|----|--------|---------|--------|-------------|
+| META-01 | project-closure-ritual | Capture frictions and iterate on docs/rules | pending | 2026-10-18 |
+| META-02 | feedback-loop-integration | Use recovered conversations to tune instructions | pending | 2026-10-18 |
 
 ---
 

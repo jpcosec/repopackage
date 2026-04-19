@@ -1,0 +1,17 @@
+<type>(<scope>): #<ID> <description>
+
+<optional body: Explicar POR QUÉ se hizo el cambio y cómo afecta al sistema.>
+
+# Tipos permitidos:
+#   feat: Funcionalidad nueva.
+#   fix: Corrección de un error.
+#   docs: Cambios solo en la documentación.
+#   refactor: Mejora de código sin cambiar funcionalidad.
+#   test: Añadir o corregir tests.
+#   chore: Cambios de configuración o mantenimiento.
+
+# Scopes comunes:
+#   desk, drawers, cli, module, contract, e2e, unit.
+
+# Ejemplo:
+#   feat(cli): #01 add tasks atomize command

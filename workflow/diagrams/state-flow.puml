@@ -1,0 +1,37 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam componentStyle rectangle
+
+title State Flow Diagram (3-Zone Model)
+
+package "Zone 1: Drawers (Backlog)" {
+    [Design Specs] as specs
+}
+
+package "Zone 2: Desk (Active Workspace)" {
+    [Tasks] as tasks
+    [Context Pills] as pills
+}
+
+package "Zone 3: Runs (Execution)" {
+    [Agent Run] as run
+    [Raw Logs] as logs
+    [Evidence.json] as evidence
+}
+
+database "Source Code / Modules" as source
+
+' Transitions
+specs --> tasks : promote-spec
+tasks --> pills : split-tasks
+tasks ..> pills : bind-context
+
+tasks + pills --> run : execute-task
+run --> logs : rescue-logs
+logs --> evidence : format-evidence
+
+evidence --> source : merge-work
+source ..> specs : new requirements
+
+@enduml

@@ -110,7 +110,7 @@
 ### 2. Drawer Spec Package Contract
 - Missing
 - Needed because:
-  - drawers now hold concrete specs and planning
+  - drawers now hold concrete specs and spec
 - Should define package contents such as:
   - `spec.md`
   - `decisions.md`
