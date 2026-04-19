@@ -2,6 +2,7 @@ import typer
 from repopackage.cli.system.core import system_app
 from repopackage.cli.desk.core import desk_app
 from repopackage.cli.drawers.core import drawers_app
+from repopackage.cli.eval.core import eval_app
 
 app = typer.Typer(help="Repopackage CLI tool.")
 
@@ -9,6 +10,7 @@ app = typer.Typer(help="Repopackage CLI tool.")
 app.add_typer(system_app, name="system")
 app.add_typer(desk_app, name="desk")
 app.add_typer(drawers_app, name="drawers")
+app.add_typer(eval_app, name="eval")
 
 def main():
     """Entry point for the rp command."""
