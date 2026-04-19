@@ -53,7 +53,7 @@ def test_atomize_command_logic(tmp_path):
     
     p1_content = (tmp_path / "desk/pills/PILL-01.md").read_text()
     assert "# PILL-01 - Task 1" in p1_content
-    assert "- **ID:** PILL-01" in p1_content
+    assert "- ID: PILL-01" in p1_content
     
     # Check task updated
     task_content = task_file.read_text()
