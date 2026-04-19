@@ -1,5 +1,5 @@
 from typing import List, Dict
-from repopackage.cli.models.task import TaskModel, TaskStatus
+from repopackage.models.task import TaskModel, TaskStatus
 from jinja2 import Environment, FileSystemLoader
 import re
 from pathlib import Path

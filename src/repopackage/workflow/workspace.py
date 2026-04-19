@@ -16,7 +16,7 @@ class Workspace:
 
     def phases(self) -> List["Phase"]:
         from repopackage.workflow.phase import Phase
-        from repopackage.cli.engines.parser import TaskParser
+        from repopackage.engines.parser import TaskParser
         tasks_dir = self.root / "desk" / "tasks"
         if not tasks_dir.exists():
             return [Phase("1", self)]

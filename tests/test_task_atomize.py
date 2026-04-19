@@ -2,7 +2,7 @@ import pytest
 from pathlib import Path
 import shutil
 import os
-from repopackage.cli.engines.markdown_engine import MarkdownEngine
+from repopackage.engines.markdown_engine import MarkdownEngine
 from repopackage.cli.desk.commands import atomize_task
 from typer.testing import CliRunner
 from repopackage.cli.core import app

@@ -22,7 +22,7 @@ class Phase:
 
     def tasks(self) -> List["WorkflowTask"]:
         from repopackage.workflow.task import WorkflowTask
-        from repopackage.cli.engines.parser import TaskParser
+        from repopackage.engines.parser import TaskParser
         tasks_dir = self.workspace.root / "desk" / "tasks"
         parser = TaskParser()
         result = []

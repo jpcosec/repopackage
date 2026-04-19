@@ -19,7 +19,7 @@ def sync_board():
 
 
 @tasks_app.command(name="atomize")
-def atomize_task(task_id: str):
+def atomize_task(task_id: str): #todo: there is a huge conceptual distance between what this does and it's name
     """Generate Context Pills from a task's checklist."""
     try:
         pills = Workspace().desk.tasks.atomize(task_id)

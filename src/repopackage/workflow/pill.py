@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import TYPE_CHECKING
-from repopackage.cli.models.pill import PillModel
+from repopackage.models.pill import PillModel
 
 if TYPE_CHECKING:
     from repopackage.workflow.workspace import Workspace

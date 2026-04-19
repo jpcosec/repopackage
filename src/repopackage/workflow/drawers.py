@@ -57,7 +57,7 @@ class Drawers:
 
     def promote(self, spec_id: str) -> "WorkflowTask":
         from repopackage.workflow.task import WorkflowTask
-        from repopackage.cli.models.task import TaskModel, TaskStatus, TaskPriority
+        from repopackage.models.task import TaskModel, TaskStatus, TaskPriority
         from jinja2 import Environment, FileSystemLoader
 
         spec_file = self._drawers_dir / f"{spec_id}.md"

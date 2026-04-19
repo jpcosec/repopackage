@@ -1,5 +1,5 @@
 import pytest
-from src.repopackage.cli.engines.markdown_engine import MarkdownEngine
+from src.repopackage.engines.markdown_engine import MarkdownEngine
 
 def test_extract_sections():
     content = "# T-01 - Title\n## Section 1\nContent 1\n## Section 2\nContent 2"

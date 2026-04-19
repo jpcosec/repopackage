@@ -1,6 +1,6 @@
-from repopackage.cli.engines.markdown_engine import MarkdownEngine
-from repopackage.cli.models.task import TaskModel, TaskPriority, TaskStatus
-from repopackage.cli.models.pill import PillModel, PillMetadata
+from repopackage.engines.markdown_engine import MarkdownEngine
+from repopackage.models.task import TaskModel, TaskPriority, TaskStatus
+from repopackage.models.pill import PillModel, PillMetadata
 import re
 from pathlib import Path
 

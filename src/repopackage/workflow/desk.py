@@ -13,7 +13,7 @@ class PillCollection:
 
     def all(self) -> List["WorkflowPill"]:
         from repopackage.workflow.pill import WorkflowPill
-        from repopackage.cli.engines.parser import parse_pill_markdown
+        from repopackage.engines.parser import parse_pill_markdown
         pills_dir = self.workspace.root / "desk" / "pills"
         result = []
         if not pills_dir.exists():
@@ -27,7 +27,7 @@ class PillCollection:
         return result
 
     def inject(self, task_id: str, pill_id: str) -> None:
-        from repopackage.cli.engines.markdown_engine import MarkdownEngine
+        from repopackage.engines.markdown_engine import MarkdownEngine
         if not task_id.startswith("T-"):
             task_id = f"T-{task_id}"
         if not pill_id.startswith("PILL-"):
@@ -66,7 +66,7 @@ class TaskCollection:
 
     def all(self) -> List["WorkflowTask"]:
         from repopackage.workflow.task import WorkflowTask
-        from repopackage.cli.engines.parser import TaskParser
+        from repopackage.engines.parser import TaskParser
         tasks_dir = self.workspace.root / "desk" / "tasks"
         parser = TaskParser()
         result = []
@@ -82,7 +82,7 @@ class TaskCollection:
 
     def get(self, task_id: str) -> "WorkflowTask":
         from repopackage.workflow.task import WorkflowTask
-        from repopackage.cli.engines.parser import TaskParser
+        from repopackage.engines.parser import TaskParser
         if not task_id.startswith("T-"):
             task_id = f"T-{task_id}"
         task_file = self.workspace.root / "desk" / "tasks" / f"{task_id}.md"
@@ -93,8 +93,8 @@ class TaskCollection:
 
     def atomize(self, task_id: str) -> List["WorkflowPill"]:
         from repopackage.workflow.pill import WorkflowPill
-        from repopackage.cli.engines.markdown_engine import MarkdownEngine
-        from repopackage.cli.engines.parser import parse_pill_markdown
+        from repopackage.engines.markdown_engine import MarkdownEngine
+        from repopackage.engines.parser import parse_pill_markdown
         from jinja2 import Environment, FileSystemLoader
 
         if not task_id.startswith("T-"):
@@ -157,8 +157,8 @@ class Desk:
         self.pills: PillCollection = PillCollection(workspace)
 
     def board_sync(self) -> None:
-        from repopackage.cli.engines.board_writer import BoardWriter
-        from repopackage.cli.engines.parser import TaskParser
+        from repopackage.engines.board_writer import BoardWriter
+        from repopackage.engines.parser import TaskParser
         tasks_dir = self.workspace.root / "desk" / "tasks"
         board_file = self.workspace.root / "desk" / "tasks" / "Board.md"
         parser = TaskParser()

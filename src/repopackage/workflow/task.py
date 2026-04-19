@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import TYPE_CHECKING
-from repopackage.cli.models.task import TaskModel
+from repopackage.models.task import TaskModel
 
 if TYPE_CHECKING:
     from repopackage.workflow.workspace import Workspace

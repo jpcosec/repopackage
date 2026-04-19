@@ -1,0 +1,53 @@
+@startuml artifact_interface
+skinparam monochrome true
+skinparam defaultFontName "Monospace"
+
+title Artifact Interface: Generic Contract for All Artifact Types
+
+package "repopackage.artifacts" <<Contract Layer>> {
+
+    abstract class ArtifactInterface<M: BaseModel> {
+        +model: M
+        ..classmethods..
+        +{static} from_disk(path: Path): Self
+        +{static} create(**kwargs): Self
+        ..instance..
+        +to_disk(path: Path): None
+        +to_agent(): str
+        --
+        note: Template is M.__template__ (ClassVar).\nNo subclass needed per artifact type.\nAll serialization logic lives here.
+    }
+
+    note right of ArtifactInterface
+        from_disk()  ← parses Markdown/YAML from desk/
+        to_disk()    → renders M.__template__ via Jinja2
+        to_agent()   → yaml.dump(model.model_dump())
+        create()     → validates kwargs into M, returns Self
+    end note
+}
+
+package "repopackage.models" <<Pydantic>> {
+
+    abstract class BaseModel {
+        +__template__: ClassVar[str]
+    }
+
+    class TaskModel
+    class PillModel
+    class BoardModel
+    class DesignSpecModel
+    class ModuleContractModel
+    class GitCommitModel
+
+    BaseModel <|-- TaskModel
+    BaseModel <|-- PillModel
+    BaseModel <|-- BoardModel
+    BaseModel <|-- DesignSpecModel
+    BaseModel <|-- ModuleContractModel
+    BaseModel <|-- GitCommitModel
+}
+
+' ArtifactInterface is bound to any M: BaseModel at instantiation
+ArtifactInterface --> BaseModel : M (generic bind)
+
+@enduml
