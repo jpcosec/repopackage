@@ -2,6 +2,7 @@ import typer
 from pathlib import Path
 import re
 from typing import List
+from jinja2 import Environment, FileSystemLoader
 from repopackage.cli.engines.markdown_engine import MarkdownEngine
 from repopackage.cli.engines.parser import TaskParser
 from repopackage.cli.engines.board_writer import BoardWriter
@@ -32,13 +33,7 @@ def sync_board():
             typer.echo(f"Warning: Could not parse {tf.name}: {e}")
             
     writer = BoardWriter(tasks)
-    
-    if board_file.exists():
-        content = board_file.read_text()
-    else:
-        content = "# Tasks Board\n\n## Active (status=open|in_progress)\n\n## Blocked (status=blocked)\n\n## Completed\n"
-        
-    new_content = writer.write_board(content)
+    new_content = writer.render_board()
     board_file.write_text(new_content)
     typer.echo("Board.md synchronized successfully.")
 
@@ -63,20 +58,30 @@ def atomize_task(task_id: str):
 
     pills_dir = base_path / "desk/pills"
     pills_dir.mkdir(parents=True, exist_ok=True)
-    
+
     next_id = len(list(pills_dir.glob("PILL-*.md"))) + 1
     created = []
-    template_path = base_path / "workflow/docs/template/context_pills.md"
-    
+
+    # Setup Jinja2 environment
+    TEMPLATES_DIR = Path(__file__).parent.parent / "templates"
+    env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
+    template = env.get_template("pill.md.jinja2")
+
     for item in checklist_items:
         pill_id = f"PILL-{next_id:02d}"
         pill_file = pills_dir / f"{pill_id}.md"
-        if template_path.exists():
-            pill_content = template_path.read_text().replace("PILL-XX", pill_id).replace("{title}", item)
-            pill_file.write_text(pill_content)
-        else:
-            pill_file.write_text(f"# {pill_id} - {item}\n- **ID:** {pill_id}\n")
-        
+        pill_content = template.render(pill={
+            "id": pill_id,
+            "title": item,
+            "type": "logic",
+            "scope": "component",
+            "language": "Python",
+            "nature": "implementation",
+            "why": "Pendiente.",
+            "what": "Pendiente."
+        })
+        pill_file.write_text(pill_content)
+
         created.append(pill_id)
         next_id += 1
         typer.echo(f"Created pill: {pill_id}")
