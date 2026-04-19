@@ -1,5 +1,5 @@
-from typing import ClassVar, List, Literal
-from pydantic import BaseModel, Field
+from typing import Any, ClassVar, Dict, List, Literal
+from pydantic import BaseModel, Field, model_validator
 from repopackage.models.base import BaseArtifactModel
 
 
@@ -18,6 +18,15 @@ class ValidationState(BaseModel):
 class ModuleContractModel(BaseArtifactModel):
     __template__: ClassVar[str] = "module_contract.yaml.jinja2"
     __format__: ClassVar[Literal["markdown", "yaml"]] = "yaml"
+
+    @model_validator(mode="before")
+    @classmethod
+    def _flatten_interface(cls, data: Any) -> Any:
+        if isinstance(data, dict) and "interface" in data:
+            iface = data.pop("interface") or {}
+            data.setdefault("inputs", iface.get("inputs", []))
+            data.setdefault("outputs", iface.get("outputs", []))
+        return data
 
     module_name: str
     version: str

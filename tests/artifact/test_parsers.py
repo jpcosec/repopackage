@@ -34,3 +34,23 @@ def test_markdown_parser_pill_lifecycle(sample_pill_md):
     model = parser.parse(sample_pill_md)
     from repopackage.models.pill import PillLifecycle
     assert model.lifecycle == PillLifecycle.KEEP
+
+
+from repopackage.artifact.parsers.yaml_parser import YamlParser
+from repopackage.models.module_contract import ModuleContractModel
+
+
+def test_yaml_parser_parses_module_contract(sample_module_contract_yaml):
+    parser = YamlParser(ModuleContractModel)
+    model = parser.parse(sample_module_contract_yaml)
+    assert model.module_name == "artifact-interface"
+    assert model.version == "1.0.0"
+    assert len(model.inputs) == 1
+    assert model.inputs[0].name == "path"
+    assert model.validation.unit_tests is False
+
+
+def test_yaml_parser_traits(sample_module_contract_yaml):
+    parser = YamlParser(ModuleContractModel)
+    model = parser.parse(sample_module_contract_yaml)
+    assert "[Schema]" in model.traits
