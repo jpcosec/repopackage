@@ -1,0 +1,49 @@
+@startuml
+skinparam monochrome true
+skinparam defaultFontName "Monospace"
+
+title Diagrama de Clases: Repopackage CLI (Capa 3)
+
+package "repopackage.cli" {
+    class RepopackageApp {
+        +run()
+        -setup_routing()
+    }
+
+    package "engines" {
+        class MarkdownEngine {
+            +parse(path: Path): Dict
+            +update(path: Path, data: Dict)
+            +fill_template(template_path: Path, context: Dict): str
+        }
+        
+        class GitEngine {
+            +is_dirty(): bool
+            +commit(message: str, task_id: str)
+            +get_current_sha(): str
+        }
+    }
+
+    package "services" {
+        class TaskService {
+            -md: MarkdownEngine
+            +atomize(task_id: str): List[Pill]
+            +sync_board()
+            +promote_from_drawer(spec_id: str)
+        }
+        
+        class ExecService {
+            +dispatch(task_id: str, agent: str)
+            +capture_logs(run_id: str)
+            +normalize_evidence(run_id: str)
+        }
+    }
+}
+
+RepopackageApp --> TaskService
+RepopackageApp --> ExecService
+TaskService --> MarkdownEngine
+ExecService --> GitEngine
+
+note bottom of MarkdownEngine: Usa Regex estricto para\nno romper el formato del usuario.
+@enduml

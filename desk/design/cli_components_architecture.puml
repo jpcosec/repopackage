@@ -1,0 +1,54 @@
+@startuml
+skinparam monochrome true
+skinparam componentStyle rectangle
+
+title Arquitectura del CLI (Componentes y Flujo de Datos)
+
+package "Repopackage CLI (rp)" #FEFEFE {
+    [cli.core] as Core <<Typer App>>
+    
+    folder "Sub-Modules" {
+        [cli.system] as System
+        [cli.desk] as Desk
+        [cli.drawers] as Drawers
+        [cli.exec] as Exec
+        [cli.eval] as Eval
+    }
+    
+    [contract_validator] as Validator <<Pydantic>>
+}
+
+database "File System (4-Zone)" {
+    folder "desk/" {
+        [tasks/*.md] as TasksDB
+        [pills/*.md] as PillsDB
+        [design/*.md] as SpecsDB
+    }
+    folder "drawers/" {
+        [Board.md] as Backlog
+    }
+    folder "runs/" {
+        [RUN-XXX/] as RunArtifacts
+    }
+}
+
+' Flujos
+Core --> System
+Core --> Desk
+Core --> Drawers
+Core --> Exec
+Core --> Eval
+
+Desk ..> Validator : Valida .md
+Desk --> TasksDB : Escritura/Sync
+Desk --> PillsDB : Inyección
+
+Drawers --> Backlog : Listar/Añadir
+Drawers --> SpecsDB : Leer
+Drawers --> TasksDB : Promover a
+
+Exec --> RunArtifacts : Crear/Scaffold
+Eval --> Validator : Check Laws
+Eval --> RunArtifacts : Audit logs
+
+@enduml
