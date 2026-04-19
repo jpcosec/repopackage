@@ -10,10 +10,10 @@ class BoardModel(BaseArtifactModel):
     __template__: ClassVar[str] = """
 # Board
 
-⸢rev|table|phases⸥
+⸢rev,table•phases⸥
 
 ## Pills
-⸢rev|table|pills⸥
+⸢rev,table•pills⸥
 """.strip()
 
     phases: List[PhaseModel] = Field(default_factory=list)

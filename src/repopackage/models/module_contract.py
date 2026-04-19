@@ -14,21 +14,21 @@ class ValidationState(BaseModel):
 
 class ModuleContractModel(BaseArtifactModel):
     __template__: ClassVar[str] = """
-module_name: "⸢rev|module_name⸥"
-version: "⸢rev|version⸥"
-description: "⸢rev|description⸥"
+module_name: "⸢rev•module_name⸥"
+version: "⸢rev•version⸥"
+description: "⸢rev•description⸥"
 interface:
   inputs:
-⸢rev|table|inputs⸥
+⸢rev,table•inputs⸥
   outputs:
-⸢rev|table|outputs⸥
+⸢rev,table•outputs⸥
 traits:
-⸢jinja2|{% for t in traits %}  - "{{ t }}"
+⸢jinja2•{% for t in traits %}  - "{{ t }}"
 {% endfor %}⸥
 validation:
-  unit_tests: ⸢jinja2|{{ validation.unit_tests | lower }}⸥
-  contract_tests: ⸢jinja2|{{ validation.contract_tests | lower }}⸥
-  linting_passed: ⸢jinja2|{{ validation.linting_passed | lower }}⸥
+  unit_tests: ⸢jinja2•{{ validation.unit_tests | lower }}⸥
+  contract_tests: ⸢jinja2•{{ validation.contract_tests | lower }}⸥
+  linting_passed: ⸢jinja2•{{ validation.linting_passed | lower }}⸥
 """.strip()
 
     module_name: str

@@ -21,38 +21,38 @@ class TaskLifecycle(str, Enum):
 
 class TaskModel(BaseArtifactModel):
     __template__: ClassVar[str] = """
-# ⸢rev|id⸥ - ⸢rev|title⸥
+# ⸢rev•id⸥ - ⸢rev•title⸥
 
 ## Traits (Composición)
-`⸢jinja2|{{ traits | join(' | ') }}⸥`
+`⸢jinja2•{{ traits | join(' | ') }}⸥`
 
 ## Explanation
-⸢rev|explanation⸥
+⸢rev•explanation⸥
 
 ## Reference
-⸢jinja2|{% for ref in reference %}- `{{ ref }}`
+⸢jinja2•{% for ref in reference %}- `{{ ref }}`
 {% endfor %}⸥
 
 ## What to Fix / Implement
-⸢rev|what_to_fix⸥
+⸢rev•what_to_fix⸥
 
 ## How to Do It (Suggested)
-⸢rev|how_to_do_it⸥
+⸢rev•how_to_do_it⸥
 
 ## Induced Changes
-⸢revop|induced_changes⸥
+⸢revop•induced_changes⸥
 
 ## Depends On
-⸢jinja2|{% for dep in depends_on %}- {{ dep }}
+⸢jinja2•{% for dep in depends_on %}- {{ dep }}
 {% endfor %}⸥
 
 ## Priority
-⸢rev|priority⸥
+⸢rev•priority⸥
 
 ---
-**Status:** ⸢rev|status⸥
-**Lifecycle:** ⸢rev|lifecycle⸥
-**Commit SHA:** ⸢revop|commit_sha⸥
+**Status:** ⸢rev•status⸥
+**Lifecycle:** ⸢rev•lifecycle⸥
+**Commit SHA:** ⸢revop•commit_sha⸥
 """.strip()
 
     id: str

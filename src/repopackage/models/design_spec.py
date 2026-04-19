@@ -3,25 +3,25 @@ from repopackage.models.base import BaseArtifactModel
 
 class DesignSpecModel(BaseArtifactModel):
     __template__: ClassVar[str] = """
-# Design Spec: ⸢rev|name⸥
+# Design Spec: ⸢rev•name⸥
 
 ## Capa 0: Recolección (Contexto de Drawers)
-⸢rev|layer_0⸥
+⸢rev•layer_0⸥
 
 ## Capa 1: Microspec (El Mapa)
-⸢rev|layer_1⸥
+⸢rev•layer_1⸥
 
 ## Capa 2: Esqueleto (Las Fronteras)
-⸢rev|layer_2⸥
+⸢rev•layer_2⸥
 
 ## Capa 3: Pseudocode (El Cerebro)
-⸢rev|layer_3⸥
+⸢rev•layer_3⸥
 
 ## Capa 4: Patterns (El Estilo)
-⸢rev|layer_4⸥
+⸢rev•layer_4⸥
 
 ## Capa 5: Unit Tests (La Muralla)
-⸢rev|layer_5⸥
+⸢rev•layer_5⸥
 """.strip()
 
     name: str

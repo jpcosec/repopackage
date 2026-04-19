@@ -14,32 +14,33 @@ class PillMetadata(BaseModel):
     scope: str
     language: str
     nature: str
-
 class PillModel(BaseArtifactModel):
     __template__: ClassVar[str] = """
-# ⸢jinja2|{{ metadata.id }} - {{ title }}⸥
+# ⸢rev•title⸥
+(ID: ⸢jinja2•{{ metadata.id }}⸥)
 
 ## Metadata
-⸢rev|dict|metadata⸥
+⸢rev,dict•metadata⸥
 
 ## Why
-⸢rev|why⸥
+⸢rev•why⸥
 
 ## What
-⸢rev|what⸥
+⸢rev•what⸥
 
 ## When
-⸢revop|when⸥
+⸢revop•when⸥
 
 ## Where
-⸢revop|where⸥
+⸢revop•where⸥
 
 ## How
-⸢rev|how⸥
+⸢rev•how⸥
 
 ---
-**Lifecycle:** ⸢rev|lifecycle⸥
+**Lifecycle:** ⸢rev•lifecycle⸥
 """.strip()
+
 
     title: str
     metadata: PillMetadata

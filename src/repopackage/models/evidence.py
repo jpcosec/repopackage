@@ -3,20 +3,20 @@ from repopackage.models.base import BaseArtifactModel
 
 class EvidenceModel(BaseArtifactModel):
     __template__: ClassVar[str] = """
-# Evidence: ⸢rev|task_id⸥
+# Evidence: ⸢rev•task_id⸥
 
 ## Result
-- **Passed:** ⸢rev|passed⸥
-- **Lint OK:** ⸢rev|lint_ok⸥
-- **Tests OK:** ⸢rev|tests_ok⸥
+- **Passed:** ⸢rev•passed⸥
+- **Lint OK:** ⸢rev•lint_ok⸥
+- **Tests OK:** ⸢rev•tests_ok⸥
 
 ## Raw Log
 ```
-⸢rev|raw_log⸥
+⸢rev•raw_log⸥
 ```
 
 ---
-**Commit SHA:** ⸢revop|commit_sha⸥
+**Commit SHA:** ⸢revop•commit_sha⸥
 """.strip()
 
     task_id: str
