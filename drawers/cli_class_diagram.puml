@@ -1,0 +1,114 @@
+@startuml
+skinparam monochrome true
+skinparam defaultFontName "Monospace"
+
+title Diagrama de Clases: Repopackage CLI + Domain Layer
+
+package "repopackage.cli" {
+    class RepopackageApp {
+        +run()
+        -setup_routing()
+    }
+    note bottom of RepopackageApp: Thin shell.\nSolo routing y output Rich.
+}
+
+package "repopackage.workflow" <<Domain Layer>> {
+    class Workspace {
+        +root: Path
+        +desk: Desk
+        +drawers: Drawers
+        +phases(): List[Phase]
+        +last_phase(): Phase
+        +phase(id): Phase
+    }
+
+    class Phase {
+        +id: str
+        +tasks(): List[WorkflowTask]
+        +eval(): EvalResult
+    }
+
+    class Desk {
+        +tasks: TaskCollection
+        +pills: PillCollection
+        +board_sync()
+    }
+
+    class TaskCollection {
+        +all(): List[WorkflowTask]
+        +get(id): WorkflowTask
+        +atomize(task_id): List[WorkflowPill]
+    }
+
+    class PillCollection {
+        +all(): List[WorkflowPill]
+        +inject(task_id, pill_id)
+    }
+
+    class Drawers {
+        +list(): List[DrawerSpec]
+        +add(path, title, domain): DrawerSpec
+        +promote(spec_id): WorkflowTask
+        +audit(): List[str]
+    }
+
+    class WorkflowTask {
+        +model: TaskModel
+        +path: Path
+        +save()
+    }
+
+    class WorkflowPill {
+        +model: PillModel
+        +path: Path
+        +save()
+    }
+
+    class EvalResult {
+        +passed: int
+        +failed: int
+        +output: str
+        +success: bool
+    }
+}
+
+package "repopackage.cli.engines" <<IO Layer>> {
+    class MarkdownEngine {
+        +extract_sections(): Dict
+        +extract_section(name): str
+        +update_section(name, content): str
+    }
+
+    class BoardWriter {
+        +render_board(): str
+    }
+}
+
+package "repopackage.cli.models" <<Pydantic>> {
+    class TaskModel
+    class PillModel
+}
+
+' CLI -> Domain
+RepopackageApp --> Workspace
+
+' Domain relationships
+Workspace --> Desk
+Workspace --> Drawers
+Workspace --> Phase
+Desk --> TaskCollection
+Desk --> PillCollection
+TaskCollection --> WorkflowTask
+PillCollection --> WorkflowPill
+Phase --> WorkflowTask
+Phase --> EvalResult
+Drawers --> WorkflowTask
+
+' Domain -> IO
+WorkflowTask --> MarkdownEngine : reads
+WorkflowPill --> MarkdownEngine : reads
+WorkflowTask --> TaskModel : wraps
+WorkflowPill --> PillModel : wraps
+Desk --> BoardWriter : uses
+
+@enduml

@@ -1,34 +1,31 @@
-from typing import List, ClassVar
-from pydantic import BaseModel, Field
+from typing import Any, ClassVar, Dict, List, Literal
+from pydantic import BaseModel, Field, model_validator
 from repopackage.models.base import BaseArtifactModel
+
 
 class ContractField(BaseModel):
     name: str
     type: str
     description: str
 
+
 class ValidationState(BaseModel):
     unit_tests: bool = False
     contract_tests: bool = False
     linting_passed: bool = False
 
+
 class ModuleContractModel(BaseArtifactModel):
-    __template__: ClassVar[str] = """
-module_name: "⸢rev•module_name⸥"
-version: "⸢rev•version⸥"
-description: "⸢rev•description⸥"
-interface:
-  inputs:
-⸢rev,table•inputs⸥
-  outputs:
-⸢rev,table•outputs⸥
-traits:
-  - ⸢rev•traits⸥
-validation:
-  unit_tests: ⸢rev•validation•unit_tests⸥
-  contract_tests: ⸢rev•validation•contract_tests⸥
-  linting_passed: ⸢rev•validation•linting_passed⸥
-""".strip()
+    __format__: ClassVar[Literal["markdown", "yaml"]] = "yaml"
+
+    @model_validator(mode="before")
+    @classmethod
+    def _flatten_interface(cls, data: Any) -> Any:
+        if isinstance(data, dict) and "interface" in data:
+            iface = data.pop("interface") or {}
+            data.setdefault("inputs", iface.get("inputs", []))
+            data.setdefault("outputs", iface.get("outputs", []))
+        return data
 
     module_name: str
     version: str

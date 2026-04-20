@@ -29,6 +29,16 @@ A sequential `search_index` is tracked to ensure identical blocks (like two iden
 
 ### 4. `SharedNodeHandler` 
 *File: `node_handler.py`*
-The central routing Factory bridging logic natively across parsing and extracting.
+The central routing Factory bridging logic natively across parsing and extracting utilizing a **2-Step Block Strategy**:
+1. **Outer Block Handling**: Identifies the container (`ordered_list`, `bullet_list`, `tbody`) and computes its internal data boundary limits structurally for iteration.
+2. **Inner Iterators**: Recursively steps into child items (`tr`, `li`) mapping arbitrarily deep nested payloads without fixed scalar path collisions automatically.
+
 * **`TextNodeHandler`**: Natively targets basic Literals exclusively (Headings, Paragraphs, Quotes, Fences, HTML). Iteratively avoids double-mapping generic parent components by explicitly refusing nodes with children.
-* **`ListNodeHandler`** & **`TableNodeHandler`**: Polymorphic container interceptors. Stops the extraction loop from diving into messy child Literals. Instead, they digest the AST root of the entire list/table container efficiently, allowing row/column and multiple element iterations securely mapped into Pydantic representations natively format `{"prop": "match"}`.
+* **`ListNodeHandler`** & **`TableNodeHandler`**: Polymorphic container interceptors operating on the 2-Step model. They eat AST arrays cleanly mapping `N-depth` properties natively `{prop: val}`.
+
+### The Comma Delimiter Trait Rule
+*CRITICAL:* Pydantic structural templates must **NEVER** use the pipe `|` character when isolating traits inside extraction markers (e.g. `⸢rev|table•col1⸥`). Since standard `mdast` / `markdown-it` parsing processes pipes as formal cell column delineators, it will rip the marker payload apart across multiple cells and break structural alignment. 
+
+Always use **commas** for inner-modifier lists:
+✅ **Correct:** `⸢rev,table•col1⸥`
+❌ **Broken AST:** `⸢rev|table•col1⸥`

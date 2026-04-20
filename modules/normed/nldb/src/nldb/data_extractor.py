@@ -1,7 +1,7 @@
 import re
 from typing import List, Dict, Any
 from markdown_it.tree import SyntaxTreeNode
-from repopackage.nldb_engine.node_handler import SharedNodeHandler
+from nldb.node_handler import SharedNodeHandler
 
 class DataExtractor:
     """

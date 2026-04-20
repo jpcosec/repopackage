@@ -1,3 +1,5 @@
+from typing import List, Dict, Any, Optional
+from pydantic import Field
 from repopackage.nldb_engine.models import StructuredNLDoc
 
 class BasicParagraphModel(StructuredNLDoc):
@@ -18,24 +20,29 @@ This is an ⸢rev•paragraph1⸥.
 
 <div class="test">⸢rev•html_block⸥</div>
 
-* Item A: ⸢rev•list_item1⸥
-* Item B: ⸢rev•list_item2⸥
+* Item ⸢rev,list•item_id⸥: ⸢rev,list•item_name⸥
 
-1. Ordered: ⸢rev•olist_item1⸥
+1. Ordered: ⸢rev,list•olist_item1⸥
 
 | Col 1 | Col 2 |
 | ----- | ----- |
-| ⸢rev•tc1⸥ | ⸢rev•tc2⸥ |
+| ⸢rev,table•tc1⸥ | ⸢rev,table•tc2⸥ |
 """
     heading1: str
     paragraph1: str
     quote1: str
     code1: str
     setext_heading: str
-    indented_code: str
-    html_block: str
-    list_item1: str
-    list_item2: str
-    olist_item1: str
-    tc1: str
-    tc2: str
+    indented_code: Optional[str] = None
+    html_block: Optional[str] = None
+    
+    # Grouped fields: 
+    # item_id and item_name are in the same list, 
+    # so they are returned as a list of dicts under the first key
+    item_id: List[Dict[str, str]] = Field(default_factory=list)
+    
+    olist_item1: List[str] = Field(default_factory=list)
+    
+    # tc1 and tc2 are in the same table, 
+    # so they are returned as a dict of dicts under the first key
+    tc1: Dict[int, Dict[str, str]] = Field(default_factory=dict)

@@ -1,0 +1,80 @@
+@startuml
+skinparam monochrome true
+skinparam componentStyle rectangle
+
+title Arquitectura del CLI (Capas y Flujo de Datos)
+
+package "Repopackage CLI (rp)" #FEFEFE {
+    [cli.core] as Core <<Typer App>>
+
+    folder "CLI Submodules (Thin Shells)" {
+        [cli.system] as System
+        [cli.desk] as Desk
+        [cli.drawers] as DrawersCLI
+        [cli.eval] as EvalCLI
+    }
+}
+
+package "Workflow Domain Layer" #F0F8FF {
+    [workflow.Workspace] as WS
+    [workflow.Desk] as WDesk
+    [workflow.Drawers] as WDrawers
+    [workflow.Phase] as WPhase
+    [workflow.Task/Pill] as WTask
+}
+
+package "IO Layer" #F9F9F9 {
+    [MarkdownEngine] as MD <<Regex Reader>>
+    [BoardWriter] as BW <<Jinja2 Writer>>
+    [Jinja2 Templates] as J2 <<.jinja2 files>>
+    [models.TaskModel] as TM <<Pydantic>>
+    [models.PillModel] as PM <<Pydantic>>
+}
+
+database "File System (4-Zone)" {
+    folder "desk/" {
+        [tasks/*.md] as TasksDB
+        [pills/*.md] as PillsDB
+    }
+    folder "drawers/" {
+        [Board.md + specs] as DrawersDB
+    }
+    folder "runs/" {
+        [RUN-XXX/] as RunArtifacts
+    }
+}
+
+' CLI -> Domain (thin shells only)
+Core --> System
+Core --> Desk
+Core --> DrawersCLI
+Core --> EvalCLI
+
+Desk --> WS
+DrawersCLI --> WS
+EvalCLI --> WS
+
+' Domain internal
+WS --> WDesk
+WS --> WDrawers
+WS --> WPhase
+WDesk --> WTask
+WDrawers --> WTask
+
+' Domain -> IO
+WTask --> MD : reads .md
+WTask --> J2 : writes via Jinja2
+WDesk --> BW : board_sync
+BW --> J2
+
+' IO -> Pydantic
+MD --> TM
+MD --> PM
+
+' IO -> FileSystem
+BW --> TasksDB
+WTask --> TasksDB
+WTask --> PillsDB
+WDrawers --> DrawersDB
+
+@enduml

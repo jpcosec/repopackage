@@ -1,0 +1,39 @@
+@startuml
+skinparam monochrome true
+skinparam packageStyle rect
+skinparam defaultFontName "Monospace"
+
+title Faseado de Implementación: Repopackage CLI
+
+participant "Phase 1: Core & System" as P1 #F0F0F0
+participant "Phase 2: Desk & Tasks" as P2
+participant "Phase 3: Drawers & Promotion" as P3
+participant "Phase 4: Exec & Capture" as P4
+participant "Phase 5: Eval & Audit" as P5
+
+== Core Infrastructure ==
+P1 -> P1: Setup Typer Shell
+P1 -> P1: Command: init-project
+note right: Creación de 4-Zone model
+
+== Work Surface ==
+P2 -> P2: Command: tasks atomize
+P2 -> P2: Command: board sync
+note right: Manipulación de .md via Regex/Templates
+
+== Backlog Management ==
+P3 -> P3: Command: drawers add/list
+P3 -> P3: Command: drawers promote
+note right: Transformación Spec -> Task
+
+== Agent Orchestration ==
+P4 -> P4: Command: exec dispatch
+P4 -> P4: Command: capture rescue
+note right: Gestión de carpetas /runs/
+
+== Quality Gate ==
+P5 -> P5: Command: eval audit-laws
+P5 -> P5: Command: eval test
+note right: Validación de contratos y 80/10 rule
+
+@enduml

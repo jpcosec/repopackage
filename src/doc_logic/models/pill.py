@@ -1,12 +1,14 @@
 from enum import Enum
-from typing import ClassVar
+from typing import ClassVar, Literal
 from pydantic import BaseModel
 from repopackage.models.base import BaseArtifactModel
+
 
 class PillLifecycle(str, Enum):
     KEEP = "Keep"
     DELETE = "Delete"
     PROMOTE = "Promote"
+
 
 class PillMetadata(BaseModel):
     id: str
@@ -15,34 +17,9 @@ class PillMetadata(BaseModel):
     language: str
     nature: str
 
+
 class PillModel(BaseArtifactModel):
-    __template__: ClassVar[str] = """
-# ⸢rev•title⸥
-(ID: ⸢metadata•id⸥)
-
-## Metadata
-```yaml
-⸢rev,dict•metadata⸥
-```
-
-## Why
-⸢rev•why⸥
-
-## What
-⸢rev•what⸥
-
-## When
-⸢revop•when⸥
-
-## Where
-⸢revop•where⸥
-
-## How
-⸢rev•how⸥
-
----
-⸢rev•lifecycle⸥
-""".strip()
+    __format__: ClassVar[Literal["markdown", "yaml"]] = "markdown"
 
     title: str
     metadata: PillMetadata
