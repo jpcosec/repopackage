@@ -5,9 +5,9 @@ import pytest
 sys.path.insert(0, os.path.dirname(__file__))
 
 # Make sure our new redesign components import
-from repopackage.nldb_engine.ast_handler import AST_Handler
-from repopackage.nldb_engine.template_extractor import TemplateExtractor
-from repopackage.nldb_engine.data_extractor import DataExtractor
+from nldb.ast_handler import AST_Handler
+from nldb.template_extractor import TemplateExtractor
+from nldb.data_extractor import DataExtractor
 from test_model import BasicParagraphModel
 
 def test_ast_handler_redesign():

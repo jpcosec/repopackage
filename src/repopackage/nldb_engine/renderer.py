@@ -1,8 +1,8 @@
 import re
 from typing import Any, Dict, List
-from repopackage.nldb_engine.models import StructuredNLDoc
-from repopackage.nldb_engine.ast_handler import AST_Handler
-from repopackage.nldb_engine.node_handler import SharedNodeHandler
+from nldb.structuredNLDoc import StructuredNLDoc
+from nldb.ast_handler import AST_Handler
+from nldb.node_handler import SharedNodeHandler
 
 class NLDBRenderer:
     """

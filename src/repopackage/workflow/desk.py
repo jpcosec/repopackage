@@ -3,7 +3,7 @@ from repopackage.workflow.tasks import TaskCollection
 from repopackage.workflow.pills import PillCollection
 from repopackage.workflow.operations import WorkflowOperations
 from repopackage.models.board import BoardModel, PhaseModel
-from repopackage.nldb_engine.renderer import NLDBRenderer
+from nldb.renderer import NLDBRenderer
 
 class Desk:
     def __init__(self, workspace: Workspace):

@@ -1,10 +1,10 @@
 from pathlib import Path
 from typing import List, Optional
 from repopackage.models.task import TaskModel
-from repopackage.nldb_engine.ast_handler import AST_Handler
-from repopackage.nldb_engine.template_extractor import TemplateExtractor
-from repopackage.nldb_engine.data_extractor import DataExtractor
-from repopackage.nldb_engine.renderer import NLDBRenderer
+from nldb.ast_handler import AST_Handler
+from nldb.template_extractor import TemplateExtractor
+from nldb.data_extractor import DataExtractor
+from nldb.renderer import NLDBRenderer
 
 class TaskCollection:
     def __init__(self, workspace):

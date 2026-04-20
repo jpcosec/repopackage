@@ -1,7 +1,7 @@
 import sys, os
-from repopackage.nldb_engine.ast_handler import AST_Handler
-from repopackage.nldb_engine.template_extractor import TemplateExtractor
-from repopackage.nldb_engine.data_extractor import DataExtractor
+from nldb.ast_handler import AST_Handler
+from nldb.template_extractor import TemplateExtractor
+from nldb.data_extractor import DataExtractor
 
 # Import all models dynamically or explicitly
 from repopackage.models.board import BoardModel

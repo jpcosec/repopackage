@@ -1,7 +1,7 @@
 import os
 import sys
 import pytest
-from repopackage.nldb_engine.renderer import NLDBRenderer
+from nldb.renderer import NLDBRenderer
 from test_model import BasicParagraphModel
 
 def test_renderer_basic():

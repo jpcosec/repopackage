@@ -1,6 +1,6 @@
 from typing import List, Dict, Any, Optional
 from pydantic import Field
-from repopackage.nldb_engine.models import StructuredNLDoc
+from nldb.structuredNLDoc import StructuredNLDoc
 
 class BasicParagraphModel(StructuredNLDoc):
     __template__ = """# ⸢rev•heading1⸥

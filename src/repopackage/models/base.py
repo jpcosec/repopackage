@@ -1,4 +1,4 @@
-from repopackage.nldb_engine.models import StructuredNLDoc
+from nldb.structuredNLDoc import StructuredNLDoc
 
 class BaseArtifactModel(StructuredNLDoc):
     """Base class for all RepoPackage artifacts."""
