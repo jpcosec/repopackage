@@ -1,7 +1,7 @@
 ---
 id: 6
 domain: manifest/sync
-status: in-progress
+status: in_progress
 priority: p1
 
 created: "2026-05-01"
