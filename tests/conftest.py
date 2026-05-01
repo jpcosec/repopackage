@@ -10,8 +10,57 @@ def _init(path):
     return pygit2.init_repository(str(path))
 
 
-def _commit(repo, tree_id):
-    repo.create_commit("refs/heads/master", _SIG, _SIG, "init", tree_id, [])
+def _commit(repo, tree_id, message="init", ref="refs/heads/master"):
+    repo.create_commit(ref, _SIG, _SIG, message, tree_id, [])
+
+
+def _create_contract(repo, name, version="1.0.0"):
+    content = f"name: {name}\nversion: {version}\nexports: []\nconsumes: []".encode()
+    bid = repo.create_blob(content)
+    inner = repo.TreeBuilder()
+    inner.insert("integration.contract.yaml", bid, pygit2.GIT_FILEMODE_BLOB)
+    outer = repo.TreeBuilder()
+    outer.insert("contracts", inner.write(), pygit2.GIT_FILEMODE_TREE)
+    return outer.write()
+
+
+@pytest.fixture
+def ecosystem_delivery_fixture(tmp_path):
+    """
+    Sets up a realistic multi-repo environment:
+    - ui-kit (central line, master)
+    - diagnostics (has master and feat/new-check)
+    """
+    remotes = tmp_path / "remotes"
+    remotes.mkdir()
+
+    # 1. UI KIT (Central)
+    ui_path = remotes / "ui-kit"
+    ui_repo = _init(ui_path)
+    ui_tree = _create_contract(ui_repo, "ui-kit")
+    _commit(ui_repo, ui_tree)
+
+    # 2. DIAGNOSTICS
+    diag_path = remotes / "diagnostics"
+    diag_repo = _init(diag_path)
+    
+    # Master branch
+    diag_tree_master = _create_contract(diag_repo, "diagnostics", version="1.0.0")
+    _commit(diag_repo, diag_tree_master)
+
+    # Contextual branch: feat/new-check
+    # We need a different tree or just a different commit
+    diag_tree_feat = _create_contract(diag_repo, "diagnostics", version="1.1.0-alpha")
+    diag_repo.create_commit(
+        "refs/heads/feat/new-check", _SIG, _SIG, "add new check", 
+        diag_tree_feat, [diag_repo.head.target]
+    )
+
+    return {
+        "root": tmp_path,
+        "ui-kit": ui_path,
+        "diagnostics": diag_path,
+    }
 
 
 @pytest.fixture

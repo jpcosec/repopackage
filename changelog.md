@@ -2,6 +2,8 @@
 
 ## 2026-05-01
 
+- resolved task `008-create-real-use-case-fixture`: Create real use case fixture
+
 - resolved task `007-validate-materialized-workspace`: 007-validate-materialized-workspace
 
 - resolved task `005-implement-rp-status`: 005-implement-rp-status
