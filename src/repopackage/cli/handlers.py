@@ -61,7 +61,8 @@ def handle_validate():
 def _perform_validation(lock_data):
     ws = Path(constants.WORKSPACE_DIR)
     all_passed = True
-    for pkg in lock_data.get("repopackages", {}).keys():
+    packages = lock_data.get("packages", lock_data.get("repopackages", {}))
+    for pkg in packages.keys():
         if not _validate_package(ws / "packages" / pkg, pkg):
             all_passed = False
     if all_passed:
@@ -86,7 +87,9 @@ def handle_status():
     print(f"{'Package':<20} {'Lockfile SHA':<12} {'Workspace SHA':<12} {'Status'}")
     print("-" * 65)
     
-    for name, data in lock_data.get("repopackages", {}).items():
+    packages = lock_data.get("packages", lock_data.get("repopackages", {}))
+    for name, data in packages.items():
+        # Handle both old dict format and new ResolvedPackage model (which becomes a dict here)
         pkg_path = ws / name
         lock_sha = data["commit"][:8]
         

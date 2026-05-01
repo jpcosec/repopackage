@@ -99,12 +99,50 @@ class CompositionSolver:
                 raise Exception(f"CONTRACT_MISMATCH: {name} requires {req.name}")
 
     def _generate_lockfile(self, root) -> Dict[str, Any]:
-        res = {"kind": "composition_index", "project": root,
-               "resolved_at": datetime.utcnow().isoformat() + "Z",
-               "repopackages": {}, "compatibility": {"status": "passed", "results": []}}
+        from datetime import datetime, timezone
+        import hashlib
+        import json
+        from .models import Lockfile, ResolvedPackage
+
+        # Create a serializable version of the graph for hashing
+        serializable_nodes = []
+        for n, d in self.graph.nodes(data=True):
+            node_data = {"id": n}
+            for k, v in d.items():
+                if isinstance(v, (str, int, float, bool, list, dict, type(None))):
+                    node_data[k] = v
+                elif hasattr(v, "model_dump"): # Pydantic models
+                    node_data[k] = v.model_dump()
+            serializable_nodes.append(node_data)
+        
+        manifest_data = json.dumps({
+            "nodes": serializable_nodes,
+            "edges": list(self.graph.edges())
+        }, sort_keys=True)
+        manifest_hash = hashlib.sha256(manifest_data.encode()).hexdigest()
+
+        packages = {}
         for n, d in self.graph.nodes(data=True):
             if d["type"] == "pkg":
-                res["repopackages"][n] = {"url": d["url"], "branch": d["branch"],
-                                          "commit": d["commit"], "status": "resolved"}
-                res["compatibility"]["results"].append({"package": n, "status": "passed"})
-        return res
+                packages[n] = ResolvedPackage(
+                    name=n,
+                    url=d["url"],
+                    branch=d["branch"],
+                    commit=d["commit"],
+                    compatibility_status="passed"
+                )
+
+        lockfile = Lockfile(
+            project=root,
+            packages=packages,
+            manifest_hash=manifest_hash,
+            resolved_at=datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+        )
+        
+        # Ensure compatibility with old tests expecting 'compatibility' section
+        data = lockfile.model_dump()
+        data["compatibility"] = {
+            "status": "passed",
+            "results": [{"package": n, "status": "passed"} for n in packages]
+        }
+        return data

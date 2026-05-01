@@ -1,0 +1,6 @@
+networkx
+pygit2
+ruamel.yaml
+pydantic
+semantic_version
+jsonschema

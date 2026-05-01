@@ -1,0 +1,9 @@
+kind: project
+name: repopackage
+uses:
+  ui-kit:
+    url: /tmp/dummy_repos/ui-kit
+    branch: master
+  code-quality-auditor:
+    url: /tmp/dummy_repos/code-quality-auditor
+    branch: master

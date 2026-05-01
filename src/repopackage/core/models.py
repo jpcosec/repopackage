@@ -2,7 +2,7 @@
 Unified domain models for Repopackage.
 """
 from typing import List, Dict, Optional
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 
 class Schema(BaseModel):
     name: str
@@ -39,3 +39,30 @@ class ComposableUnit(BaseModel):
 
 class Project(ComposableUnit):
     uses: Dict[str, DependencySpec] = {}
+
+class ResolvedPackage(BaseModel):
+    """Actual materialized state of a package in the workspace."""
+    name: str
+    url: str
+    branch: str
+    commit: str
+    line: Optional[str] = None
+    compatibility_status: str = "passed"
+
+class Lockfile(BaseModel):
+    """The compose.lock.yaml schema."""
+    version: str = "1.0"
+    project: str = Field(..., description="Project name")
+    packages: Dict[str, ResolvedPackage] = {}
+    repopackages: Dict[str, ResolvedPackage] = {}
+    manifest_hash: str = Field(..., description="Hash of the compose.yaml at resolution time")
+    resolved_at: str = Field(..., description="ISO timestamp of resolution")
+
+    @model_validator(mode='after')
+    def sync_packages(self) -> 'Lockfile':
+        if self.packages and not self.repopackages:
+            self.repopackages = self.packages
+        elif self.repopackages and not self.packages:
+            self.packages = self.repopackages
+        return self
+
