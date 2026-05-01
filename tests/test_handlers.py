@@ -41,6 +41,59 @@ def test_handle_status_not_found_exits(tmp_path, monkeypatch):
         handle_status()
 
 
+def test_handle_status_shows_package_states(capsys, tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    
+    # 1. Setup Lockfile
+    lock_data = {
+        "project": "test-project",
+        "packages": {
+            "pkg-ok": {"url": "u1", "branch": "b1", "commit": "aaaaaa11"},
+            "pkg-missing": {"url": "u2", "branch": "b2", "commit": "bbbbbb22"},
+            "pkg-dirty": {"url": "u3", "branch": "b3", "commit": "cccccc33"},
+        }
+    }
+    from ruamel.yaml import YAML
+    yaml = YAML()
+    with open("compose.lock.yaml", "w") as f:
+        yaml.dump(lock_data, f)
+        
+    # 2. Setup Workspace
+    ws = tmp_path / "workspace/packages"
+    ws.mkdir(parents=True)
+    (ws / "pkg-ok").mkdir()
+    (ws / "pkg-dirty").mkdir()
+    # pkg-missing remains missing
+    
+    # 3. Mock pygit2
+    class MockRepo:
+        def __init__(self, path):
+            self.path = path
+            class Head:
+                def __init__(self, target): self.target = target
+            if "pkg-ok" in str(path):
+                self.head = Head("aaaaaa11abcdef")
+            else:
+                self.head = Head("diff-commit-xyz")
+                
+    import pygit2
+    monkeypatch.setattr(pygit2, "Repository", MockRepo)
+    
+    # 4. Run
+    handle_status()
+    out = capsys.readouterr().out
+    
+    assert "pkg-ok" in out
+    assert "aaaaaa11" in out
+    assert "OK" in out
+    
+    assert "pkg-missing" in out
+    assert "MISSING" in out
+    
+    assert "pkg-dirty" in out
+    assert "DIRTY/DIFF" in out
+
+
 def test_handle_generate_scans_workspace(capsys, tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
     # Create empty workspace to avoid error
