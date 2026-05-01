@@ -39,19 +39,43 @@ class RepoAdapter:
                            cwd=path, check=True)
 
     def _build_manifest_xml(self, root, data):
-        ET.SubElement(root, "remote", name="default", fetch=".")
-        ET.SubElement(root, "default", revision="main", remote="default")
+        # Default remote for relative paths
+        default_fetch = "."
+        ET.SubElement(root, "remote", name="origin", fetch=default_fetch)
+        ET.SubElement(root, "default", revision="master", remote="origin")
+        
         packages = data.get("packages", data.get("repopackages", {}))
+        remotes_map = {default_fetch: "origin"} # fetch_base -> remote_name
+        
         for name, pkg in packages.items():
-            self._add_project_node(root, name, pkg)
+            url = pkg["url"]
+            fetch_base, project_name = self._derive_fetch_and_name(url)
+            
+            if fetch_base not in remotes_map:
+                rem_name = f"remote_{len(remotes_map)}"
+                remotes_map[fetch_base] = rem_name
+                ET.SubElement(root, "remote", name=rem_name, fetch=fetch_base)
+            
+            rem_name = remotes_map[fetch_base]
+            ET.SubElement(root, "project", name=project_name,
+                          path=f"packages/{name}", remote=rem_name,
+                          revision=pkg.get("commit") or pkg.get("branch", "master"))
 
-    def _add_project_node(self, root, pkg_name, pkg):
-        url = pkg["url"]
-        rem_name = f"remote_{pkg_name.replace('-', '_')}"
-        ET.SubElement(root, "remote", name=rem_name, fetch=os.path.dirname(url))
-        ET.SubElement(root, "project", name=os.path.basename(url),
-                      path=f"packages/{pkg_name}", remote=rem_name,
-                      revision=pkg.get("commit") or pkg.get("branch", "main"))
+    def _derive_fetch_and_name(self, url):
+        """Robustly derives the fetch base and project name from various URL forms."""
+        if url.startswith("git@"):
+            if ":" in url:
+                base, path = url.split(":", 1)
+                return f"{base}:", path
+            return os.path.dirname(url), os.path.basename(url)
+        elif "://" in url:
+            from urllib.parse import urlparse
+            parsed = urlparse(url)
+            fetch = f"{parsed.scheme}://{parsed.netloc}"
+            path = parsed.path.lstrip("/")
+            return fetch, path
+        # Local paths
+        return os.path.dirname(url), os.path.basename(url)
 
     def _write_and_commit(self, path, root):
         ET.ElementTree(root).write(path / "default.xml", encoding="utf-8")

@@ -2,6 +2,8 @@
 
 ## 2026-05-01
 
+- resolved task `006-fix-manifest-generation`: Fix manifest generation
+
 - resolved task `009-run-end-to-end-composition-flow`: Run end-to-end composition flow
 
 - resolved task `008-create-real-use-case-fixture`: Create real use case fixture
