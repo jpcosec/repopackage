@@ -47,10 +47,12 @@ def test_handle_status_shows_package_states(capsys, tmp_path, monkeypatch):
     # 1. Setup Lockfile
     lock_data = {
         "project": "test-project",
+        "manifest_hash": "dummy-hash",
+        "resolved_at": "2026-05-01T12:00:00",
         "packages": {
-            "pkg-ok": {"url": "u1", "branch": "b1", "commit": "aaaaaa11"},
-            "pkg-missing": {"url": "u2", "branch": "b2", "commit": "bbbbbb22"},
-            "pkg-dirty": {"url": "u3", "branch": "b3", "commit": "cccccc33"},
+            "pkg-ok": {"name": "pkg-ok", "url": "u1", "branch": "b1", "commit": "aaaaaa11"},
+            "pkg-missing": {"name": "pkg-missing", "url": "u2", "branch": "b2", "commit": "bbbbbb22"},
+            "pkg-dirty": {"name": "pkg-dirty", "url": "u3", "branch": "b3", "commit": "cccccc33"},
         }
     }
     from ruamel.yaml import YAML

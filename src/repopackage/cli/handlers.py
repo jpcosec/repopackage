@@ -49,27 +49,73 @@ def handle_sync():
     adapter.sync(manifest_repo)
     print("Sync complete.")
 
+from ..core.models import Lockfile
+
 def handle_validate():
     """Verifies workspace integrity and schema presence."""
     if not Path(constants.LOCK_FILE).exists():
         print(f"{constants.LOCK_FILE} not found!")
         sys.exit(1)
     with open(constants.LOCK_FILE, "r") as f:
-        lock_data = yaml.load(f)
-    _perform_validation(lock_data)
+        raw_data = yaml.load(f)
+    
+    try:
+        lock = Lockfile(**raw_data)
+    except Exception as e:
+        print(f"Error parsing lockfile: {e}")
+        sys.exit(1)
 
-def _perform_validation(lock_data):
-    ws = Path(constants.WORKSPACE_DIR)
-    all_passed = True
-    packages = lock_data.get("packages", lock_data.get("repopackages", {}))
-    for pkg in packages.keys():
-        if not _validate_package(ws / "packages" / pkg, pkg):
-            all_passed = False
-    if all_passed:
+    _perform_validation(lock)
+
+def _perform_validation(lock: Lockfile):
+    ws = Path(constants.WORKSPACE_DIR) / "packages"
+    errors = []
+    
+    for name, pkg in lock.packages.items():
+        pkg_path = ws / name
+        pkg_errors = _validate_package_state(pkg_path, pkg)
+        errors.extend(pkg_errors)
+        
+    if not errors:
         print("Validation passed.")
     else:
-        print("Validation failed.")
+        print("Validation failed:")
+        for err in errors:
+            print(f"  - {err}")
         sys.exit(1)
+
+def _validate_package_state(pkg_path, pkg):
+    errors = []
+    if not pkg_path.exists():
+        errors.append(f"{pkg.name} missing from workspace!")
+        return errors
+        
+    # Check commit
+    try:
+        repo = pygit2.Repository(str(pkg_path))
+        ws_sha = str(repo.head.target)
+        if not ws_sha.startswith(pkg.commit):
+            errors.append(f"{pkg.name} commit mismatch: expected {pkg.commit[:8]}, found {ws_sha[:8]}")
+    except Exception as e:
+        errors.append(f"{pkg.name} git error: {e}")
+
+    # Check contract
+    c_path = pkg_path / constants.CONTRACT_PATH
+    if not c_path.exists():
+        errors.append(f"{pkg.name} missing {constants.CONTRACT_PATH}!")
+    else:
+        try:
+            with open(c_path, "r") as f:
+                data = yaml.load(f)
+            # Check schemas
+            for s in data.get("exports", []) + data.get("consumes", []):
+                s_file = pkg_path / s["schema"]
+                if not s_file.exists():
+                    errors.append(f"Schema {s['schema']} for {pkg.name} missing!")
+        except Exception as e:
+            errors.append(f"{pkg.name} contract parse error: {e}")
+            
+    return errors
 
 import pygit2
 import networkx as nx
@@ -81,17 +127,21 @@ def handle_status():
         sys.exit(1)
         
     with open(constants.LOCK_FILE, "r") as f:
-        lock_data = yaml.load(f)
+        raw_data = yaml.load(f)
+        
+    try:
+        lock = Lockfile(**raw_data)
+    except Exception as e:
+        print(f"Error parsing lockfile: {e}")
+        sys.exit(1)
         
     ws = Path(constants.WORKSPACE_DIR) / "packages"
     print(f"{'Package':<20} {'Lockfile SHA':<12} {'Workspace SHA':<12} {'Status'}")
     print("-" * 65)
     
-    packages = lock_data.get("packages", lock_data.get("repopackages", {}))
-    for name, data in packages.items():
-        # Handle both old dict format and new ResolvedPackage model (which becomes a dict here)
+    for name, pkg in lock.packages.items():
         pkg_path = ws / name
-        lock_sha = data["commit"][:8]
+        lock_sha = pkg.commit[:8]
         
         if not pkg_path.exists():
             status = "MISSING"
@@ -137,23 +187,3 @@ def handle_graph():
     for u, v in solver.graph.edges():
         print(f"    {u} --> {v}")
 
-def _validate_package(pkg_path, pkg_name):
-    if not pkg_path.exists():
-        print(f"Error: {pkg_name} missing from workspace!")
-        return False
-    c_path = pkg_path / constants.CONTRACT_PATH
-    if not c_path.exists():
-        print(f"Error: {pkg_name} missing {constants.CONTRACT_PATH}!")
-        return False
-    with open(c_path, "r") as f:
-        data = yaml.load(f)
-    return _check_schemas(pkg_path, pkg_name, data)
-
-def _check_schemas(pkg_path, pkg_name, data):
-    ok = True
-    for s in data.get("exports", []) + data.get("consumes", []):
-        s_file = pkg_path / s["schema"]
-        if not s_file.exists():
-            print(f"Error: Schema {s_file} for {pkg_name} missing!")
-            ok = False
-    return ok
