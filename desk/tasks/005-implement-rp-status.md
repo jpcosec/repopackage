@@ -1,13 +1,14 @@
 ---
-id: '002'
-domain: models/solver
+id: '005'
+domain: cli/status
 status: done
-priority: p0
-depends_on: []
+priority: p1
+depends_on:
+- '004'
 created: ''
 ---
 
-# Type dependency specs
+# Implement `rp status`
 
 ## Objective
 
@@ -20,8 +21,8 @@ CLI-managed task materialized from the desk board source of truth.
 
 ## What to Fix
 
-- Domain: `models/solver`
-- Priority: `p0`
+- Domain: `cli/status`
+- Priority: `p1`
 - Status: `done`
 
 ## How to Do It

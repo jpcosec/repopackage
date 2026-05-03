@@ -1,13 +1,16 @@
 ---
-id: '002'
-domain: models/solver
+id: 009
+domain: e2e
 status: done
-priority: p0
-depends_on: []
+priority: p1
+depends_on:
+- '005'
+- '007'
+- 008
 created: ''
 ---
 
-# Type dependency specs
+# Run end-to-end composition flow
 
 ## Objective
 
@@ -20,8 +23,8 @@ CLI-managed task materialized from the desk board source of truth.
 
 ## What to Fix
 
-- Domain: `models/solver`
-- Priority: `p0`
+- Domain: `e2e`
+- Priority: `p1`
 - Status: `done`
 
 ## How to Do It

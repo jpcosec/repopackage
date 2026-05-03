@@ -187,3 +187,65 @@ def handle_graph():
     for u, v in solver.graph.edges():
         print(f"    {u} --> {v}")
 
+def handle_exports():
+    """Enumerates and exposes package-visible capabilities."""
+    if not Path(constants.LOCK_FILE).exists():
+        print(f"{constants.LOCK_FILE} not found! Run 'rp resolve' and 'rp sync' first.")
+        sys.exit(1)
+        
+    with open(constants.LOCK_FILE, "r") as f:
+        raw_data = yaml.load(f)
+        
+    try:
+        lock = Lockfile(**raw_data)
+    except Exception as e:
+        print(f"Error parsing lockfile: {e}")
+        sys.exit(1)
+        
+    ws = Path(constants.WORKSPACE_DIR) / "packages"
+    
+    print(f"## Ecosystem Export Surface (Target: {lock.project})\n")
+    
+    for name, pkg in lock.packages.items():
+        pkg_path = ws / name
+        c_path = pkg_path / constants.CONTRACT_PATH
+        
+        if not c_path.exists():
+            continue
+            
+        try:
+            with open(c_path, "r") as f:
+                data = yaml.load(f)
+                
+            exports = data.get("export_surface", {})
+            if not exports:
+                continue
+                
+            print(f"### Package: {name}")
+            print(f"  Provenance: {pkg.url} @ {pkg.commit[:8]}")
+            
+            # Commands
+            cmds = exports.get("commands", {})
+            if cmds:
+                print("  Commands:")
+                for cname, cdata in cmds.items():
+                    print(f"    - {cname}: {cdata.get('description', 'No description')}")
+            
+            # Contracts
+            contracts = exports.get("contracts", {})
+            if contracts:
+                print("  Contracts:")
+                for cname, cdata in contracts.items():
+                    print(f"    - {cname} (v{cdata.get('version', '?')})")
+                    
+            # Procedures
+            procs = exports.get("procedures", {})
+            if procs:
+                print("  Procedures:")
+                for pname, pdata in procs.items():
+                    print(f"    - {pname}: {pdata.get('description', 'No description')}")
+            print()
+            
+        except Exception as e:
+            print(f"  ⚠️ Error reading exports for {name}: {e}")
+

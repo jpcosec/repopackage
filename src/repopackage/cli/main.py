@@ -27,6 +27,7 @@ def _create_parser():
     _add_status(sub)
     _add_generate(sub)
     _add_graph(sub)
+    _add_exports(sub)
     return p
 
 def _add_init(sub):
@@ -56,6 +57,10 @@ def _add_generate(sub):
 def _add_graph(sub):
     cmd = sub.add_parser("graph", help="Export the dependency graph (Mermaid/PlantUML).")
     cmd.set_defaults(handler=handlers.handle_graph, func=True)
+
+def _add_exports(sub):
+    cmd = sub.add_parser("exports", help="Enumerate and expose package-visible capabilities.")
+    cmd.set_defaults(handler=handlers.handle_exports, func=True)
 
 if __name__ == "__main__":
     main()

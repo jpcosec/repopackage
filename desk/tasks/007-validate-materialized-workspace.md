@@ -1,13 +1,15 @@
 ---
-id: '002'
-domain: models/solver
+id: '007'
+domain: validation
 status: done
-priority: p0
-depends_on: []
+priority: p1
+depends_on:
+- '004'
+- '006'
 created: ''
 ---
 
-# Type dependency specs
+# Validate materialized workspace
 
 ## Objective
 
@@ -20,8 +22,8 @@ CLI-managed task materialized from the desk board source of truth.
 
 ## What to Fix
 
-- Domain: `models/solver`
-- Priority: `p0`
+- Domain: `validation`
+- Priority: `p1`
 - Status: `done`
 
 ## How to Do It

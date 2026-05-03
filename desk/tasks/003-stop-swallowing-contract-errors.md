@@ -1,35 +1,34 @@
 ---
-id: 3
+id: '003'
 domain: solver/contracts
 status: done
 priority: p0
-
-created: "2026-05-01"
+depends_on:
+- '001'
+created: ''
 ---
 
 # Stop swallowing contract errors
 
 ## Objective
 
-Make contract-loading failures explicit enough to debug and safe enough to trust.
+CLI-managed task materialized from the desk board source of truth.
 
 ## Reference
 
-- `docs/DIAGNOSIS.md`
-- `src/repopackage/core/solver.py`
-- `tests/test_solver_graph.py`
+- Board: `repopackage/desk/tasks/Board.md`
+- Desk: `repopackage`
 
 ## What to Fix
 
-Malformed or unreadable contracts currently fall back too silently.
+- Domain: `solver/contracts`
+- Priority: `p0`
+- Status: `done`
 
 ## How to Do It
 
-1. define which failures are recoverable and which are hard errors
-2. remove bare silent fallback behavior
-3. update tests so bad contracts do not look like successful resolution
+Use the repo tests, changelog, and board workflow managed by the CLI.
 
 ## Validation
 
-- malformed contracts produce visible failure or explicit degraded status
-- fallback behavior, if any, is deliberate and test-covered
+Run the relevant repo tests and keep the board plus changelog in sync.

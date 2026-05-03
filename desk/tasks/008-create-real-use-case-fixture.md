@@ -1,13 +1,17 @@
 ---
-id: '002'
-domain: models/solver
+id: 008
+domain: fixtures/e2e
 status: done
-priority: p0
-depends_on: []
+priority: p1
+depends_on:
+- '001'
+- '002'
+- '004'
+- '006'
 created: ''
 ---
 
-# Type dependency specs
+# Create real use case fixture
 
 ## Objective
 
@@ -20,8 +24,8 @@ CLI-managed task materialized from the desk board source of truth.
 
 ## What to Fix
 
-- Domain: `models/solver`
-- Priority: `p0`
+- Domain: `fixtures/e2e`
+- Priority: `p1`
 - Status: `done`
 
 ## How to Do It

@@ -1,6 +1,11 @@
+import sys
+from pathlib import Path
+
 import pytest
 import pygit2
 from unittest.mock import MagicMock
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 _SIG = pygit2.Signature("Test", "t@test.com")
 
@@ -43,7 +48,7 @@ def ecosystem_delivery_fixture(tmp_path):
     # 2. DIAGNOSTICS
     diag_path = remotes / "diagnostics"
     diag_repo = _init(diag_path)
-    
+
     # Master branch
     diag_tree_master = _create_contract(diag_repo, "diagnostics", version="1.0.0")
     _commit(diag_repo, diag_tree_master)
@@ -52,8 +57,12 @@ def ecosystem_delivery_fixture(tmp_path):
     # We need a different tree or just a different commit
     diag_tree_feat = _create_contract(diag_repo, "diagnostics", version="1.1.0-alpha")
     diag_repo.create_commit(
-        "refs/heads/feat/new-check", _SIG, _SIG, "add new check", 
-        diag_tree_feat, [diag_repo.head.target]
+        "refs/heads/feat/new-check",
+        _SIG,
+        _SIG,
+        "add new check",
+        diag_tree_feat,
+        [diag_repo.head.target],
     )
 
     return {

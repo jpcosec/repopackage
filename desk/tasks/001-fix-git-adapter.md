@@ -1,40 +1,33 @@
 ---
-id: 1
+id: '001'
 domain: git-adapter
 status: done
 priority: p0
-
-created: "2026-05-01"
+depends_on: []
+created: ''
 ---
 
 # Fix git adapter for real repo inspection
 
 ## Objective
 
-Make the git adapter capable of resolving commits and reading contract files from real repositories, including nested paths.
+CLI-managed task materialized from the desk board source of truth.
 
 ## Reference
 
-- `docs/DIAGNOSIS.md`
-- `src/repopackage/adapters/git.py`
-- `tests/test_git_adapter.py`
+- Board: `repopackage/desk/tasks/Board.md`
+- Desk: `repopackage`
 
 ## What to Fix
 
-Current failures include:
-
-- no clone/fetch behavior for repos not already on disk
-- broken nested tree traversal
-- incorrect blob access in `read_file`
+- Domain: `git-adapter`
+- Priority: `p0`
+- Status: `done`
 
 ## How to Do It
 
-1. define the cache/clone strategy
-2. fix tree walking and blob resolution
-3. update tests to cover missing-repo and nested-contract reads
+Use the repo tests, changelog, and board workflow managed by the CLI.
 
 ## Validation
 
-- a non-precloned repo can be resolved into a commit hash
-- `contracts/integration.contract.yaml` can be read from nested tree paths
-- failures are explicit instead of misleading
+Run the relevant repo tests and keep the board plus changelog in sync.

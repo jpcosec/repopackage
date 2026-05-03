@@ -33,10 +33,9 @@ class RepoAdapter:
     def _ensure_git_repo(self, path):
         if not (path / ".git").exists():
             subprocess.run(["git", "init", "-q"], cwd=path, check=True)
-            subprocess.run(["git", "config", "user.email", "rp@ex.com"], 
-                           cwd=path, check=True)
-            subprocess.run(["git", "config", "user.name", "RP"], 
-                           cwd=path, check=True)
+        return {**os.environ, 
+                "GIT_AUTHOR_NAME": "RP", "GIT_AUTHOR_EMAIL": "rp@ex.com",
+                "GIT_COMMITTER_NAME": "RP", "GIT_COMMITTER_EMAIL": "rp@ex.com"}
 
     def _build_manifest_xml(self, root, data):
         # Default remote for relative paths
@@ -79,6 +78,7 @@ class RepoAdapter:
 
     def _write_and_commit(self, path, root):
         ET.ElementTree(root).write(path / "default.xml", encoding="utf-8")
-        subprocess.run(["git", "add", "default.xml"], cwd=path, check=True)
-        subprocess.run(["git", "commit", "-q", "-m", "up"], cwd=path)
-        subprocess.run(["git", "checkout", "-q", "-B", "master"], cwd=path)
+        env = self._ensure_git_repo(path)
+        subprocess.run(["git", "add", "default.xml"], cwd=path, check=True, env=env)
+        subprocess.run(["git", "commit", "-q", "-m", "up"], cwd=path, env=env)
+        subprocess.run(["git", "checkout", "-q", "-B", "master"], cwd=path, env=env)

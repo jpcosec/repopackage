@@ -3,8 +3,9 @@
 ## Current State Summary
 
 - Objective: deliver a real, auditable multi-repo composition slice
-- Current blocker: implementation lags behind the control-plane concept
+- Current blocker: none
 - Real use case: resolve and materialize a project that reuses shared repos with contextual and central lines
+- Current state: core resolution, workspace state, manifest generation, validation, and export-surface reporting are implemented
 
 ## Delivery Phases
 
@@ -26,6 +27,12 @@
 - `desk/tasks/009-run-end-to-end-composition-flow.md`
 
 ## Active
+
+| ID | Domain | Task | Priority | Depends On |
+|----|--------|------|----------|------------|
+| - | - | none | - | - |
+
+## Done
 
 | ID | Domain | Task | Priority | Depends On |
 |----|--------|------|----------|------------|

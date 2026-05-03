@@ -1,13 +1,15 @@
 ---
-id: '002'
-domain: models/solver
+id: '004'
+domain: lockfile/workspace
 status: done
-priority: p0
-depends_on: []
+priority: p1
+depends_on:
+- '002'
+- '003'
 created: ''
 ---
 
-# Type dependency specs
+# Define lockfile state semantics
 
 ## Objective
 
@@ -20,8 +22,8 @@ CLI-managed task materialized from the desk board source of truth.
 
 ## What to Fix
 
-- Domain: `models/solver`
-- Priority: `p0`
+- Domain: `lockfile/workspace`
+- Priority: `p1`
 - Status: `done`
 
 ## How to Do It
