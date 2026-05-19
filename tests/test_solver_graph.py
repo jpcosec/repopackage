@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import MagicMock
 from repopackage.core.solver import CompositionSolver
-from repopackage.core.models import IntegrationContract
+from repopackage.core.models import IntegrationContract, DependencySpec
 
 
 def _solver(mock_git):
@@ -29,8 +29,8 @@ def test_duplicate_dep_accumulates_constraints(mock_git):
     """Multiple parents declaring the same dep should accumulate all constraints."""
     s = _solver(mock_git)
     s.graph.add_node("root", type="project", contract=None, constraints=[])
-    s._add_or_update_node("root", "lib", "/tmp/lib", "main", {"version": "^1.0.0"})
-    s._add_or_update_node("root2", "lib", "/tmp/lib", "main", {"version": "^1.5.0"})
+    s._add_or_update_node("root", "lib", DependencySpec(url="/tmp/lib", version="^1.0.0"))
+    s._add_or_update_node("root2", "lib", DependencySpec(url="/tmp/lib", version="^1.5.0"))
     assert "^1.0.0" in s.graph.nodes["lib"]["constraints"]
     assert "^1.5.0" in s.graph.nodes["lib"]["constraints"]
 

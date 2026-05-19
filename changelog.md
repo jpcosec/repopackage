@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-05-15
+
+- hardened `GitAdapter`: implemented URL hashing for cache paths to avoid collisions
+- hardened `CompositionSolver`: introduced specialized `SolverError` hierarchy and refactored for 80/10 compliance
+- hardened `models.py`: added semantic descriptions to all model fields following project mandates
+- hardened `RepoAdapter`: refactored for 80/10 compliance and improved manifest generation logic
+- hardened CLI `handlers.py`: refactored for 80/10 compliance and improved error propagation
+- refactored `GitAdapter`: aligned implementation with 80/10 coding standards (file/function length)
+
 ## 2026-05-01
 
 - resolved task `003-stop-swallowing-contract-errors`: Stop swallowing contract errors

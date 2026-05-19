@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Repopackage Compose Lock",
+  "type": "object",
+  "properties": {
+    "project": {"type": "string"},
+    "packages": {"type": "object"},
+    "manifest_hash": {"type": "string"},
+    "resolved_at": {"type": "string"}
+  },
+  "required": ["project", "packages", "manifest_hash", "resolved_at"]
+}

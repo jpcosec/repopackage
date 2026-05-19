@@ -5,7 +5,9 @@ import xml.etree.ElementTree as ET
 import subprocess
 from pathlib import Path
 import os
+from urllib.parse import urlparse
 from ..core import constants
+
 
 class RepoAdapter:
     def __init__(self, workspace_dir: Path):
@@ -25,10 +27,11 @@ class RepoAdapter:
     def sync(self, manifest_url: str):
         """Executes repo init and sync."""
         rb = str(constants.REPO_TOOL)
-        subprocess.run([rb, "init", "-q", "-u", manifest_url, "-b", "master"], 
-                       cwd=self.workspace_dir, check=True)
-        subprocess.run([rb, "sync", "-q", "-j4"], 
-                       cwd=self.workspace_dir, check=True)
+        self._run_cmd([rb, "init", "-q", "-u", manifest_url, "-b", "master"])
+        self._run_cmd([rb, "sync", "-q", "-j4"])
+
+    def _run_cmd(self, args):
+        subprocess.run(args, cwd=self.workspace_dir, check=True)
 
     def _ensure_git_repo(self, path):
         if not (path / ".git").exists():
@@ -38,43 +41,45 @@ class RepoAdapter:
                 "GIT_COMMITTER_NAME": "RP", "GIT_COMMITTER_EMAIL": "rp@ex.com"}
 
     def _build_manifest_xml(self, root, data):
-        # Default remote for relative paths
-        default_fetch = "."
-        ET.SubElement(root, "remote", name="origin", fetch=default_fetch)
+        self._add_defaults(root)
+        pkgs = data.get("packages", data.get("repopackages", {}))
+        remotes = {"." : "origin"} # fetch_base -> remote_name
+        for name, pkg in pkgs.items():
+            self._add_project(root, name, pkg, remotes)
+
+    def _add_defaults(self, root):
+        ET.SubElement(root, "remote", name="origin", fetch=".")
         ET.SubElement(root, "default", revision="master", remote="origin")
+
+    def _add_project(self, root, name, pkg, remotes):
+        fetch, proj_name = self._derive_fetch_and_name(pkg["url"])
+        if fetch not in remotes:
+            remotes[fetch] = f"remote_{len(remotes)}"
+            ET.SubElement(root, "remote", name=remotes[fetch], fetch=fetch)
         
-        packages = data.get("packages", data.get("repopackages", {}))
-        remotes_map = {default_fetch: "origin"} # fetch_base -> remote_name
-        
-        for name, pkg in packages.items():
-            url = pkg["url"]
-            fetch_base, project_name = self._derive_fetch_and_name(url)
-            
-            if fetch_base not in remotes_map:
-                rem_name = f"remote_{len(remotes_map)}"
-                remotes_map[fetch_base] = rem_name
-                ET.SubElement(root, "remote", name=rem_name, fetch=fetch_base)
-            
-            rem_name = remotes_map[fetch_base]
-            ET.SubElement(root, "project", name=project_name,
-                          path=f"packages/{name}", remote=rem_name,
-                          revision=pkg.get("commit") or pkg.get("branch", "master"))
+        rev = pkg.get("commit") or pkg.get("branch", "master")
+        ET.SubElement(root, "project", name=proj_name,
+                      path=f"packages/{name}", remote=remotes[fetch],
+                      revision=rev)
 
     def _derive_fetch_and_name(self, url):
-        """Robustly derives the fetch base and project name from various URL forms."""
         if url.startswith("git@"):
-            if ":" in url:
-                base, path = url.split(":", 1)
-                return f"{base}:", path
-            return os.path.dirname(url), os.path.basename(url)
-        elif "://" in url:
-            from urllib.parse import urlparse
-            parsed = urlparse(url)
-            fetch = f"{parsed.scheme}://{parsed.netloc}"
-            path = parsed.path.lstrip("/")
-            return fetch, path
-        # Local paths
+            return self._derive_ssh(url)
+        if "://" in url:
+            return self._derive_http(url)
         return os.path.dirname(url), os.path.basename(url)
+
+    def _derive_ssh(self, url):
+        if ":" in url:
+            base, path = url.split(":", 1)
+            return f"{base}:", path
+        return os.path.dirname(url), os.path.basename(url)
+
+    def _derive_http(self, url):
+        parsed = urlparse(url)
+        fetch = f"{parsed.scheme}://{parsed.netloc}"
+        path = parsed.path.lstrip("/")
+        return fetch, path
 
     def _write_and_commit(self, path, root):
         ET.ElementTree(root).write(path / "default.xml", encoding="utf-8")

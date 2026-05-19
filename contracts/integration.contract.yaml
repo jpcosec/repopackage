@@ -1,0 +1,39 @@
+name: repopackage
+version: 0.1.1
+exports:
+  - name: repopackage_compose_lock
+    schema: contracts/schemas/compose_lock.schema.json
+consumes: []
+compatibility:
+  requires: {}
+export_surface:
+  package_name: repopackage
+  version: 0.1.1
+  commands:
+    resolve:
+      name: resolve
+      description: Resolve a compose graph into a lockfile.
+      entrypoint: repopackage.cli.handlers.handle_resolve
+      args: {}
+      env: {}
+    sync:
+      name: sync
+      description: Materialize a resolved workspace with repo.
+      entrypoint: repopackage.cli.handlers.handle_sync
+      args: {}
+      env: {}
+    validate:
+      name: validate
+      description: Validate lockfile and workspace integrity.
+      entrypoint: repopackage.cli.handlers.handle_validate
+      args: {}
+      env: {}
+  aliases: {}
+  contracts:
+    compose_lock:
+      name: compose_lock
+      description: Lockfile emitted by repopackage resolution.
+      schema_ref: contracts/schemas/compose_lock.schema.json
+      version: 0.1.1
+  procedures: {}
+  surfaces: {}

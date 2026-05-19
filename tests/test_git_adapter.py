@@ -58,3 +58,11 @@ def test_read_file_directory_raises(tmp_path, contract_repo):
     adapter = GitAdapter(cache_dir=tmp_path / "cache")
     with pytest.raises((IsADirectoryError, Exception)):
         adapter.read_file(str(repo_path), commit, "contracts")
+
+
+def test_get_repo_path_collision_avoidance(tmp_path):
+    """Different URLs should map to different cache paths even if names match."""
+    adapter = GitAdapter(cache_dir=tmp_path / "cache")
+    path1 = adapter._get_repo_path("http://host1.com/repo.git")
+    path2 = adapter._get_repo_path("http://host2.com/repo.git")
+    assert path1 != path2

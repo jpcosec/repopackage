@@ -2,8 +2,8 @@
 Git Adapter for high-fidelity repository inspection.
 """
 import pygit2
+import hashlib
 from pathlib import Path
-from typing import Optional
 
 
 class GitAdapter:
@@ -12,66 +12,69 @@ class GitAdapter:
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
     def get_commit_hash(self, repo_url: str, branch: str = "main") -> str:
-        """Retrieves the latest commit hash for a branch, cloning or fetching as needed."""
+        """Retrieves the latest commit hash for a branch."""
         repo_path = self._get_repo_path(repo_url)
         repo = self._ensure_repo(repo_url, repo_path)
-        
-        # Try to find the branch in remotes
-        remote_branch = f"origin/{branch}"
-        try:
-            branch_ref = repo.branches.remote.get(remote_branch)
-            if branch_ref:
-                return str(branch_ref.target)
-            
-            # Fallback to revparse (handles local branches, tags, or SHAs)
-            obj = repo.revparse_single(branch)
-            return str(obj.id)
-        except (KeyError, pygit2.GitError) as e:
-            raise ValueError(f"Could not resolve branch/ref '{branch}' in {repo_url}: {e}")
+        return self._resolve_ref(repo, branch)
 
     def read_file(self, repo_url: str, commit_hash: str, file_path: str) -> str:
         """Reads a file directly from a Git tree without checkout."""
         repo_path = self._get_repo_path(repo_url)
         repo = pygit2.Repository(str(repo_path))
-        
-        try:
-            commit = repo.get(commit_hash)
-        except Exception:
-            commit = None
+        commit = self._get_commit(repo, commit_hash)
+        return self._read_blob(repo, commit.tree, file_path)
 
-        if not commit:
-            raise ValueError(f"Commit {commit_hash} not found in {repo_url}")
-            
-        tree = commit.tree
-        try:
-            entry = tree[file_path]
-            obj = repo[entry.id]
-            if obj.type == pygit2.enums.ObjectType.BLOB:
-                return obj.data.decode("utf-8")
-            raise IsADirectoryError(f"'{file_path}' in {repo_url} is a {obj.type}, not a blob")
-        except KeyError:
-            raise FileNotFoundError(f"File '{file_path}' not found in {repo_url} at {commit_hash}")
+    def _get_repo_path(self, url: str) -> Path:
+        """Translates URL to local cache path using SHA256."""
+        if not url.startswith(("git@", "http")):
+            return Path(url)
+        url_hash = hashlib.sha256(url.encode()).hexdigest()[:12]
+        name = url.split("/")[-1].replace(".git", "")
+        return self.cache_dir / f"{name}-{url_hash}"
 
     def _ensure_repo(self, url: str, path: Path) -> pygit2.Repository:
         """Ensures the repository exists locally and is up to date."""
         if not path.exists():
-            # If it's a local path that doesn't exist, we can't clone it from "nothing"
-            # unless it's a URL. If it's a local path, raise FileNotFoundError.
-            if not url.startswith(("git@", "http")):
-                raise FileNotFoundError(f"Local repository not found at {path}")
-            return pygit2.clone_repository(url, str(path), bare=True)
-        
+            return self._clone(url, path)
         repo = pygit2.Repository(str(path))
-        # Fetch updates only for non-local repos
         if url.startswith(("git@", "http")):
-            for remote in repo.remotes:
-                remote.fetch()
+            self._fetch(repo)
         return repo
 
-    def _get_repo_path(self, url: str) -> Path:
-        """Translates URL to local cache path."""
-        if url.startswith(("git@", "http")):
-            # Simple hash-based or name-based directory
-            name = url.split("/")[-1].replace(".git", "")
-            return self.cache_dir / name
-        return Path(url)
+    def _clone(self, url: str, path: Path) -> pygit2.Repository:
+        if not url.startswith(("git@", "http")):
+            raise FileNotFoundError(f"Local repository not found at {path}")
+        return pygit2.clone_repository(url, str(path), bare=True)
+
+    def _fetch(self, repo: pygit2.Repository):
+        for remote in repo.remotes:
+            remote.fetch()
+
+    def _resolve_ref(self, repo: pygit2.Repository, ref: str) -> str:
+        """Resolves a branch, tag, or SHA to a full SHA."""
+        try:
+            remote_ref = repo.branches.remote.get(f"origin/{ref}")
+            if remote_ref:
+                return str(remote_ref.target)
+            return str(repo.revparse_single(ref).id)
+        except (KeyError, pygit2.GitError) as e:
+            raise ValueError(f"Could not resolve ref '{ref}': {e}")
+
+    def _get_commit(self, repo: pygit2.Repository, sha: str) -> pygit2.Commit:
+        try:
+            commit = repo.get(sha)
+            if isinstance(commit, pygit2.Commit):
+                return commit
+        except Exception:
+            pass
+        raise ValueError(f"Commit {sha} not found")
+
+    def _read_blob(self, repo: pygit2.Repository, tree: pygit2.Tree, path: str) -> str:
+        try:
+            entry = tree[path]
+            obj = repo[entry.id]
+            if obj.type == pygit2.enums.ObjectType.BLOB:
+                return obj.data.decode("utf-8")
+            raise IsADirectoryError(f"'{path}' is a {obj.type}")
+        except KeyError:
+            raise FileNotFoundError(f"File '{path}' not found")
