@@ -1,31 +1,25 @@
-"""
-Git Adapter for high-fidelity repository inspection.
-"""
 import pygit2
 import hashlib
 from pathlib import Path
 
 
-class GitAdapter:
+class GitClient:
     def __init__(self, cache_dir: Path):
         self.cache_dir = cache_dir
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
     def get_commit_hash(self, repo_url: str, branch: str = "main") -> str:
-        """Retrieves the latest commit hash for a branch."""
         repo_path = self._get_repo_path(repo_url)
         repo = self._ensure_repo(repo_url, repo_path)
         return self._resolve_ref(repo, branch)
 
     def read_file(self, repo_url: str, commit_hash: str, file_path: str) -> str:
-        """Reads a file directly from a Git tree without checkout."""
         repo_path = self._get_repo_path(repo_url)
         repo = pygit2.Repository(str(repo_path))
         commit = self._get_commit(repo, commit_hash)
         return self._read_blob(repo, commit.tree, file_path)
 
     def _get_repo_path(self, url: str) -> Path:
-        """Translates URL to local cache path using SHA256."""
         if not url.startswith(("git@", "http")):
             return Path(url)
         url_hash = hashlib.sha256(url.encode()).hexdigest()[:12]
@@ -33,7 +27,6 @@ class GitAdapter:
         return self.cache_dir / f"{name}-{url_hash}"
 
     def _ensure_repo(self, url: str, path: Path) -> pygit2.Repository:
-        """Ensures the repository exists locally and is up to date."""
         if not path.exists():
             return self._clone(url, path)
         repo = pygit2.Repository(str(path))
@@ -51,7 +44,6 @@ class GitAdapter:
             remote.fetch()
 
     def _resolve_ref(self, repo: pygit2.Repository, ref: str) -> str:
-        """Resolves a branch, tag, or SHA to a full SHA."""
         try:
             remote_ref = repo.branches.remote.get(f"origin/{ref}")
             if remote_ref:

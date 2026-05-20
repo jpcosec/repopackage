@@ -6,8 +6,8 @@ from pathlib import Path
 from ruamel.yaml import YAML
 import pygit2
 from ..core import constants
-from ..adapters.git import GitAdapter
-from ..adapters.repo import RepoAdapter
+from ..git.client import GitClient
+from ..repo.manifest import ManifestBuilder
 from ..core.solver import CompositionSolver, SolverError
 from ..core.models import Lockfile
 
@@ -27,10 +27,9 @@ def handle_init():
 def handle_resolve():
     """Resolves graph and generates compose.lock.yaml."""
     config = _load_compose_file()
-    solver = CompositionSolver(GitAdapter(cache_dir=constants.CACHE_DIR))
+    solver = CompositionSolver(GitClient(cache_dir=constants.CACHE_DIR))
     try:
         lock_data = solver.resolve(config)
-        _save_lock_file(lock_data)
         print(f"Resolved successfully. Wrote {constants.LOCK_FILE}")
     except SolverError as e:
         print(f"Resolution failed: {e}")
@@ -56,9 +55,9 @@ def _save_lock_file(data):
 def handle_sync():
     """Materializes workspace using google repo."""
     lock_data = _load_lock_data()
-    adapter = RepoAdapter(workspace_dir=Path(constants.WORKSPACE_DIR))
-    manifest_repo = adapter.generate_manifest(lock_data)
-    adapter.sync(manifest_repo)
+    manifest = ManifestBuilder(workspace_dir=Path(constants.WORKSPACE_DIR))
+    manifest_repo = manifest.generate_manifest(lock_data)
+    manifest.sync(manifest_repo)
     print("Sync complete.")
 
 
@@ -196,7 +195,7 @@ def _scan_contracts(ws_path):
 def handle_graph():
     """Exports the dependency graph in Mermaid format."""
     config = _load_compose_file()
-    solver = CompositionSolver(GitAdapter(cache_dir=constants.CACHE_DIR))
+    solver = CompositionSolver(GitClient(cache_dir=constants.CACHE_DIR))
     solver.resolve(config)
     _print_mermaid(solver.graph)
 

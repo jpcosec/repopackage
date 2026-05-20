@@ -1,6 +1,3 @@
-"""
-Adapter for Google Repo tool interaction.
-"""
 import xml.etree.ElementTree as ET
 import subprocess
 from pathlib import Path
@@ -9,13 +6,12 @@ from urllib.parse import urlparse
 from ..core import constants
 
 
-class RepoAdapter:
+class ManifestBuilder:
     def __init__(self, workspace_dir: Path):
         self.workspace_dir = workspace_dir
         self.workspace_dir.mkdir(parents=True, exist_ok=True)
 
     def generate_manifest(self, lockfile_data: dict) -> str:
-        """Translates lockfile into manifest.xml repo."""
         m_repo = self.workspace_dir / "manifest-repo"
         m_repo.mkdir(parents=True, exist_ok=True)
         self._ensure_git_repo(m_repo)
@@ -25,7 +21,6 @@ class RepoAdapter:
         return str(m_repo.absolute())
 
     def sync(self, manifest_url: str):
-        """Executes repo init and sync."""
         rb = str(constants.REPO_TOOL)
         self._run_cmd([rb, "init", "-q", "-u", manifest_url, "-b", "master"])
         self._run_cmd([rb, "sync", "-q", "-j4"])
@@ -36,14 +31,14 @@ class RepoAdapter:
     def _ensure_git_repo(self, path):
         if not (path / ".git").exists():
             subprocess.run(["git", "init", "-q"], cwd=path, check=True)
-        return {**os.environ, 
+        return {**os.environ,
                 "GIT_AUTHOR_NAME": "RP", "GIT_AUTHOR_EMAIL": "rp@ex.com",
                 "GIT_COMMITTER_NAME": "RP", "GIT_COMMITTER_EMAIL": "rp@ex.com"}
 
     def _build_manifest_xml(self, root, data):
         self._add_defaults(root)
         pkgs = data.get("packages", data.get("repopackages", {}))
-        remotes = {"." : "origin"} # fetch_base -> remote_name
+        remotes = {".": "origin"}
         for name, pkg in pkgs.items():
             self._add_project(root, name, pkg, remotes)
 
@@ -56,7 +51,6 @@ class RepoAdapter:
         if fetch not in remotes:
             remotes[fetch] = f"remote_{len(remotes)}"
             ET.SubElement(root, "remote", name=remotes[fetch], fetch=fetch)
-        
         rev = pkg.get("commit") or pkg.get("branch", "master")
         ET.SubElement(root, "project", name=proj_name,
                       path=f"packages/{name}", remote=remotes[fetch],
