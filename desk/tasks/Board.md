@@ -25,6 +25,19 @@
 - `desk/tasks/017-index-cross-repo-references.md`
 - `desk/tasks/018-implement-move-and-rename-repair-flow.md`
 
+### Phase 5 - Stress-test corrections (Round 01 findings)
+- `desk/tasks/001-fix-rp-init-silent-overwrite-and-permission-errors.md`
+- `desk/tasks/002-fix-rp-resolve-false-success.md`
+- `desk/tasks/003-fix-rp-sync-crash-and-error-messages.md`
+- `desk/tasks/004-add-help-descriptions-to-all-commands.md`
+- `desk/tasks/005-add-version-flag-and-format-json-support.md`
+- `desk/tasks/006-fix-rp-generate-and-rp-exports-producing-no-output.md`
+- `desk/tasks/007-fix-error-messages-tracebacks-to-user-friendly.md`
+- `desk/tasks/008-fix-rp-graph-for-standalone-projects-and-add-flags.md`
+- `desk/tasks/009-add-input-validation-for-compose-yaml.md`
+- `desk/tasks/010-fix-rp-status-exit-code-and-output-consistency.md`
+- `desk/tasks/011-fix-test-suite-1-failing-test.md`
+
 ## Active
 
 | ID | Domain | Task | Priority | Depends On |
@@ -37,6 +50,17 @@
 | 016 | workspace/operations | Add multi-repo branch, commit, push, and worktree operations | p1 | 015 |
 | 017 | repair/index | Index cross-repo references for structural repair | p0 | 011, 015 |
 | 018 | repair/moves | Implement move and rename repair flow | p1 | 017 |
+| 001 | repopackage/cli | Fix rp init silent overwrite and permission errors | p0 | none |
+| 002 | repopackage/resolve | Fix rp resolve false success (lockfile not written) | p0 | none |
+| 003 | repopackage/sync | Fix rp sync crash and error messages | p0 | none |
+| 004 | repopackage/cli | Add --help descriptions to all commands | p1 | none |
+| 005 | repopackage/cli | Add --version flag and --format json support | p1 | none |
+| 006 | repopackage/generate | Fix rp generate and rp exports producing no output | p1 | none |
+| 007 | repopackage/cli | Fix error messages (tracebacks → user-friendly) | p1 | none |
+| 008 | repopackage/graph | Fix rp graph for standalone projects and add flags | p2 | none |
+| 009 | repopackage/validation | Add input validation for compose.yaml | p1 | none |
+| 010 | repopackage/cli | Fix rp status exit code and output consistency | p2 | none |
+| 011 | repopackage/tests | Fix test suite (1 failing test) | p1 | 002 |
 
 ## Blocked
 

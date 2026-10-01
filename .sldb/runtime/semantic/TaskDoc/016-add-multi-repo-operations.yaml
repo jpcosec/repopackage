@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/016-add-multi-repo-operations.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: 48f6cb982d26f3f24c85177b8e8c3e59781bba0d2b9d04287dfceaa876672ff0

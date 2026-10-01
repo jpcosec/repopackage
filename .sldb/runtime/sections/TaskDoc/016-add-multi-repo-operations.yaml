@@ -1,0 +1,162 @@
+doc_name: 016-add-multi-repo-operations
+sections:
+- path: add-multi-repo-branch-commit-push-and-worktree-operations
+  title: Add multi-repo branch, commit, push, and worktree operations
+  breadcrumbs:
+  - Add multi-repo branch, commit, push, and worktree operations
+  about:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - add multi repo branch commit push and worktree operations
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: add-multi-repo-branch-commit-push-and-worktree-operations
+  level: 1
+  line_start: 23
+  line_end: 61
+- path: add-multi-repo-branch-commit-push-and-worktree-operations/rationale
+  title: Rationale
+  breadcrumbs:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - Rationale
+  about:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - add multi repo branch commit push and worktree operations
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 25
+  line_end: 28
+- path: add-multi-repo-branch-commit-push-and-worktree-operations/goal
+  title: Goal
+  breadcrumbs:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - Goal
+  about:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - add multi repo branch commit push and worktree operations
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 29
+  line_end: 34
+- path: add-multi-repo-branch-commit-push-and-worktree-operations/scope
+  title: Scope
+  breadcrumbs:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - Scope
+  about:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - add multi repo branch commit push and worktree operations
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 35
+  line_end: 42
+- path: add-multi-repo-branch-commit-push-and-worktree-operations/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - Implementation Path
+  about:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - add multi repo branch commit push and worktree operations
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 43
+  line_end: 50
+- path: add-multi-repo-branch-commit-push-and-worktree-operations/validation
+  title: Validation
+  breadcrumbs:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - Validation
+  about:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - add multi repo branch commit push and worktree operations
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 51
+  line_end: 58
+- path: add-multi-repo-branch-commit-push-and-worktree-operations/done-when
+  title: Done When
+  breadcrumbs:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - Done When
+  about:
+  - Add multi-repo branch, commit, push, and worktree operations
+  - add multi repo branch commit push and worktree operations
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 59
+  line_end: 61
+source_hash: 48f6cb982d26f3f24c85177b8e8c3e59781bba0d2b9d04287dfceaa876672ff0
+sections_version: '2'

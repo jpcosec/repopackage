@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+    name: 001-fix-rp-init-silent-overwrite-and-permission-errors
+    model: TaskDoc
+    path: desk/tasks/001-fix-rp-init-silent-overwrite-and-permission-errors.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: 44b8ff943b593be7b19fbf971b0756ec5fcc4b3a9797ff2f0874b31fa39b03f9
+    hash_d: 976f58caa9b6a14087cd85193a95b1ac3e9dc5607247d9755e612a666e107bd1
+  facets: {}
+- id: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors
+    document_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+    path: fix-rp-init-silent-overwrite-and-permission-errors
+    title: Fix rp init silent overwrite and permission errors
+    breadcrumbs:
+    - Fix rp init silent overwrite and permission errors
+    about:
+    - Fix rp init silent overwrite and permission errors
+    - fix rp init silent overwrite and permission errors
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: fix-rp-init-silent-overwrite-and-permission-errors
+    level: 1
+    line_start: 18
+    line_end: 52
+  facets: {}
+- id: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/rationale
+    document_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+    path: fix-rp-init-silent-overwrite-and-permission-errors/rationale
+    title: Rationale
+    breadcrumbs:
+    - Fix rp init silent overwrite and permission errors
+    - Rationale
+    about:
+    - Fix rp init silent overwrite and permission errors
+    - fix rp init silent overwrite and permission errors
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 20
+    line_end: 23
+  facets: {}
+- id: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/goal
+    document_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+    path: fix-rp-init-silent-overwrite-and-permission-errors/goal
+    title: Goal
+    breadcrumbs:
+    - Fix rp init silent overwrite and permission errors
+    - Goal
+    about:
+    - Fix rp init silent overwrite and permission errors
+    - fix rp init silent overwrite and permission errors
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 24
+    line_end: 29
+  facets: {}
+- id: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/scope
+    document_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+    path: fix-rp-init-silent-overwrite-and-permission-errors/scope
+    title: Scope
+    breadcrumbs:
+    - Fix rp init silent overwrite and permission errors
+    - Scope
+    about:
+    - Fix rp init silent overwrite and permission errors
+    - fix rp init silent overwrite and permission errors
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 30
+    line_end: 37
+  facets: {}
+- id: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/implementation-path
+    document_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+    path: fix-rp-init-silent-overwrite-and-permission-errors/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Fix rp init silent overwrite and permission errors
+    - Implementation Path
+    about:
+    - Fix rp init silent overwrite and permission errors
+    - fix rp init silent overwrite and permission errors
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 38
+    line_end: 41
+  facets: {}
+- id: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/validation
+    document_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+    path: fix-rp-init-silent-overwrite-and-permission-errors/validation
+    title: Validation
+    breadcrumbs:
+    - Fix rp init silent overwrite and permission errors
+    - Validation
+    about:
+    - Fix rp init silent overwrite and permission errors
+    - fix rp init silent overwrite and permission errors
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 42
+    line_end: 49
+  facets: {}
+- id: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/done-when
+    document_id: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+    path: fix-rp-init-silent-overwrite-and-permission-errors/done-when
+    title: Done When
+    breadcrumbs:
+    - Fix rp init silent overwrite and permission errors
+    - Done When
+    about:
+    - Fix rp init silent overwrite and permission errors
+    - fix rp init silent overwrite and permission errors
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 50
+    line_end: 52
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors#fix-rp-init-silent-overwrite-and-permission-errors/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 001-fix-rp-init-silent-overwrite-and-permission-errors
+model_name: TaskDoc
+source_hash: 44b8ff943b593be7b19fbf971b0756ec5fcc4b3a9797ff2f0874b31fa39b03f9
+content_hash: 976f58caa9b6a14087cd85193a95b1ac3e9dc5607247d9755e612a666e107bd1
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

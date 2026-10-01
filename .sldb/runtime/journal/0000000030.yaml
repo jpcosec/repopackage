@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:014-install-command-entrypoints
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: d9327413b582d8f9a1306f719a6d905ce074645699ce258fc5aff38a957ee95b
+hash_d_before: null
+hash_d_after: a2ee575f103178ae40d07bd162e9819ef78d4c172edd53710b241b942ac745cd
+hash_a_before: f24f1ddba5b13725270208b883ffd15e5cca787612cc955132b02a942e64e30c
+hash_a_after: e3702ffe39c2411b8835993c1ead4c2e8c6c97917fe31da71220f5508ac0a9a0
+actor: null
+timestamp: 2026-09-30 13:34:03.820475+00:00
+previous_hash: ad792bf8f3f6334e621dc2f279b3e78c876eb42162f4b922ada3066ae6658f9a
+entry_hash: e1819cab52d33c70cfd27a91d4f06eb037b7d648eeb81093f076feeedc63cf44

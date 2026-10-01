@@ -1,0 +1,162 @@
+doc_name: 008-fix-rp-graph-for-standalone-projects-and-add-flags
+sections:
+- path: fix-rp-graph-for-standalone-projects-and-add-flags
+  title: Fix rp graph for standalone projects and add flags
+  breadcrumbs:
+  - Fix rp graph for standalone projects and add flags
+  about:
+  - Fix rp graph for standalone projects and add flags
+  - fix rp graph for standalone projects and add flags
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: fix-rp-graph-for-standalone-projects-and-add-flags
+  level: 1
+  line_start: 19
+  line_end: 51
+- path: fix-rp-graph-for-standalone-projects-and-add-flags/rationale
+  title: Rationale
+  breadcrumbs:
+  - Fix rp graph for standalone projects and add flags
+  - Rationale
+  about:
+  - Fix rp graph for standalone projects and add flags
+  - fix rp graph for standalone projects and add flags
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 21
+  line_end: 24
+- path: fix-rp-graph-for-standalone-projects-and-add-flags/goal
+  title: Goal
+  breadcrumbs:
+  - Fix rp graph for standalone projects and add flags
+  - Goal
+  about:
+  - Fix rp graph for standalone projects and add flags
+  - fix rp graph for standalone projects and add flags
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 25
+  line_end: 30
+- path: fix-rp-graph-for-standalone-projects-and-add-flags/scope
+  title: Scope
+  breadcrumbs:
+  - Fix rp graph for standalone projects and add flags
+  - Scope
+  about:
+  - Fix rp graph for standalone projects and add flags
+  - fix rp graph for standalone projects and add flags
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 31
+  line_end: 37
+- path: fix-rp-graph-for-standalone-projects-and-add-flags/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Fix rp graph for standalone projects and add flags
+  - Implementation Path
+  about:
+  - Fix rp graph for standalone projects and add flags
+  - fix rp graph for standalone projects and add flags
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 38
+  line_end: 41
+- path: fix-rp-graph-for-standalone-projects-and-add-flags/validation
+  title: Validation
+  breadcrumbs:
+  - Fix rp graph for standalone projects and add flags
+  - Validation
+  about:
+  - Fix rp graph for standalone projects and add flags
+  - fix rp graph for standalone projects and add flags
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 42
+  line_end: 48
+- path: fix-rp-graph-for-standalone-projects-and-add-flags/done-when
+  title: Done When
+  breadcrumbs:
+  - Fix rp graph for standalone projects and add flags
+  - Done When
+  about:
+  - Fix rp graph for standalone projects and add flags
+  - fix rp graph for standalone projects and add flags
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 49
+  line_end: 51
+source_hash: 44833dc4c33cea351cd277cca18f587f3af7db096d26bacf7e0fc5e513e28bf8
+sections_version: '2'

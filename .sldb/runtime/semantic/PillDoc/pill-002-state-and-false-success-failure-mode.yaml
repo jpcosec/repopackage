@@ -1,0 +1,11 @@
+model: PillDoc
+path: desk/contexts/pill-002-state-and-false-success-failure-mode.md
+tags:
+- representation.markdown
+- source.document.markdown
+- system:repopackage
+- topic:failure-mode
+- topic:state
+- type.workflow.pill
+- workspace.desk
+source_hash: 57dc1740f9c93edd58e43933170452455ce8c9ff834bb216d214c7e432965f34

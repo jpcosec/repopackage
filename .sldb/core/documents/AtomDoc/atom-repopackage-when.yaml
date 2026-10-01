@@ -1,0 +1,19 @@
+name: atom-repopackage-when
+path: desk/atoms/atom-repopackage-when.md
+source_hash: 4ba403c46f2c9eea9570f8a857f5c3a788e2b0bd023545bd434b5d5bbe35487a
+content_hash: 71aed52057ed763bf74c1cb300c00338ee1fec3d9cda7c1d6228337b552ffbca
+field_hashes:
+  id: 1b365842e3503c5722862278e9c2d4fd070312ac8f9a75babbe1b592d0109da5
+  title: 407993172891fcade954623c3b513f7e34c0774b5bd8e03794045b742c3a080f
+  five_wh_one_plus: 6d924791a1798656302bd4b9716a494a0c5f7f55ad9ceebf629dfb2317e86078
+  answer: 7f30bda7a07c539bfb05a53767e65c2aa2d80d45e4593ccbbe122b482a4918f1
+  tags: 7295cf25225e054919738af8bc6fe8ce6012462b34e88d3ab1aba0b3dcd52784
+  provenance: 85dfdd33d20445a548aeb5adfbee35cf7cda984239219f5e600348adc07e8b2a
+semantic_tags:
+- kind:code
+- project:repopackage
+- representation.markdown
+- source.document.markdown
+- source:legacy-brief
+- type.knowledge.atom
+- workspace.desk.atoms

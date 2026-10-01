@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:005-add-version-flag-and-format-json-support
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: f32d9ea3d48b79f4b49b9c3a61eed62f09df1ea7a0ef71d56d84e683e92a8d27
+hash_d_before: null
+hash_d_after: 6497ffbf624f81b22a9076d9e8423b3931f8f31bb422f7ef36ddac4d8831f9ef
+hash_a_before: 4dceab079d3b8cefa3596aa4fabe4eb2548cf55c533be820bf4659e5fdce2283
+hash_a_after: 1b17b721833dcb808c29f25bd900c298f0a935db392e8e50afe16c13c27853b9
+actor: null
+timestamp: 2026-09-30 13:34:04.178437+00:00
+previous_hash: dcbf7ccdb123ce0ff43280f4981b4356bff794ff58e781391d6be90ea5bcadeb
+entry_hash: 5549e40ed986a55975970227996515d4bcdad9e846ac70431b67e08a9e3f1a93

@@ -1,0 +1,162 @@
+doc_name: 010-fix-rp-status-exit-code-and-output-consistency
+sections:
+- path: fix-rp-status-exit-code-and-output-consistency
+  title: Fix rp status exit code and output consistency
+  breadcrumbs:
+  - Fix rp status exit code and output consistency
+  about:
+  - Fix rp status exit code and output consistency
+  - fix rp status exit code and output consistency
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: fix-rp-status-exit-code-and-output-consistency
+  level: 1
+  line_start: 19
+  line_end: 53
+- path: fix-rp-status-exit-code-and-output-consistency/rationale
+  title: Rationale
+  breadcrumbs:
+  - Fix rp status exit code and output consistency
+  - Rationale
+  about:
+  - Fix rp status exit code and output consistency
+  - fix rp status exit code and output consistency
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 21
+  line_end: 24
+- path: fix-rp-status-exit-code-and-output-consistency/goal
+  title: Goal
+  breadcrumbs:
+  - Fix rp status exit code and output consistency
+  - Goal
+  about:
+  - Fix rp status exit code and output consistency
+  - fix rp status exit code and output consistency
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 25
+  line_end: 30
+- path: fix-rp-status-exit-code-and-output-consistency/scope
+  title: Scope
+  breadcrumbs:
+  - Fix rp status exit code and output consistency
+  - Scope
+  about:
+  - Fix rp status exit code and output consistency
+  - fix rp status exit code and output consistency
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 31
+  line_end: 38
+- path: fix-rp-status-exit-code-and-output-consistency/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Fix rp status exit code and output consistency
+  - Implementation Path
+  about:
+  - Fix rp status exit code and output consistency
+  - fix rp status exit code and output consistency
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 39
+  line_end: 42
+- path: fix-rp-status-exit-code-and-output-consistency/validation
+  title: Validation
+  breadcrumbs:
+  - Fix rp status exit code and output consistency
+  - Validation
+  about:
+  - Fix rp status exit code and output consistency
+  - fix rp status exit code and output consistency
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 43
+  line_end: 50
+- path: fix-rp-status-exit-code-and-output-consistency/done-when
+  title: Done When
+  breadcrumbs:
+  - Fix rp status exit code and output consistency
+  - Done When
+  about:
+  - Fix rp status exit code and output consistency
+  - fix rp status exit code and output consistency
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 51
+  line_end: 53
+source_hash: c90f0585942889553e61399a22b5766ae74dadb872a9552428251e548d31c646
+sections_version: '2'

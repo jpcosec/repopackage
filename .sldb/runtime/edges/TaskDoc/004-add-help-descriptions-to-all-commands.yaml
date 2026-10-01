@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:004-add-help-descriptions-to-all-commands
+    name: 004-add-help-descriptions-to-all-commands
+    model: TaskDoc
+    path: desk/tasks/004-add-help-descriptions-to-all-commands.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: 354f60c8fba6d9ec92bf2591daa8c13ec194afbddf164e2aa83436dfa20c4281
+    hash_d: b57bccf491406430d2c15b5160727ac2b9e9d6bd1a63da53b0234624cc54b752
+  facets: {}
+- id: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands
+    document_id: TaskDoc:004-add-help-descriptions-to-all-commands
+    path: add-help-descriptions-to-all-commands
+    title: Add --help descriptions to all commands
+    breadcrumbs:
+    - Add --help descriptions to all commands
+    about:
+    - Add --help descriptions to all commands
+    - add help descriptions to all commands
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: add-help-descriptions-to-all-commands
+    level: 1
+    line_start: 19
+    line_end: 51
+  facets: {}
+- id: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/rationale
+    document_id: TaskDoc:004-add-help-descriptions-to-all-commands
+    path: add-help-descriptions-to-all-commands/rationale
+    title: Rationale
+    breadcrumbs:
+    - Add --help descriptions to all commands
+    - Rationale
+    about:
+    - Add --help descriptions to all commands
+    - add help descriptions to all commands
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 21
+    line_end: 24
+  facets: {}
+- id: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/goal
+    document_id: TaskDoc:004-add-help-descriptions-to-all-commands
+    path: add-help-descriptions-to-all-commands/goal
+    title: Goal
+    breadcrumbs:
+    - Add --help descriptions to all commands
+    - Goal
+    about:
+    - Add --help descriptions to all commands
+    - add help descriptions to all commands
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 25
+    line_end: 30
+  facets: {}
+- id: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/scope
+    document_id: TaskDoc:004-add-help-descriptions-to-all-commands
+    path: add-help-descriptions-to-all-commands/scope
+    title: Scope
+    breadcrumbs:
+    - Add --help descriptions to all commands
+    - Scope
+    about:
+    - Add --help descriptions to all commands
+    - add help descriptions to all commands
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 31
+    line_end: 37
+  facets: {}
+- id: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/implementation-path
+    document_id: TaskDoc:004-add-help-descriptions-to-all-commands
+    path: add-help-descriptions-to-all-commands/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Add --help descriptions to all commands
+    - Implementation Path
+    about:
+    - Add --help descriptions to all commands
+    - add help descriptions to all commands
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 38
+    line_end: 41
+  facets: {}
+- id: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/validation
+    document_id: TaskDoc:004-add-help-descriptions-to-all-commands
+    path: add-help-descriptions-to-all-commands/validation
+    title: Validation
+    breadcrumbs:
+    - Add --help descriptions to all commands
+    - Validation
+    about:
+    - Add --help descriptions to all commands
+    - add help descriptions to all commands
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 42
+    line_end: 48
+  facets: {}
+- id: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/done-when
+    document_id: TaskDoc:004-add-help-descriptions-to-all-commands
+    path: add-help-descriptions-to-all-commands/done-when
+    title: Done When
+    breadcrumbs:
+    - Add --help descriptions to all commands
+    - Done When
+    about:
+    - Add --help descriptions to all commands
+    - add help descriptions to all commands
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 49
+    line_end: 51
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  target: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  target: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  target: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  target: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  target: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  target: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  target: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:004-add-help-descriptions-to-all-commands
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:004-add-help-descriptions-to-all-commands#add-help-descriptions-to-all-commands/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 004-add-help-descriptions-to-all-commands
+model_name: TaskDoc
+source_hash: 354f60c8fba6d9ec92bf2591daa8c13ec194afbddf164e2aa83436dfa20c4281
+content_hash: b57bccf491406430d2c15b5160727ac2b9e9d6bd1a63da53b0234624cc54b752
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

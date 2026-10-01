@@ -1,0 +1,162 @@
+doc_name: 004-add-help-descriptions-to-all-commands
+sections:
+- path: add-help-descriptions-to-all-commands
+  title: Add --help descriptions to all commands
+  breadcrumbs:
+  - Add --help descriptions to all commands
+  about:
+  - Add --help descriptions to all commands
+  - add help descriptions to all commands
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: add-help-descriptions-to-all-commands
+  level: 1
+  line_start: 19
+  line_end: 51
+- path: add-help-descriptions-to-all-commands/rationale
+  title: Rationale
+  breadcrumbs:
+  - Add --help descriptions to all commands
+  - Rationale
+  about:
+  - Add --help descriptions to all commands
+  - add help descriptions to all commands
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 21
+  line_end: 24
+- path: add-help-descriptions-to-all-commands/goal
+  title: Goal
+  breadcrumbs:
+  - Add --help descriptions to all commands
+  - Goal
+  about:
+  - Add --help descriptions to all commands
+  - add help descriptions to all commands
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 25
+  line_end: 30
+- path: add-help-descriptions-to-all-commands/scope
+  title: Scope
+  breadcrumbs:
+  - Add --help descriptions to all commands
+  - Scope
+  about:
+  - Add --help descriptions to all commands
+  - add help descriptions to all commands
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 31
+  line_end: 37
+- path: add-help-descriptions-to-all-commands/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Add --help descriptions to all commands
+  - Implementation Path
+  about:
+  - Add --help descriptions to all commands
+  - add help descriptions to all commands
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 38
+  line_end: 41
+- path: add-help-descriptions-to-all-commands/validation
+  title: Validation
+  breadcrumbs:
+  - Add --help descriptions to all commands
+  - Validation
+  about:
+  - Add --help descriptions to all commands
+  - add help descriptions to all commands
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 42
+  line_end: 48
+- path: add-help-descriptions-to-all-commands/done-when
+  title: Done When
+  breadcrumbs:
+  - Add --help descriptions to all commands
+  - Done When
+  about:
+  - Add --help descriptions to all commands
+  - add help descriptions to all commands
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 49
+  line_end: 51
+source_hash: 354f60c8fba6d9ec92bf2591daa8c13ec194afbddf164e2aa83436dfa20c4281
+sections_version: '2'

@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+    name: 008-fix-rp-graph-for-standalone-projects-and-add-flags
+    model: TaskDoc
+    path: desk/tasks/008-fix-rp-graph-for-standalone-projects-and-add-flags.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: 44833dc4c33cea351cd277cca18f587f3af7db096d26bacf7e0fc5e513e28bf8
+    hash_d: 8d23b395a8ad43d95c8dc7516e99ae4b7641eadcd2c22285c7d2b9788e97e125
+  facets: {}
+- id: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags
+    document_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+    path: fix-rp-graph-for-standalone-projects-and-add-flags
+    title: Fix rp graph for standalone projects and add flags
+    breadcrumbs:
+    - Fix rp graph for standalone projects and add flags
+    about:
+    - Fix rp graph for standalone projects and add flags
+    - fix rp graph for standalone projects and add flags
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: fix-rp-graph-for-standalone-projects-and-add-flags
+    level: 1
+    line_start: 19
+    line_end: 51
+  facets: {}
+- id: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/rationale
+    document_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+    path: fix-rp-graph-for-standalone-projects-and-add-flags/rationale
+    title: Rationale
+    breadcrumbs:
+    - Fix rp graph for standalone projects and add flags
+    - Rationale
+    about:
+    - Fix rp graph for standalone projects and add flags
+    - fix rp graph for standalone projects and add flags
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 21
+    line_end: 24
+  facets: {}
+- id: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/goal
+    document_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+    path: fix-rp-graph-for-standalone-projects-and-add-flags/goal
+    title: Goal
+    breadcrumbs:
+    - Fix rp graph for standalone projects and add flags
+    - Goal
+    about:
+    - Fix rp graph for standalone projects and add flags
+    - fix rp graph for standalone projects and add flags
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 25
+    line_end: 30
+  facets: {}
+- id: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/scope
+    document_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+    path: fix-rp-graph-for-standalone-projects-and-add-flags/scope
+    title: Scope
+    breadcrumbs:
+    - Fix rp graph for standalone projects and add flags
+    - Scope
+    about:
+    - Fix rp graph for standalone projects and add flags
+    - fix rp graph for standalone projects and add flags
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 31
+    line_end: 37
+  facets: {}
+- id: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/implementation-path
+    document_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+    path: fix-rp-graph-for-standalone-projects-and-add-flags/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Fix rp graph for standalone projects and add flags
+    - Implementation Path
+    about:
+    - Fix rp graph for standalone projects and add flags
+    - fix rp graph for standalone projects and add flags
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 38
+    line_end: 41
+  facets: {}
+- id: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/validation
+    document_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+    path: fix-rp-graph-for-standalone-projects-and-add-flags/validation
+    title: Validation
+    breadcrumbs:
+    - Fix rp graph for standalone projects and add flags
+    - Validation
+    about:
+    - Fix rp graph for standalone projects and add flags
+    - fix rp graph for standalone projects and add flags
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 42
+    line_end: 48
+  facets: {}
+- id: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/done-when
+    document_id: TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+    path: fix-rp-graph-for-standalone-projects-and-add-flags/done-when
+    title: Done When
+    breadcrumbs:
+    - Fix rp graph for standalone projects and add flags
+    - Done When
+    about:
+    - Fix rp graph for standalone projects and add flags
+    - fix rp graph for standalone projects and add flags
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 49
+    line_end: 51
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:008-fix-rp-graph-for-standalone-projects-and-add-flags#fix-rp-graph-for-standalone-projects-and-add-flags/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 008-fix-rp-graph-for-standalone-projects-and-add-flags
+model_name: TaskDoc
+source_hash: 44833dc4c33cea351cd277cca18f587f3af7db096d26bacf7e0fc5e513e28bf8
+content_hash: 8d23b395a8ad43d95c8dc7516e99ae4b7641eadcd2c22285c7d2b9788e97e125
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

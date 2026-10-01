@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/011-fix-test-suite-1-failing-test.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: 3ae7b5f07fb487c1b5a16ec6d479a38dccdfb2ff7c82dab6e2d2f38eb1540f83

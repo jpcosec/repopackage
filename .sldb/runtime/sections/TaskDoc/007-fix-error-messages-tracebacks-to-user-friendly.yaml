@@ -1,0 +1,162 @@
+doc_name: 007-fix-error-messages-tracebacks-to-user-friendly
+sections:
+- path: fix-error-messages-tracebacks-user-friendly
+  title: Fix error messages (tracebacks → user-friendly)
+  breadcrumbs:
+  - Fix error messages (tracebacks → user-friendly)
+  about:
+  - Fix error messages (tracebacks → user-friendly)
+  - fix error messages tracebacks user friendly
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: fix-error-messages-tracebacks-user-friendly
+  level: 1
+  line_start: 17
+  line_end: 52
+- path: fix-error-messages-tracebacks-user-friendly/rationale
+  title: Rationale
+  breadcrumbs:
+  - Fix error messages (tracebacks → user-friendly)
+  - Rationale
+  about:
+  - Fix error messages (tracebacks → user-friendly)
+  - fix error messages tracebacks user friendly
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 19
+  line_end: 22
+- path: fix-error-messages-tracebacks-user-friendly/goal
+  title: Goal
+  breadcrumbs:
+  - Fix error messages (tracebacks → user-friendly)
+  - Goal
+  about:
+  - Fix error messages (tracebacks → user-friendly)
+  - fix error messages tracebacks user friendly
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 23
+  line_end: 28
+- path: fix-error-messages-tracebacks-user-friendly/scope
+  title: Scope
+  breadcrumbs:
+  - Fix error messages (tracebacks → user-friendly)
+  - Scope
+  about:
+  - Fix error messages (tracebacks → user-friendly)
+  - fix error messages tracebacks user friendly
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 29
+  line_end: 38
+- path: fix-error-messages-tracebacks-user-friendly/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Fix error messages (tracebacks → user-friendly)
+  - Implementation Path
+  about:
+  - Fix error messages (tracebacks → user-friendly)
+  - fix error messages tracebacks user friendly
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 39
+  line_end: 42
+- path: fix-error-messages-tracebacks-user-friendly/validation
+  title: Validation
+  breadcrumbs:
+  - Fix error messages (tracebacks → user-friendly)
+  - Validation
+  about:
+  - Fix error messages (tracebacks → user-friendly)
+  - fix error messages tracebacks user friendly
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 43
+  line_end: 49
+- path: fix-error-messages-tracebacks-user-friendly/done-when
+  title: Done When
+  breadcrumbs:
+  - Fix error messages (tracebacks → user-friendly)
+  - Done When
+  about:
+  - Fix error messages (tracebacks → user-friendly)
+  - fix error messages tracebacks user friendly
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 50
+  line_end: 52
+source_hash: 4c4c8c35b7c91b79d2a49b92429d54dfa8d3f4499f4d7083baff692b9eb2205c
+sections_version: '2'

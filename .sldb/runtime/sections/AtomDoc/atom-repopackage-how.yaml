@@ -1,0 +1,59 @@
+doc_name: atom-repopackage-how
+sections:
+- path: repopackage-how-it-s-made
+  title: Repopackage — How it's made
+  breadcrumbs:
+  - Repopackage — How it's made
+  about:
+  - Repopackage — How it's made
+  - repopackage how it s made
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: repopackage-how-it-s-made
+  level: 1
+  line_start: 12
+  line_end: 16
+- path: repopackage-how-it-s-made/answer
+  title: Answer
+  breadcrumbs:
+  - Repopackage — How it's made
+  - Answer
+  about:
+  - Repopackage — How it's made
+  - repopackage how it s made
+  - Answer
+  - answer
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: answer
+  level: 2
+  line_start: 14
+  line_end: 16
+source_hash: 0506f82e419f7592f82c56946f8fd94d4ea34f289e60fff4e30712b43274e69f
+sections_version: '2'

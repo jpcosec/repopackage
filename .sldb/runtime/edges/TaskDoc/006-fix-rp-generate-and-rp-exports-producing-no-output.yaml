@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+    name: 006-fix-rp-generate-and-rp-exports-producing-no-output
+    model: TaskDoc
+    path: desk/tasks/006-fix-rp-generate-and-rp-exports-producing-no-output.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: 3cd2f2e1f914cbe0a2ed0f0d0dfa12513322e384d60bb2d4ae3d22aff59832e6
+    hash_d: 5aa6401c498f021ddece64fc75b6fea334a59a6e113a2a6f681d6193fa74c442
+  facets: {}
+- id: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output
+    document_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+    path: fix-rp-generate-and-rp-exports-producing-no-output
+    title: Fix rp generate and rp exports producing no output
+    breadcrumbs:
+    - Fix rp generate and rp exports producing no output
+    about:
+    - Fix rp generate and rp exports producing no output
+    - fix rp generate and rp exports producing no output
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: fix-rp-generate-and-rp-exports-producing-no-output
+    level: 1
+    line_start: 20
+    line_end: 53
+  facets: {}
+- id: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/rationale
+    document_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+    path: fix-rp-generate-and-rp-exports-producing-no-output/rationale
+    title: Rationale
+    breadcrumbs:
+    - Fix rp generate and rp exports producing no output
+    - Rationale
+    about:
+    - Fix rp generate and rp exports producing no output
+    - fix rp generate and rp exports producing no output
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 22
+    line_end: 25
+  facets: {}
+- id: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/goal
+    document_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+    path: fix-rp-generate-and-rp-exports-producing-no-output/goal
+    title: Goal
+    breadcrumbs:
+    - Fix rp generate and rp exports producing no output
+    - Goal
+    about:
+    - Fix rp generate and rp exports producing no output
+    - fix rp generate and rp exports producing no output
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 26
+    line_end: 31
+  facets: {}
+- id: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/scope
+    document_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+    path: fix-rp-generate-and-rp-exports-producing-no-output/scope
+    title: Scope
+    breadcrumbs:
+    - Fix rp generate and rp exports producing no output
+    - Scope
+    about:
+    - Fix rp generate and rp exports producing no output
+    - fix rp generate and rp exports producing no output
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 32
+    line_end: 39
+  facets: {}
+- id: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/implementation-path
+    document_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+    path: fix-rp-generate-and-rp-exports-producing-no-output/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Fix rp generate and rp exports producing no output
+    - Implementation Path
+    about:
+    - Fix rp generate and rp exports producing no output
+    - fix rp generate and rp exports producing no output
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 40
+    line_end: 43
+  facets: {}
+- id: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/validation
+    document_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+    path: fix-rp-generate-and-rp-exports-producing-no-output/validation
+    title: Validation
+    breadcrumbs:
+    - Fix rp generate and rp exports producing no output
+    - Validation
+    about:
+    - Fix rp generate and rp exports producing no output
+    - fix rp generate and rp exports producing no output
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 44
+    line_end: 50
+  facets: {}
+- id: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/done-when
+    document_id: TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+    path: fix-rp-generate-and-rp-exports-producing-no-output/done-when
+    title: Done When
+    breadcrumbs:
+    - Fix rp generate and rp exports producing no output
+    - Done When
+    about:
+    - Fix rp generate and rp exports producing no output
+    - fix rp generate and rp exports producing no output
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 51
+    line_end: 53
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:006-fix-rp-generate-and-rp-exports-producing-no-output#fix-rp-generate-and-rp-exports-producing-no-output/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 006-fix-rp-generate-and-rp-exports-producing-no-output
+model_name: TaskDoc
+source_hash: 3cd2f2e1f914cbe0a2ed0f0d0dfa12513322e384d60bb2d4ae3d22aff59832e6
+content_hash: 5aa6401c498f021ddece64fc75b6fea334a59a6e113a2a6f681d6193fa74c442
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

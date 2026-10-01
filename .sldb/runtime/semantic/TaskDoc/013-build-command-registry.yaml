@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/013-build-command-registry.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: f1a48423216fcaa46b6ae97c5e3807401b1f28ab65a5abf871784ff3935a0126

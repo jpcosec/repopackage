@@ -1,0 +1,15 @@
+operation: add_model
+address: InboxNoteDoc
+field: null
+previous_value: null
+new_value: deskops.models:InboxNoteDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 7c9332f0fb596ba867da1fe8fd98df29d30839fc819f6dbbd7ac41ccc79b9eb1
+hash_a_after: ada856492928b68d45c281eb05f5d09e2eacb0b8ed483523f999807609cf4b90
+actor: null
+timestamp: 2026-09-30 13:34:02.059922+00:00
+previous_hash: a1378643af7586e50bff8bf77abdf2054caff86b13ee40521aa32a7303c6279f
+entry_hash: 80ac6fd2e1ff6a9753eedf26aff914bff751143f6f51a1cda66e3f6417e21aab

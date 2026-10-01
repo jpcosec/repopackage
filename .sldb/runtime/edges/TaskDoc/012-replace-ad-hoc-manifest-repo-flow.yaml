@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+    name: 012-replace-ad-hoc-manifest-repo-flow
+    model: TaskDoc
+    path: desk/tasks/012-replace-ad-hoc-manifest-repo-flow.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: 1b1bfc2d9b4e11d478a34dc5b7b863d1566a22dcb377cbfaa6cec86a3be689bd
+    hash_d: 826b805def5dccec28f9f3ddf4c2a29305e72e80d67eae2195ce9754bc2499c3
+  facets: {}
+- id: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership
+    document_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+    path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership
+    title: Replace ad hoc manifest repo flow with `git-repo` ownership
+    breadcrumbs:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    about:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - replace ad hoc manifest repo flow with git repo ownership
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership
+    level: 1
+    line_start: 25
+    line_end: 63
+  facets: {}
+- id: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/rationale
+    document_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+    path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/rationale
+    title: Rationale
+    breadcrumbs:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - Rationale
+    about:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - replace ad hoc manifest repo flow with git repo ownership
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 27
+    line_end: 30
+  facets: {}
+- id: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/goal
+    document_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+    path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/goal
+    title: Goal
+    breadcrumbs:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - Goal
+    about:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - replace ad hoc manifest repo flow with git repo ownership
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 31
+    line_end: 36
+  facets: {}
+- id: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/scope
+    document_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+    path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/scope
+    title: Scope
+    breadcrumbs:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - Scope
+    about:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - replace ad hoc manifest repo flow with git repo ownership
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 37
+    line_end: 44
+  facets: {}
+- id: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/implementation-path
+    document_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+    path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - Implementation Path
+    about:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - replace ad hoc manifest repo flow with git repo ownership
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 45
+    line_end: 52
+  facets: {}
+- id: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/validation
+    document_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+    path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/validation
+    title: Validation
+    breadcrumbs:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - Validation
+    about:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - replace ad hoc manifest repo flow with git repo ownership
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 53
+    line_end: 60
+  facets: {}
+- id: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/done-when
+    document_id: TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+    path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/done-when
+    title: Done When
+    breadcrumbs:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - Done When
+    about:
+    - Replace ad hoc manifest repo flow with `git-repo` ownership
+    - replace ad hoc manifest repo flow with git repo ownership
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 61
+    line_end: 63
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  target: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  target: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  target: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  target: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  target: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  target: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  target: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:012-replace-ad-hoc-manifest-repo-flow#replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 012-replace-ad-hoc-manifest-repo-flow
+model_name: TaskDoc
+source_hash: 1b1bfc2d9b4e11d478a34dc5b7b863d1566a22dcb377cbfaa6cec86a3be689bd
+content_hash: 826b805def5dccec28f9f3ddf4c2a29305e72e80d67eae2195ce9754bc2499c3
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

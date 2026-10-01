@@ -1,0 +1,204 @@
+doc_name: pill-001-rp-cli-control-plane
+sections:
+- path: pattern-keep-rp-fixes-inside-the-control-plane-boundary
+  title: 'Pattern: keep rp fixes inside the control-plane boundary'
+  breadcrumbs:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  about:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - pattern keep rp fixes inside the control plane boundary
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  slug: pattern-keep-rp-fixes-inside-the-control-plane-boundary
+  level: 1
+  line_start: 10
+  line_end: 75
+- path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+  title: What
+  breadcrumbs:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - What
+  about:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - pattern keep rp fixes inside the control plane boundary
+  - What
+  - what
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  slug: what
+  level: 2
+  line_start: 14
+  line_end: 19
+- path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+  title: Why
+  breadcrumbs:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - Why
+  about:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - pattern keep rp fixes inside the control plane boundary
+  - Why
+  - why
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  slug: why
+  level: 2
+  line_start: 20
+  line_end: 25
+- path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+  title: When
+  breadcrumbs:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - When
+  about:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - pattern keep rp fixes inside the control plane boundary
+  - When
+  - when
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  slug: when
+  level: 2
+  line_start: 26
+  line_end: 31
+- path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+  title: Where
+  breadcrumbs:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - Where
+  about:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - pattern keep rp fixes inside the control plane boundary
+  - Where
+  - where
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  slug: where
+  level: 2
+  line_start: 32
+  line_end: 42
+- path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+  title: How
+  breadcrumbs:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - How
+  about:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - pattern keep rp fixes inside the control plane boundary
+  - How
+  - how
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  slug: how
+  level: 2
+  line_start: 43
+  line_end: 70
+- path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+  title: How Not
+  breadcrumbs:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - How Not
+  about:
+  - 'Pattern: keep rp fixes inside the control-plane boundary'
+  - pattern keep rp fixes inside the control plane boundary
+  - How Not
+  - how not
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:cli
+  - topic:control-plane
+  - type.workflow.pill
+  - workspace.desk
+  slug: how-not
+  level: 2
+  line_start: 71
+  line_end: 75
+source_hash: 47be208b3b950d0f5964f3282af17c79833b1eedd9bd4fbb80605c7054e562c7
+sections_version: '2'

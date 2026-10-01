@@ -1,0 +1,11 @@
+model: PillDoc
+path: desk/contexts/pill-001-rp-cli-control-plane.md
+tags:
+- representation.markdown
+- source.document.markdown
+- system:repopackage
+- topic:cli
+- topic:control-plane
+- type.workflow.pill
+- workspace.desk
+source_hash: 47be208b3b950d0f5964f3282af17c79833b1eedd9bd4fbb80605c7054e562c7

@@ -1,0 +1,15 @@
+operation: add_model
+address: ProtoAtomDoc
+field: null
+previous_value: null
+new_value: deskops.models:ProtoAtomDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 954bb9ee0c4d7725cbbc7ed3bf669bbe1822d4e737582075233f746099ba8651
+hash_a_after: 093f752aaed5fcd0c67a8eed42a60bb3b74c4ba1cfa6b567541146409933f03b
+actor: null
+timestamp: 2026-09-30 13:34:02.281899+00:00
+previous_hash: d4007ebd1ed36774c6006239fd50967e60de373fd8a80ba2f17733e7267880d9
+entry_hash: 1d2e9b0154f266b2ea33072170f3ad13ce8b751696e744e22807d165349fbb21

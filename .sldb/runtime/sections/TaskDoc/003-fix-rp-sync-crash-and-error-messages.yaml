@@ -1,0 +1,162 @@
+doc_name: 003-fix-rp-sync-crash-and-error-messages
+sections:
+- path: fix-rp-sync-crash-and-error-messages
+  title: Fix rp sync crash and error messages
+  breadcrumbs:
+  - Fix rp sync crash and error messages
+  about:
+  - Fix rp sync crash and error messages
+  - fix rp sync crash and error messages
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: fix-rp-sync-crash-and-error-messages
+  level: 1
+  line_start: 19
+  line_end: 51
+- path: fix-rp-sync-crash-and-error-messages/rationale
+  title: Rationale
+  breadcrumbs:
+  - Fix rp sync crash and error messages
+  - Rationale
+  about:
+  - Fix rp sync crash and error messages
+  - fix rp sync crash and error messages
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 21
+  line_end: 24
+- path: fix-rp-sync-crash-and-error-messages/goal
+  title: Goal
+  breadcrumbs:
+  - Fix rp sync crash and error messages
+  - Goal
+  about:
+  - Fix rp sync crash and error messages
+  - fix rp sync crash and error messages
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 25
+  line_end: 30
+- path: fix-rp-sync-crash-and-error-messages/scope
+  title: Scope
+  breadcrumbs:
+  - Fix rp sync crash and error messages
+  - Scope
+  about:
+  - Fix rp sync crash and error messages
+  - fix rp sync crash and error messages
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 31
+  line_end: 37
+- path: fix-rp-sync-crash-and-error-messages/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Fix rp sync crash and error messages
+  - Implementation Path
+  about:
+  - Fix rp sync crash and error messages
+  - fix rp sync crash and error messages
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 38
+  line_end: 41
+- path: fix-rp-sync-crash-and-error-messages/validation
+  title: Validation
+  breadcrumbs:
+  - Fix rp sync crash and error messages
+  - Validation
+  about:
+  - Fix rp sync crash and error messages
+  - fix rp sync crash and error messages
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 42
+  line_end: 48
+- path: fix-rp-sync-crash-and-error-messages/done-when
+  title: Done When
+  breadcrumbs:
+  - Fix rp sync crash and error messages
+  - Done When
+  about:
+  - Fix rp sync crash and error messages
+  - fix rp sync crash and error messages
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 49
+  line_end: 51
+source_hash: 554744e8e074e0ff64687cece099a612439e65781e726f9d6841ce53255c0661
+sections_version: '2'

@@ -1,0 +1,15 @@
+operation: add_model
+address: RoutineDoc
+field: null
+previous_value: null
+new_value: deskops.models:RoutineDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 64546154c4faf1b0af03bf030177dfff52898070a98f3fb3db81f923e5d186a3
+hash_a_after: 7842534cf9a8374a32b98a2aa9787bd169527afa1846ebe770891cafed455051
+actor: null
+timestamp: 2026-09-30 13:34:02.419740+00:00
+previous_hash: 23d094c3ffe6396a207485d5317ca94c8c8c4d94edfc306319db825da6020dc5
+entry_hash: 06e0cdc7760a891a0f194bc5f840651781354339a6d7e517044a2b1137330b44

@@ -1,0 +1,252 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://store
+  node_type: sldb_store
+  semantics: {}
+  facets: {}
+- id: sldb://semantic_tag/kind:code
+  node_type: semantic_tag
+  semantics:
+    tag: kind:code
+  facets: {}
+- id: sldb://semantic_tag/project:repopackage
+  node_type: semantic_tag
+  semantics:
+    tag: project:repopackage
+  facets: {}
+- id: sldb://semantic_tag/representation
+  node_type: semantic_tag
+  semantics:
+    tag: representation
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source
+  node_type: semantic_tag
+  semantics:
+    tag: source
+  facets: {}
+- id: sldb://semantic_tag/source.document
+  node_type: semantic_tag
+  semantics:
+    tag: source.document
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/source:legacy-brief
+  node_type: semantic_tag
+  semantics:
+    tag: source:legacy-brief
+  facets: {}
+- id: sldb://semantic_tag/system:repopackage
+  node_type: semantic_tag
+  semantics:
+    tag: system:repopackage
+  facets: {}
+- id: sldb://semantic_tag/topic:cli
+  node_type: semantic_tag
+  semantics:
+    tag: topic:cli
+  facets: {}
+- id: sldb://semantic_tag/topic:control-plane
+  node_type: semantic_tag
+  semantics:
+    tag: topic:control-plane
+  facets: {}
+- id: sldb://semantic_tag/topic:failure-mode
+  node_type: semantic_tag
+  semantics:
+    tag: topic:failure-mode
+  facets: {}
+- id: sldb://semantic_tag/topic:state
+  node_type: semantic_tag
+  semantics:
+    tag: topic:state
+  facets: {}
+- id: sldb://semantic_tag/type
+  node_type: semantic_tag
+  semantics:
+    tag: type
+  facets: {}
+- id: sldb://semantic_tag/type.knowledge
+  node_type: semantic_tag
+  semantics:
+    tag: type.knowledge
+  facets: {}
+- id: sldb://semantic_tag/type.knowledge.atom
+  node_type: semantic_tag
+  semantics:
+    tag: type.knowledge.atom
+  facets: {}
+- id: sldb://semantic_tag/type.workflow
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.pill
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.pill
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace
+  node_type: semantic_tag
+  semantics:
+    tag: workspace
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk.atoms
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk.atoms
+  facets: {}
+edges:
+- source: sldb://store
+  target: sldb://model/AtomDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/BoardDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/ChecklistDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/ConditionDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/CrossroadDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/EdgeDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/FAQDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/InboxNoteDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/OperatorDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/PillDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/ProtoAtomDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/RepositoryDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/RitualDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/RoleDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/RoutineDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/StepDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://store
+  target: sldb://model/TaskDoc
+  relation: has_model
+  metadata:
+    origin: structural
+- source: sldb://semantic_tag/representation.markdown
+  target: sldb://semantic_tag/representation
+  relation: semantic_parent
+  metadata:
+    origin: structural
+- source: sldb://semantic_tag/source.document
+  target: sldb://semantic_tag/source
+  relation: semantic_parent
+  metadata:
+    origin: structural
+- source: sldb://semantic_tag/source.document.markdown
+  target: sldb://semantic_tag/source.document
+  relation: semantic_parent
+  metadata:
+    origin: structural
+- source: sldb://semantic_tag/type.knowledge
+  target: sldb://semantic_tag/type
+  relation: semantic_parent
+  metadata:
+    origin: structural
+- source: sldb://semantic_tag/type.knowledge.atom
+  target: sldb://semantic_tag/type.knowledge
+  relation: semantic_parent
+  metadata:
+    origin: structural
+- source: sldb://semantic_tag/type.workflow
+  target: sldb://semantic_tag/type
+  relation: semantic_parent
+  metadata:
+    origin: structural
+- source: sldb://semantic_tag/type.workflow.pill
+  target: sldb://semantic_tag/type.workflow
+  relation: semantic_parent
+  metadata:
+    origin: structural
+- source: sldb://semantic_tag/type.workflow.task
+  target: sldb://semantic_tag/type.workflow
+  relation: semantic_parent
+  metadata:
+    origin: structural
+- source: sldb://semantic_tag/workspace.desk
+  target: sldb://semantic_tag/workspace
+  relation: semantic_parent
+  metadata:
+    origin: structural
+- source: sldb://semantic_tag/workspace.desk.atoms
+  target: sldb://semantic_tag/workspace.desk
+  relation: semantic_parent
+  metadata:
+    origin: structural

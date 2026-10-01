@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:017-index-cross-repo-references
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:017-index-cross-repo-references
+    name: 017-index-cross-repo-references
+    model: TaskDoc
+    path: desk/tasks/017-index-cross-repo-references.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: e891e00a00f162d42b5a4e534f20e3a7b3c4a43c8693c24ca5530122be12189e
+    hash_d: 4e3230324ed8e1b6bffaf7490eb0ae43402f1840a36789a08c1e51e95ba68460
+  facets: {}
+- id: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair
+    document_id: TaskDoc:017-index-cross-repo-references
+    path: index-cross-repo-references-for-structural-repair
+    title: Index cross-repo references for structural repair
+    breadcrumbs:
+    - Index cross-repo references for structural repair
+    about:
+    - Index cross-repo references for structural repair
+    - index cross repo references for structural repair
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: index-cross-repo-references-for-structural-repair
+    level: 1
+    line_start: 24
+    line_end: 62
+  facets: {}
+- id: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/rationale
+    document_id: TaskDoc:017-index-cross-repo-references
+    path: index-cross-repo-references-for-structural-repair/rationale
+    title: Rationale
+    breadcrumbs:
+    - Index cross-repo references for structural repair
+    - Rationale
+    about:
+    - Index cross-repo references for structural repair
+    - index cross repo references for structural repair
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 26
+    line_end: 29
+  facets: {}
+- id: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/goal
+    document_id: TaskDoc:017-index-cross-repo-references
+    path: index-cross-repo-references-for-structural-repair/goal
+    title: Goal
+    breadcrumbs:
+    - Index cross-repo references for structural repair
+    - Goal
+    about:
+    - Index cross-repo references for structural repair
+    - index cross repo references for structural repair
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 30
+    line_end: 35
+  facets: {}
+- id: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/scope
+    document_id: TaskDoc:017-index-cross-repo-references
+    path: index-cross-repo-references-for-structural-repair/scope
+    title: Scope
+    breadcrumbs:
+    - Index cross-repo references for structural repair
+    - Scope
+    about:
+    - Index cross-repo references for structural repair
+    - index cross repo references for structural repair
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 36
+    line_end: 43
+  facets: {}
+- id: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/implementation-path
+    document_id: TaskDoc:017-index-cross-repo-references
+    path: index-cross-repo-references-for-structural-repair/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Index cross-repo references for structural repair
+    - Implementation Path
+    about:
+    - Index cross-repo references for structural repair
+    - index cross repo references for structural repair
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 44
+    line_end: 51
+  facets: {}
+- id: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/validation
+    document_id: TaskDoc:017-index-cross-repo-references
+    path: index-cross-repo-references-for-structural-repair/validation
+    title: Validation
+    breadcrumbs:
+    - Index cross-repo references for structural repair
+    - Validation
+    about:
+    - Index cross-repo references for structural repair
+    - index cross repo references for structural repair
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 52
+    line_end: 59
+  facets: {}
+- id: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/done-when
+    document_id: TaskDoc:017-index-cross-repo-references
+    path: index-cross-repo-references-for-structural-repair/done-when
+    title: Done When
+    breadcrumbs:
+    - Index cross-repo references for structural repair
+    - Done When
+    about:
+    - Index cross-repo references for structural repair
+    - index cross repo references for structural repair
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 60
+    line_end: 62
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:017-index-cross-repo-references
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:017-index-cross-repo-references
+  target: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:017-index-cross-repo-references
+  target: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:017-index-cross-repo-references
+  target: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:017-index-cross-repo-references
+  target: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:017-index-cross-repo-references
+  target: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:017-index-cross-repo-references
+  target: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:017-index-cross-repo-references
+  target: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:017-index-cross-repo-references
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:017-index-cross-repo-references
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:017-index-cross-repo-references
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:017-index-cross-repo-references
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:017-index-cross-repo-references#index-cross-repo-references-for-structural-repair/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 017-index-cross-repo-references
+model_name: TaskDoc
+source_hash: e891e00a00f162d42b5a4e534f20e3a7b3c4a43c8693c24ca5530122be12189e
+content_hash: 4e3230324ed8e1b6bffaf7490eb0ae43402f1840a36789a08c1e51e95ba68460
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

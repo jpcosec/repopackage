@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages
+    name: 003-fix-rp-sync-crash-and-error-messages
+    model: TaskDoc
+    path: desk/tasks/003-fix-rp-sync-crash-and-error-messages.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: 554744e8e074e0ff64687cece099a612439e65781e726f9d6841ce53255c0661
+    hash_d: 444bdfb16e4ad127438a5eb5f4289ddb721c575b87f5c095dff8f52220e96437
+  facets: {}
+- id: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages
+    document_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages
+    path: fix-rp-sync-crash-and-error-messages
+    title: Fix rp sync crash and error messages
+    breadcrumbs:
+    - Fix rp sync crash and error messages
+    about:
+    - Fix rp sync crash and error messages
+    - fix rp sync crash and error messages
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: fix-rp-sync-crash-and-error-messages
+    level: 1
+    line_start: 19
+    line_end: 51
+  facets: {}
+- id: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/rationale
+    document_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages
+    path: fix-rp-sync-crash-and-error-messages/rationale
+    title: Rationale
+    breadcrumbs:
+    - Fix rp sync crash and error messages
+    - Rationale
+    about:
+    - Fix rp sync crash and error messages
+    - fix rp sync crash and error messages
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 21
+    line_end: 24
+  facets: {}
+- id: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/goal
+    document_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages
+    path: fix-rp-sync-crash-and-error-messages/goal
+    title: Goal
+    breadcrumbs:
+    - Fix rp sync crash and error messages
+    - Goal
+    about:
+    - Fix rp sync crash and error messages
+    - fix rp sync crash and error messages
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 25
+    line_end: 30
+  facets: {}
+- id: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/scope
+    document_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages
+    path: fix-rp-sync-crash-and-error-messages/scope
+    title: Scope
+    breadcrumbs:
+    - Fix rp sync crash and error messages
+    - Scope
+    about:
+    - Fix rp sync crash and error messages
+    - fix rp sync crash and error messages
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 31
+    line_end: 37
+  facets: {}
+- id: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/implementation-path
+    document_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages
+    path: fix-rp-sync-crash-and-error-messages/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Fix rp sync crash and error messages
+    - Implementation Path
+    about:
+    - Fix rp sync crash and error messages
+    - fix rp sync crash and error messages
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 38
+    line_end: 41
+  facets: {}
+- id: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/validation
+    document_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages
+    path: fix-rp-sync-crash-and-error-messages/validation
+    title: Validation
+    breadcrumbs:
+    - Fix rp sync crash and error messages
+    - Validation
+    about:
+    - Fix rp sync crash and error messages
+    - fix rp sync crash and error messages
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 42
+    line_end: 48
+  facets: {}
+- id: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/done-when
+    document_id: TaskDoc:003-fix-rp-sync-crash-and-error-messages
+    path: fix-rp-sync-crash-and-error-messages/done-when
+    title: Done When
+    breadcrumbs:
+    - Fix rp sync crash and error messages
+    - Done When
+    about:
+    - Fix rp sync crash and error messages
+    - fix rp sync crash and error messages
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 49
+    line_end: 51
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  target: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  target: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  target: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  target: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  target: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  target: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  target: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:003-fix-rp-sync-crash-and-error-messages
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:003-fix-rp-sync-crash-and-error-messages#fix-rp-sync-crash-and-error-messages/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 003-fix-rp-sync-crash-and-error-messages
+model_name: TaskDoc
+source_hash: 554744e8e074e0ff64687cece099a612439e65781e726f9d6841ce53255c0661
+content_hash: 444bdfb16e4ad127438a5eb5f4289ddb721c575b87f5c095dff8f52220e96437
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

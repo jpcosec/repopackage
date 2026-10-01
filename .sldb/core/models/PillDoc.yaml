@@ -1,0 +1,20 @@
+name: PillDoc
+model_ref: deskops.models:PillDoc
+path: /home/jp/proyectos/hum-ecosystem/tools/deskops/deskops/models/pill.py
+documents_index: .sldb/core/documents/PillDoc.yaml
+sections_index: .sldb/runtime/sections/PillDoc.yaml
+model_hash: 13e796509ef74ee711d41f9b256658b458979f265b93498d2b5cb5355e8230b5
+roster_hash: 0140ee1ecff161b5684cfe544e6c91cf3ce3ba96012f5bf1053aa7f52e6ad69e
+contract_hash: bce300e684bfc1aece40aed83d4fed364aa81a7d7d6a2ebaf5b375b50470e12f
+documents_count: 2
+version: 1
+canonical: false
+family: null
+semantics:
+- representation.markdown
+- source.document.markdown
+- type.workflow.pill
+- workspace.desk
+base_models:
+- OperationalArtifactDoc
+- PrimitiveDoc

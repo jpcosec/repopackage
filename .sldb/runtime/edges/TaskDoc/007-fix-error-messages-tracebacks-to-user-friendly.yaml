@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+    name: 007-fix-error-messages-tracebacks-to-user-friendly
+    model: TaskDoc
+    path: desk/tasks/007-fix-error-messages-tracebacks-to-user-friendly.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: 4c4c8c35b7c91b79d2a49b92429d54dfa8d3f4499f4d7083baff692b9eb2205c
+    hash_d: 52a1e167d98dad6905220ab98cd757a241a33dbaaa9d67f1da00a1dd6bdd427a
+  facets: {}
+- id: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly
+    document_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+    path: fix-error-messages-tracebacks-user-friendly
+    title: Fix error messages (tracebacks → user-friendly)
+    breadcrumbs:
+    - Fix error messages (tracebacks → user-friendly)
+    about:
+    - Fix error messages (tracebacks → user-friendly)
+    - fix error messages tracebacks user friendly
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: fix-error-messages-tracebacks-user-friendly
+    level: 1
+    line_start: 17
+    line_end: 52
+  facets: {}
+- id: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/rationale
+    document_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+    path: fix-error-messages-tracebacks-user-friendly/rationale
+    title: Rationale
+    breadcrumbs:
+    - Fix error messages (tracebacks → user-friendly)
+    - Rationale
+    about:
+    - Fix error messages (tracebacks → user-friendly)
+    - fix error messages tracebacks user friendly
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 19
+    line_end: 22
+  facets: {}
+- id: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/goal
+    document_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+    path: fix-error-messages-tracebacks-user-friendly/goal
+    title: Goal
+    breadcrumbs:
+    - Fix error messages (tracebacks → user-friendly)
+    - Goal
+    about:
+    - Fix error messages (tracebacks → user-friendly)
+    - fix error messages tracebacks user friendly
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 23
+    line_end: 28
+  facets: {}
+- id: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/scope
+    document_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+    path: fix-error-messages-tracebacks-user-friendly/scope
+    title: Scope
+    breadcrumbs:
+    - Fix error messages (tracebacks → user-friendly)
+    - Scope
+    about:
+    - Fix error messages (tracebacks → user-friendly)
+    - fix error messages tracebacks user friendly
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 29
+    line_end: 38
+  facets: {}
+- id: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/implementation-path
+    document_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+    path: fix-error-messages-tracebacks-user-friendly/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Fix error messages (tracebacks → user-friendly)
+    - Implementation Path
+    about:
+    - Fix error messages (tracebacks → user-friendly)
+    - fix error messages tracebacks user friendly
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 39
+    line_end: 42
+  facets: {}
+- id: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/validation
+    document_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+    path: fix-error-messages-tracebacks-user-friendly/validation
+    title: Validation
+    breadcrumbs:
+    - Fix error messages (tracebacks → user-friendly)
+    - Validation
+    about:
+    - Fix error messages (tracebacks → user-friendly)
+    - fix error messages tracebacks user friendly
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 43
+    line_end: 49
+  facets: {}
+- id: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/done-when
+    document_id: TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+    path: fix-error-messages-tracebacks-user-friendly/done-when
+    title: Done When
+    breadcrumbs:
+    - Fix error messages (tracebacks → user-friendly)
+    - Done When
+    about:
+    - Fix error messages (tracebacks → user-friendly)
+    - fix error messages tracebacks user friendly
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 50
+    line_end: 52
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  target: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  target: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  target: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  target: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  target: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  target: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  target: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:007-fix-error-messages-tracebacks-to-user-friendly#fix-error-messages-tracebacks-user-friendly/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 007-fix-error-messages-tracebacks-to-user-friendly
+model_name: TaskDoc
+source_hash: 4c4c8c35b7c91b79d2a49b92429d54dfa8d3f4499f4d7083baff692b9eb2205c
+content_hash: 52a1e167d98dad6905220ab98cd757a241a33dbaaa9d67f1da00a1dd6bdd427a
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

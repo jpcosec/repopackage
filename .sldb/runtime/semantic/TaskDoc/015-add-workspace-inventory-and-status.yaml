@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/015-add-workspace-inventory-and-status.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: ccca592f224a18f2e8da3b4be65879e39a8ad50c2cb52dfb5a93ad1c88e5b5c0

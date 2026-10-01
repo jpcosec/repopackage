@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:012-replace-ad-hoc-manifest-repo-flow
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 49e801e5bc8076ce8d3b9be072e446efba3ffe9866e0c01459a14990e0f4019e
+hash_d_before: null
+hash_d_after: 226114df03c6161ea045bb27bea6356754d2a88eb7f97874503f5f943b2c15da
+hash_a_before: 1cc9bbc0bde31d9db866e8cef97dbf366703205107c6956ea4500209ceb35130
+hash_a_after: 244bcd7993d7c7b553c6be01bb47666babbe3f920f058526b3dd23666b9f75d6
+actor: null
+timestamp: 2026-09-30 13:34:03.315117+00:00
+previous_hash: f46a6edebea6f8573e917421b48ebd80a50481007773c515af250192ca966fdc
+entry_hash: 21440a1dc63f93f0794be13c60458b706ab27a6522f5b69c7c17cfdffef8fe58

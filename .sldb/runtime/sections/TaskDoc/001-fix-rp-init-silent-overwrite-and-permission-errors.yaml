@@ -1,0 +1,162 @@
+doc_name: 001-fix-rp-init-silent-overwrite-and-permission-errors
+sections:
+- path: fix-rp-init-silent-overwrite-and-permission-errors
+  title: Fix rp init silent overwrite and permission errors
+  breadcrumbs:
+  - Fix rp init silent overwrite and permission errors
+  about:
+  - Fix rp init silent overwrite and permission errors
+  - fix rp init silent overwrite and permission errors
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: fix-rp-init-silent-overwrite-and-permission-errors
+  level: 1
+  line_start: 18
+  line_end: 52
+- path: fix-rp-init-silent-overwrite-and-permission-errors/rationale
+  title: Rationale
+  breadcrumbs:
+  - Fix rp init silent overwrite and permission errors
+  - Rationale
+  about:
+  - Fix rp init silent overwrite and permission errors
+  - fix rp init silent overwrite and permission errors
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 20
+  line_end: 23
+- path: fix-rp-init-silent-overwrite-and-permission-errors/goal
+  title: Goal
+  breadcrumbs:
+  - Fix rp init silent overwrite and permission errors
+  - Goal
+  about:
+  - Fix rp init silent overwrite and permission errors
+  - fix rp init silent overwrite and permission errors
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 24
+  line_end: 29
+- path: fix-rp-init-silent-overwrite-and-permission-errors/scope
+  title: Scope
+  breadcrumbs:
+  - Fix rp init silent overwrite and permission errors
+  - Scope
+  about:
+  - Fix rp init silent overwrite and permission errors
+  - fix rp init silent overwrite and permission errors
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 30
+  line_end: 37
+- path: fix-rp-init-silent-overwrite-and-permission-errors/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Fix rp init silent overwrite and permission errors
+  - Implementation Path
+  about:
+  - Fix rp init silent overwrite and permission errors
+  - fix rp init silent overwrite and permission errors
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 38
+  line_end: 41
+- path: fix-rp-init-silent-overwrite-and-permission-errors/validation
+  title: Validation
+  breadcrumbs:
+  - Fix rp init silent overwrite and permission errors
+  - Validation
+  about:
+  - Fix rp init silent overwrite and permission errors
+  - fix rp init silent overwrite and permission errors
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 42
+  line_end: 49
+- path: fix-rp-init-silent-overwrite-and-permission-errors/done-when
+  title: Done When
+  breadcrumbs:
+  - Fix rp init silent overwrite and permission errors
+  - Done When
+  about:
+  - Fix rp init silent overwrite and permission errors
+  - fix rp init silent overwrite and permission errors
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 50
+  line_end: 52
+source_hash: 44b8ff943b593be7b19fbf971b0756ec5fcc4b3a9797ff2f0874b31fa39b03f9
+sections_version: '2'

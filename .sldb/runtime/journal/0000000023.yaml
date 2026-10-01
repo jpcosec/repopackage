@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:011-redefine-rp-ownership-boundaries
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 9146860a24e1fa42a21c6f43218d0bd21fefb19fdd6909c051b0897446fd712e
+hash_d_before: null
+hash_d_after: b7290534069a09dcf18c56508237fecdce17f4a0822c23e86525b0107f2853d5
+hash_a_before: fbb59ee225170f66174c86a99924c95065ebd788b9bf9840d351112971291679
+hash_a_after: 1cc9bbc0bde31d9db866e8cef97dbf366703205107c6956ea4500209ceb35130
+actor: null
+timestamp: 2026-09-30 13:34:03.229533+00:00
+previous_hash: 15aa61776dba24f1a91338c5df0136e906ed668c6f57981aef65ee1a9a13f989
+entry_hash: f46a6edebea6f8573e917421b48ebd80a50481007773c515af250192ca966fdc

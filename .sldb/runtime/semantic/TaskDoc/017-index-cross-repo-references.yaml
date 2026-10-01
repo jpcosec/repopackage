@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/017-index-cross-repo-references.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: e891e00a00f162d42b5a4e534f20e3a7b3c4a43c8693c24ca5530122be12189e

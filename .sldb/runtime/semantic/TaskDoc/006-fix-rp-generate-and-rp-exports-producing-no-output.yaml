@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/006-fix-rp-generate-and-rp-exports-producing-no-output.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: 3cd2f2e1f914cbe0a2ed0f0d0dfa12513322e384d60bb2d4ae3d22aff59832e6

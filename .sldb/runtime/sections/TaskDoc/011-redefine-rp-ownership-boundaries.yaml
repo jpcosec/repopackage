@@ -1,0 +1,162 @@
+doc_name: 011-redefine-rp-ownership-boundaries
+sections:
+- path: redefine-rp-ownership-boundaries
+  title: Redefine `rp` ownership boundaries
+  breadcrumbs:
+  - Redefine `rp` ownership boundaries
+  about:
+  - Redefine `rp` ownership boundaries
+  - redefine rp ownership boundaries
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: redefine-rp-ownership-boundaries
+  level: 1
+  line_start: 19
+  line_end: 57
+- path: redefine-rp-ownership-boundaries/rationale
+  title: Rationale
+  breadcrumbs:
+  - Redefine `rp` ownership boundaries
+  - Rationale
+  about:
+  - Redefine `rp` ownership boundaries
+  - redefine rp ownership boundaries
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 21
+  line_end: 24
+- path: redefine-rp-ownership-boundaries/goal
+  title: Goal
+  breadcrumbs:
+  - Redefine `rp` ownership boundaries
+  - Goal
+  about:
+  - Redefine `rp` ownership boundaries
+  - redefine rp ownership boundaries
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 25
+  line_end: 30
+- path: redefine-rp-ownership-boundaries/scope
+  title: Scope
+  breadcrumbs:
+  - Redefine `rp` ownership boundaries
+  - Scope
+  about:
+  - Redefine `rp` ownership boundaries
+  - redefine rp ownership boundaries
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 31
+  line_end: 38
+- path: redefine-rp-ownership-boundaries/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Redefine `rp` ownership boundaries
+  - Implementation Path
+  about:
+  - Redefine `rp` ownership boundaries
+  - redefine rp ownership boundaries
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 39
+  line_end: 46
+- path: redefine-rp-ownership-boundaries/validation
+  title: Validation
+  breadcrumbs:
+  - Redefine `rp` ownership boundaries
+  - Validation
+  about:
+  - Redefine `rp` ownership boundaries
+  - redefine rp ownership boundaries
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 47
+  line_end: 54
+- path: redefine-rp-ownership-boundaries/done-when
+  title: Done When
+  breadcrumbs:
+  - Redefine `rp` ownership boundaries
+  - Done When
+  about:
+  - Redefine `rp` ownership boundaries
+  - redefine rp ownership boundaries
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 55
+  line_end: 57
+source_hash: 06c2fb478bff04a7b5a6d0ccfe2017f70c68849a70d34aed0a126841729baa68
+sections_version: '2'

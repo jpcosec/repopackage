@@ -1,0 +1,59 @@
+doc_name: atom-repopackage-why
+sections:
+- path: repopackage-why
+  title: Repopackage — Why
+  breadcrumbs:
+  - Repopackage — Why
+  about:
+  - Repopackage — Why
+  - repopackage why
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: repopackage-why
+  level: 1
+  line_start: 12
+  line_end: 16
+- path: repopackage-why/answer
+  title: Answer
+  breadcrumbs:
+  - Repopackage — Why
+  - Answer
+  about:
+  - Repopackage — Why
+  - repopackage why
+  - Answer
+  - answer
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: answer
+  level: 2
+  line_start: 14
+  line_end: 16
+source_hash: 6fd691bb3e283e212e580d03d17fd2790c0895174c66b6f859dbdba5b233dba6
+sections_version: '2'

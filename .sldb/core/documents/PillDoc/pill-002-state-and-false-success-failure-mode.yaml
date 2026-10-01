@@ -1,0 +1,22 @@
+name: pill-002-state-and-false-success-failure-mode
+path: desk/contexts/pill-002-state-and-false-success-failure-mode.md
+source_hash: 57dc1740f9c93edd58e43933170452455ce8c9ff834bb216d214c7e432965f34
+content_hash: aee6a79319b8c2704818073a3e54418f9982b8523b770ba0fb6c9c3ccb02a9f0
+field_hashes:
+  title: a8a3cddb67d26ef03e4a62f1fde701849403f3eccb923f34fe47202de59f013e
+  id: 349d53a0b12df213e5eebc16c394fa9a35e0a138d2fcfbb4a427918cb52cd0c3
+  tags: f598fe2b7af1ed2576ebd2e9438160b10de7d402cf37e9959aed0df8bd5c0996
+  what: 621d10a758909094c33b2aaed5d8bccfbbdbc3809a3730244a967c68baf185fe
+  why: f3a4df9e2342187a636de9ed0eae12f20d5c61a97382757a47f31800da8cc83e
+  when: aa90174ee042ca08e7a2a061b16ae9923c7a950bc9e786ba3061378786b7e86b
+  where: b48f2c1751be0eb3a277433d77aa072c73c83d580cf040db813102471d7201d6
+  how: 486239353589b57b1421413d16a9b93ab6ac597a433c771f87fde675ef00fbf0
+  how_not: 68f04ca81006da8ae6babeeb4e31f3509f012e4bf923708829ed7194ab579098
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- system:repopackage
+- topic:failure-mode
+- topic:state
+- type.workflow.pill
+- workspace.desk

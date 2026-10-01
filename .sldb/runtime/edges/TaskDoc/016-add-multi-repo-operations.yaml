@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:016-add-multi-repo-operations
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:016-add-multi-repo-operations
+    name: 016-add-multi-repo-operations
+    model: TaskDoc
+    path: desk/tasks/016-add-multi-repo-operations.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: 48f6cb982d26f3f24c85177b8e8c3e59781bba0d2b9d04287dfceaa876672ff0
+    hash_d: 771a4ef46901e5f72b0616893289e5fe3b178dbe8fc74f71f48e547c285b505e
+  facets: {}
+- id: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations
+    document_id: TaskDoc:016-add-multi-repo-operations
+    path: add-multi-repo-branch-commit-push-and-worktree-operations
+    title: Add multi-repo branch, commit, push, and worktree operations
+    breadcrumbs:
+    - Add multi-repo branch, commit, push, and worktree operations
+    about:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - add multi repo branch commit push and worktree operations
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: add-multi-repo-branch-commit-push-and-worktree-operations
+    level: 1
+    line_start: 23
+    line_end: 61
+  facets: {}
+- id: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/rationale
+    document_id: TaskDoc:016-add-multi-repo-operations
+    path: add-multi-repo-branch-commit-push-and-worktree-operations/rationale
+    title: Rationale
+    breadcrumbs:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - Rationale
+    about:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - add multi repo branch commit push and worktree operations
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 25
+    line_end: 28
+  facets: {}
+- id: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/goal
+    document_id: TaskDoc:016-add-multi-repo-operations
+    path: add-multi-repo-branch-commit-push-and-worktree-operations/goal
+    title: Goal
+    breadcrumbs:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - Goal
+    about:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - add multi repo branch commit push and worktree operations
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 29
+    line_end: 34
+  facets: {}
+- id: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/scope
+    document_id: TaskDoc:016-add-multi-repo-operations
+    path: add-multi-repo-branch-commit-push-and-worktree-operations/scope
+    title: Scope
+    breadcrumbs:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - Scope
+    about:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - add multi repo branch commit push and worktree operations
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 35
+    line_end: 42
+  facets: {}
+- id: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/implementation-path
+    document_id: TaskDoc:016-add-multi-repo-operations
+    path: add-multi-repo-branch-commit-push-and-worktree-operations/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - Implementation Path
+    about:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - add multi repo branch commit push and worktree operations
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 43
+    line_end: 50
+  facets: {}
+- id: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/validation
+    document_id: TaskDoc:016-add-multi-repo-operations
+    path: add-multi-repo-branch-commit-push-and-worktree-operations/validation
+    title: Validation
+    breadcrumbs:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - Validation
+    about:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - add multi repo branch commit push and worktree operations
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 51
+    line_end: 58
+  facets: {}
+- id: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/done-when
+    document_id: TaskDoc:016-add-multi-repo-operations
+    path: add-multi-repo-branch-commit-push-and-worktree-operations/done-when
+    title: Done When
+    breadcrumbs:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - Done When
+    about:
+    - Add multi-repo branch, commit, push, and worktree operations
+    - add multi repo branch commit push and worktree operations
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 59
+    line_end: 61
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:016-add-multi-repo-operations
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:016-add-multi-repo-operations
+  target: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:016-add-multi-repo-operations
+  target: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:016-add-multi-repo-operations
+  target: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:016-add-multi-repo-operations
+  target: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:016-add-multi-repo-operations
+  target: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:016-add-multi-repo-operations
+  target: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:016-add-multi-repo-operations
+  target: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:016-add-multi-repo-operations
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:016-add-multi-repo-operations
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:016-add-multi-repo-operations
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:016-add-multi-repo-operations
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:016-add-multi-repo-operations#add-multi-repo-branch-commit-push-and-worktree-operations/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 016-add-multi-repo-operations
+model_name: TaskDoc
+source_hash: 48f6cb982d26f3f24c85177b8e8c3e59781bba0d2b9d04287dfceaa876672ff0
+content_hash: 771a4ef46901e5f72b0616893289e5fe3b178dbe8fc74f71f48e547c285b505e
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:018-implement-move-and-rename-repair-flow
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 200a50797cb6c7021de178e094bb3c5d3e60ac54a40a501bba7abb2413b856b3
+hash_d_before: null
+hash_d_after: cae61fb6af3883209871d6a6982c9a603041af2e55ee81e82ef04b46d43d9947
+hash_a_before: 430aeb9cbfd0ad78822f0974ac226b3c4724930004834c4fdff119b841dd2c39
+hash_a_after: e76ac6bbfca9febf82d43273ceaaa1d93326c0ea39687fe38b1cc86a82465a13
+actor: null
+timestamp: 2026-09-30 13:34:04.567667+00:00
+previous_hash: 9614df0fd140689e39cd3e3dafa1e3861440a64b0fec0f0a92fb315f9958facf
+entry_hash: 3f7488c8d0be7c7238d984bc7103a04ba55c3669fa1042121007e541a0a6b961

@@ -1,0 +1,59 @@
+doc_name: atom-repopackage-for_whom
+sections:
+- path: repopackage-purpose
+  title: Repopackage — Purpose
+  breadcrumbs:
+  - Repopackage — Purpose
+  about:
+  - Repopackage — Purpose
+  - repopackage purpose
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: repopackage-purpose
+  level: 1
+  line_start: 12
+  line_end: 16
+- path: repopackage-purpose/answer
+  title: Answer
+  breadcrumbs:
+  - Repopackage — Purpose
+  - Answer
+  about:
+  - Repopackage — Purpose
+  - repopackage purpose
+  - Answer
+  - answer
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: answer
+  level: 2
+  line_start: 14
+  line_end: 16
+source_hash: 7c5b282bb4adb7b6cdbe9658dd0a824f73bab1339adaa9383043b684565f20bc
+sections_version: '2'

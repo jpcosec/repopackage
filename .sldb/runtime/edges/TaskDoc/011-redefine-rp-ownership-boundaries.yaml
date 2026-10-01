@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:011-redefine-rp-ownership-boundaries
+    name: 011-redefine-rp-ownership-boundaries
+    model: TaskDoc
+    path: desk/tasks/011-redefine-rp-ownership-boundaries.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: 06c2fb478bff04a7b5a6d0ccfe2017f70c68849a70d34aed0a126841729baa68
+    hash_d: 8acd8ca364f0fd85688039a915fd4bbb5ad3d1254a25c7c35590ca4687318196
+  facets: {}
+- id: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries
+    document_id: TaskDoc:011-redefine-rp-ownership-boundaries
+    path: redefine-rp-ownership-boundaries
+    title: Redefine `rp` ownership boundaries
+    breadcrumbs:
+    - Redefine `rp` ownership boundaries
+    about:
+    - Redefine `rp` ownership boundaries
+    - redefine rp ownership boundaries
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: redefine-rp-ownership-boundaries
+    level: 1
+    line_start: 19
+    line_end: 57
+  facets: {}
+- id: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/rationale
+    document_id: TaskDoc:011-redefine-rp-ownership-boundaries
+    path: redefine-rp-ownership-boundaries/rationale
+    title: Rationale
+    breadcrumbs:
+    - Redefine `rp` ownership boundaries
+    - Rationale
+    about:
+    - Redefine `rp` ownership boundaries
+    - redefine rp ownership boundaries
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 21
+    line_end: 24
+  facets: {}
+- id: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/goal
+    document_id: TaskDoc:011-redefine-rp-ownership-boundaries
+    path: redefine-rp-ownership-boundaries/goal
+    title: Goal
+    breadcrumbs:
+    - Redefine `rp` ownership boundaries
+    - Goal
+    about:
+    - Redefine `rp` ownership boundaries
+    - redefine rp ownership boundaries
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 25
+    line_end: 30
+  facets: {}
+- id: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/scope
+    document_id: TaskDoc:011-redefine-rp-ownership-boundaries
+    path: redefine-rp-ownership-boundaries/scope
+    title: Scope
+    breadcrumbs:
+    - Redefine `rp` ownership boundaries
+    - Scope
+    about:
+    - Redefine `rp` ownership boundaries
+    - redefine rp ownership boundaries
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 31
+    line_end: 38
+  facets: {}
+- id: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/implementation-path
+    document_id: TaskDoc:011-redefine-rp-ownership-boundaries
+    path: redefine-rp-ownership-boundaries/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Redefine `rp` ownership boundaries
+    - Implementation Path
+    about:
+    - Redefine `rp` ownership boundaries
+    - redefine rp ownership boundaries
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 39
+    line_end: 46
+  facets: {}
+- id: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/validation
+    document_id: TaskDoc:011-redefine-rp-ownership-boundaries
+    path: redefine-rp-ownership-boundaries/validation
+    title: Validation
+    breadcrumbs:
+    - Redefine `rp` ownership boundaries
+    - Validation
+    about:
+    - Redefine `rp` ownership boundaries
+    - redefine rp ownership boundaries
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 47
+    line_end: 54
+  facets: {}
+- id: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/done-when
+    document_id: TaskDoc:011-redefine-rp-ownership-boundaries
+    path: redefine-rp-ownership-boundaries/done-when
+    title: Done When
+    breadcrumbs:
+    - Redefine `rp` ownership boundaries
+    - Done When
+    about:
+    - Redefine `rp` ownership boundaries
+    - redefine rp ownership boundaries
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 55
+    line_end: 57
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  target: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  target: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  target: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  target: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  target: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  target: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  target: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:011-redefine-rp-ownership-boundaries
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:011-redefine-rp-ownership-boundaries#redefine-rp-ownership-boundaries/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 011-redefine-rp-ownership-boundaries
+model_name: TaskDoc
+source_hash: 06c2fb478bff04a7b5a6d0ccfe2017f70c68849a70d34aed0a126841729baa68
+content_hash: 8acd8ca364f0fd85688039a915fd4bbb5ad3d1254a25c7c35590ca4687318196
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

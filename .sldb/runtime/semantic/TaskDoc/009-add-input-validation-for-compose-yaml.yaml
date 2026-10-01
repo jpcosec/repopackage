@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/009-add-input-validation-for-compose-yaml.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: d66829248bf24d14b9e7866d0b1b741409cc579330a14f0e11c11d713c4a0439

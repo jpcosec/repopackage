@@ -1,0 +1,59 @@
+doc_name: atom-repopackage-when
+sections:
+- path: repopackage-when
+  title: Repopackage — When
+  breadcrumbs:
+  - Repopackage — When
+  about:
+  - Repopackage — When
+  - repopackage when
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: repopackage-when
+  level: 1
+  line_start: 12
+  line_end: 16
+- path: repopackage-when/answer
+  title: Answer
+  breadcrumbs:
+  - Repopackage — When
+  - Answer
+  about:
+  - Repopackage — When
+  - repopackage when
+  - Answer
+  - answer
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: answer
+  level: 2
+  line_start: 14
+  line_end: 16
+source_hash: 4ba403c46f2c9eea9570f8a857f5c3a788e2b0bd023545bd434b5d5bbe35487a
+sections_version: '2'

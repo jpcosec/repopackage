@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/003-fix-rp-sync-crash-and-error-messages.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: 554744e8e074e0ff64687cece099a612439e65781e726f9d6841ce53255c0661

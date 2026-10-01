@@ -1,0 +1,19 @@
+name: ConditionDoc
+model_ref: deskops.models:ConditionDoc
+path: /home/jp/proyectos/hum-ecosystem/tools/deskops/deskops/models/condition.py
+documents_index: .sldb/core/documents/ConditionDoc.yaml
+sections_index: ''
+model_hash: b1c4f45fd128501928365f09ce5b92f5e70f84c56af2cfe4d1d79d18f9401497
+roster_hash: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+contract_hash: 82e1557b368afb2e2163ec99cbf9c90493570a6d8ea65e7c397427b175f7f257
+documents_count: 0
+version: 1
+canonical: false
+family: null
+semantics:
+- representation.markdown
+- source.document.markdown
+- type.workflow.condition
+- workspace.desk.primitives
+base_models:
+- PrimitiveDoc

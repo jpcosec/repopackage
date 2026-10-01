@@ -1,0 +1,15 @@
+operation: add_model
+address: OperatorDoc
+field: null
+previous_value: null
+new_value: deskops.models:OperatorDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: bf4d38626ae6f276b3a63a5bd9fd6c4276206c4ffb74a1afbf4dd8c0ba83da1d
+hash_a_after: daa471a9bfa46defedec05c86d93a5c67d1a78204413dbe2d07b4e6a1c071483
+actor: null
+timestamp: 2026-09-30 13:34:02.565493+00:00
+previous_hash: db2e59c597804c1c501500cb8f1c5fef24459beeb095ff8dd2493aca0fa3c998
+entry_hash: 17e930aca054933accd1eabde995ef747e301e77a900832040e348dc51af1b02

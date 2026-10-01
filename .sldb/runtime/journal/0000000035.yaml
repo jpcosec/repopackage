@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:017-index-cross-repo-references
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 9d8db16f2f829a57d2e6f6d5ccb03c018e6f61c5a05d484b81bb90d3f5955303
+hash_d_before: null
+hash_d_after: a47cae2d922c091f68be477484c210659f9951666205188c8f9896f0bf8f3db9
+hash_a_before: f573bae577c03546d5869ee37444882809be4e243873d8d86099c9c31edf7d09
+hash_a_after: 94c37c79688b2fac16592cc6c69213655af61d943d301d56acf3dd41cfc21f2e
+actor: null
+timestamp: 2026-09-30 13:34:04.343846+00:00
+previous_hash: dbb889dcf437a8c2716e185d1ff5f004692a432133e5d850d9e9a6a6754fd566
+entry_hash: 04f9f87c0a5793a4f34e14b62b133a872731bfb7a8a6979675c01cf72da5fcc4

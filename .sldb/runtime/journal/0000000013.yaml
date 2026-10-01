@@ -1,0 +1,15 @@
+operation: add_model
+address: ConditionDoc
+field: null
+previous_value: null
+new_value: deskops.models:ConditionDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 7842534cf9a8374a32b98a2aa9787bd169527afa1846ebe770891cafed455051
+hash_a_after: 2f15bb3d950b5994638dbe4a64ea68a3e5a1623544a97eeb87ff60e0980db411
+actor: null
+timestamp: 2026-09-30 13:34:02.462240+00:00
+previous_hash: 06e0cdc7760a891a0f194bc5f840651781354339a6d7e517044a2b1137330b44
+entry_hash: 9694267f574d92a17dd0886005d7af670f0cd013ebe187cc7ce06a2aa57946e0

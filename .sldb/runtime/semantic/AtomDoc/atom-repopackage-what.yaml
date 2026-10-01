@@ -1,0 +1,11 @@
+model: AtomDoc
+path: desk/atoms/atom-repopackage-what.md
+tags:
+- kind:code
+- project:repopackage
+- representation.markdown
+- source.document.markdown
+- source:legacy-brief
+- type.knowledge.atom
+- workspace.desk.atoms
+source_hash: 4904c7f3e2146af8229829ef7f54493f3d0e018fb24e3a9720280dc2b21f32a8

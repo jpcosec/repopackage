@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/010-fix-rp-status-exit-code-and-output-consistency.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: c90f0585942889553e61399a22b5766ae74dadb872a9552428251e548d31c646

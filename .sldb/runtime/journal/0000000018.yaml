@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:003-fix-rp-sync-crash-and-error-messages
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 2482910d28afaabef8c4351154045e39dd0c86a7c265f1682c7fad3feb9a6f3d
+hash_d_before: null
+hash_d_after: 3bc700bbc46894dc5a83a4039d2ecab1e17beaaf26e02d2931c11cc7355c1adc
+hash_a_before: 3abda47793ef314da752e4361c25b01c8f011b29426c0867dd2917614356e580
+hash_a_after: 07239a5b165840146b40bff5251244dbffaae62db723ea7e52003fe4f989c97a
+actor: null
+timestamp: 2026-09-30 13:34:02.798266+00:00
+previous_hash: be1bafa3eac191a3037a4558969fe6e36fbda12c55d915b87fb88932fb3dc622
+entry_hash: 169447731e13ef0b95b1bfcf0421521a697e9421d607b72671939d6d675c9d76

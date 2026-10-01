@@ -1,0 +1,162 @@
+doc_name: 018-implement-move-and-rename-repair-flow
+sections:
+- path: implement-move-and-rename-repair-flow
+  title: Implement move and rename repair flow
+  breadcrumbs:
+  - Implement move and rename repair flow
+  about:
+  - Implement move and rename repair flow
+  - implement move and rename repair flow
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implement-move-and-rename-repair-flow
+  level: 1
+  line_start: 23
+  line_end: 61
+- path: implement-move-and-rename-repair-flow/rationale
+  title: Rationale
+  breadcrumbs:
+  - Implement move and rename repair flow
+  - Rationale
+  about:
+  - Implement move and rename repair flow
+  - implement move and rename repair flow
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 25
+  line_end: 28
+- path: implement-move-and-rename-repair-flow/goal
+  title: Goal
+  breadcrumbs:
+  - Implement move and rename repair flow
+  - Goal
+  about:
+  - Implement move and rename repair flow
+  - implement move and rename repair flow
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 29
+  line_end: 34
+- path: implement-move-and-rename-repair-flow/scope
+  title: Scope
+  breadcrumbs:
+  - Implement move and rename repair flow
+  - Scope
+  about:
+  - Implement move and rename repair flow
+  - implement move and rename repair flow
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 35
+  line_end: 42
+- path: implement-move-and-rename-repair-flow/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Implement move and rename repair flow
+  - Implementation Path
+  about:
+  - Implement move and rename repair flow
+  - implement move and rename repair flow
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 43
+  line_end: 50
+- path: implement-move-and-rename-repair-flow/validation
+  title: Validation
+  breadcrumbs:
+  - Implement move and rename repair flow
+  - Validation
+  about:
+  - Implement move and rename repair flow
+  - implement move and rename repair flow
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 51
+  line_end: 58
+- path: implement-move-and-rename-repair-flow/done-when
+  title: Done When
+  breadcrumbs:
+  - Implement move and rename repair flow
+  - Done When
+  about:
+  - Implement move and rename repair flow
+  - implement move and rename repair flow
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 59
+  line_end: 61
+source_hash: aa6f8c80e710bc486dfd8212e370c671a2626117e18c26bb2476ee60517b9c7d
+sections_version: '2'

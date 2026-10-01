@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:013-build-command-registry
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 10eec893d25e75f1362eaeb56c310802fb23020351e807ab8bcb6ede6a2a1d55
+hash_d_before: null
+hash_d_after: 34e5d6016ae1c53c8f6338d05f8260bc6ca606b855201cc20a952e7237aba27d
+hash_a_before: 79125da8fb591a62dbd36faf2aff0aea070e112bd5959bd2560758bb9fed8a3c
+hash_a_after: af0b8c4918d011486f11f0b7a5049689d7b4546ed95f47ef7c9c7d4108de05ef
+actor: null
+timestamp: 2026-09-30 13:34:02.965799+00:00
+previous_hash: becdb842b5336670e724fcdfe516a20b806dd6b5a6d7772833e3362d6daba4de
+entry_hash: 40ef3ac8d4f4ed514b09fa364d780bbba9fc71ada51234fdad916de352bb5341

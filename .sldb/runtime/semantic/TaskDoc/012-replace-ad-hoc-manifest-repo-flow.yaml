@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/012-replace-ad-hoc-manifest-repo-flow.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: 1b1bfc2d9b4e11d478a34dc5b7b863d1566a22dcb377cbfaa6cec86a3be689bd

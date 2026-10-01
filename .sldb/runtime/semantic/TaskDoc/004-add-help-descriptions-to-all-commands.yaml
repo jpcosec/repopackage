@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/004-add-help-descriptions-to-all-commands.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: 354f60c8fba6d9ec92bf2591daa8c13ec194afbddf164e2aa83436dfa20c4281

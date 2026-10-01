@@ -1,0 +1,162 @@
+doc_name: 014-install-command-entrypoints
+sections:
+- path: install-resolved-commands-as-entrypoints
+  title: Install resolved commands as entrypoints
+  breadcrumbs:
+  - Install resolved commands as entrypoints
+  about:
+  - Install resolved commands as entrypoints
+  - install resolved commands as entrypoints
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: install-resolved-commands-as-entrypoints
+  level: 1
+  line_start: 24
+  line_end: 62
+- path: install-resolved-commands-as-entrypoints/rationale
+  title: Rationale
+  breadcrumbs:
+  - Install resolved commands as entrypoints
+  - Rationale
+  about:
+  - Install resolved commands as entrypoints
+  - install resolved commands as entrypoints
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 26
+  line_end: 29
+- path: install-resolved-commands-as-entrypoints/goal
+  title: Goal
+  breadcrumbs:
+  - Install resolved commands as entrypoints
+  - Goal
+  about:
+  - Install resolved commands as entrypoints
+  - install resolved commands as entrypoints
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 30
+  line_end: 35
+- path: install-resolved-commands-as-entrypoints/scope
+  title: Scope
+  breadcrumbs:
+  - Install resolved commands as entrypoints
+  - Scope
+  about:
+  - Install resolved commands as entrypoints
+  - install resolved commands as entrypoints
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 36
+  line_end: 43
+- path: install-resolved-commands-as-entrypoints/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Install resolved commands as entrypoints
+  - Implementation Path
+  about:
+  - Install resolved commands as entrypoints
+  - install resolved commands as entrypoints
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 44
+  line_end: 51
+- path: install-resolved-commands-as-entrypoints/validation
+  title: Validation
+  breadcrumbs:
+  - Install resolved commands as entrypoints
+  - Validation
+  about:
+  - Install resolved commands as entrypoints
+  - install resolved commands as entrypoints
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 52
+  line_end: 59
+- path: install-resolved-commands-as-entrypoints/done-when
+  title: Done When
+  breadcrumbs:
+  - Install resolved commands as entrypoints
+  - Done When
+  about:
+  - Install resolved commands as entrypoints
+  - install resolved commands as entrypoints
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 60
+  line_end: 62
+source_hash: a9cc3c3dc0591af24ae473bb5a73e65f7405e4d343bb45401c99f42816a59cbf
+sections_version: '2'

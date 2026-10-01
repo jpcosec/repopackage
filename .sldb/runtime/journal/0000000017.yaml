@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:001-fix-rp-init-silent-overwrite-and-permission-errors
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 155774a92fe81f1eac881c9ac79914e8080cf63b96068a68fc8df7b9d34f8914
+hash_d_before: null
+hash_d_after: fb305609cddbb18b80ce9c0adf053053e190c7d77f7fa7b2411216a822980892
+hash_a_before: 33006ecfe569c31d7535efcfb12ae05b4f91ac2cc4e9da69d1d1c268624eed27
+hash_a_after: 3abda47793ef314da752e4361c25b01c8f011b29426c0867dd2917614356e580
+actor: null
+timestamp: 2026-09-30 13:34:02.720446+00:00
+previous_hash: f742214c3fe55cd364fdf8d67c2367064d3fdb218c391d1aeda16c1bd97d1ce8
+entry_hash: be1bafa3eac191a3037a4558969fe6e36fbda12c55d915b87fb88932fb3dc622

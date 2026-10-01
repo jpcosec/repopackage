@@ -1,0 +1,15 @@
+operation: track_document_file
+address: PillDoc:pill-001-rp-cli-control-plane
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: e3ab0b00a1968e55f0b0294c8fe4cdad12f1e15b362d2a6aeffb3b16066399c8
+hash_d_before: null
+hash_d_after: ''
+hash_a_before: e3702ffe39c2411b8835993c1ead4c2e8c6c97917fe31da71220f5508ac0a9a0
+hash_a_after: 85551b8bcbae7cb4010a36bec94c3d8bebbb698ae390d04a8d89430e3ad23ecb
+actor: null
+timestamp: 2026-09-30 13:34:03.925655+00:00
+previous_hash: e1819cab52d33c70cfd27a91d4f06eb037b7d648eeb81093f076feeedc63cf44
+entry_hash: 9537d8aa2f4d1090c2bd1c79590d0632e4a8275d8247c6502806b425024c7126

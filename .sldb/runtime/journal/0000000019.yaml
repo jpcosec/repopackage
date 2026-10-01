@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 8509e80f72bd2eb2aa8f00358ce452dd773438b170c1383b71d3ad068f18c7cc
+hash_d_before: null
+hash_d_after: 6be005705293401b693a798f3b3f2e2bb4762dccc0867e7387f6ae2e9d162860
+hash_a_before: 07239a5b165840146b40bff5251244dbffaae62db723ea7e52003fe4f989c97a
+hash_a_after: 79125da8fb591a62dbd36faf2aff0aea070e112bd5959bd2560758bb9fed8a3c
+actor: null
+timestamp: 2026-09-30 13:34:02.878331+00:00
+previous_hash: 169447731e13ef0b95b1bfcf0421521a697e9421d607b72671939d6d675c9d76
+entry_hash: becdb842b5336670e724fcdfe516a20b806dd6b5a6d7772833e3362d6daba4de

@@ -1,0 +1,162 @@
+doc_name: 009-add-input-validation-for-compose-yaml
+sections:
+- path: add-input-validation-for-compose-yaml
+  title: Add input validation for compose.yaml
+  breadcrumbs:
+  - Add input validation for compose.yaml
+  about:
+  - Add input validation for compose.yaml
+  - add input validation for compose yaml
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: add-input-validation-for-compose-yaml
+  level: 1
+  line_start: 17
+  line_end: 52
+- path: add-input-validation-for-compose-yaml/rationale
+  title: Rationale
+  breadcrumbs:
+  - Add input validation for compose.yaml
+  - Rationale
+  about:
+  - Add input validation for compose.yaml
+  - add input validation for compose yaml
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 19
+  line_end: 22
+- path: add-input-validation-for-compose-yaml/goal
+  title: Goal
+  breadcrumbs:
+  - Add input validation for compose.yaml
+  - Goal
+  about:
+  - Add input validation for compose.yaml
+  - add input validation for compose yaml
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 23
+  line_end: 28
+- path: add-input-validation-for-compose-yaml/scope
+  title: Scope
+  breadcrumbs:
+  - Add input validation for compose.yaml
+  - Scope
+  about:
+  - Add input validation for compose.yaml
+  - add input validation for compose yaml
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 29
+  line_end: 37
+- path: add-input-validation-for-compose-yaml/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Add input validation for compose.yaml
+  - Implementation Path
+  about:
+  - Add input validation for compose.yaml
+  - add input validation for compose yaml
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 38
+  line_end: 41
+- path: add-input-validation-for-compose-yaml/validation
+  title: Validation
+  breadcrumbs:
+  - Add input validation for compose.yaml
+  - Validation
+  about:
+  - Add input validation for compose.yaml
+  - add input validation for compose yaml
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 42
+  line_end: 49
+- path: add-input-validation-for-compose-yaml/done-when
+  title: Done When
+  breadcrumbs:
+  - Add input validation for compose.yaml
+  - Done When
+  about:
+  - Add input validation for compose.yaml
+  - add input validation for compose yaml
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 50
+  line_end: 52
+source_hash: d66829248bf24d14b9e7866d0b1b741409cc579330a14f0e11c11d713c4a0439
+sections_version: '2'

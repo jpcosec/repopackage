@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/008-fix-rp-graph-for-standalone-projects-and-add-flags.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: 44833dc4c33cea351cd277cca18f587f3af7db096d26bacf7e0fc5e513e28bf8

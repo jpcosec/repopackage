@@ -1,0 +1,59 @@
+doc_name: atom-repopackage-what
+sections:
+- path: repopackage-what-it-is
+  title: Repopackage — What it is
+  breadcrumbs:
+  - Repopackage — What it is
+  about:
+  - Repopackage — What it is
+  - repopackage what it is
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: repopackage-what-it-is
+  level: 1
+  line_start: 12
+  line_end: 16
+- path: repopackage-what-it-is/answer
+  title: Answer
+  breadcrumbs:
+  - Repopackage — What it is
+  - Answer
+  about:
+  - Repopackage — What it is
+  - repopackage what it is
+  - Answer
+  - answer
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:repopackage
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: answer
+  level: 2
+  line_start: 14
+  line_end: 16
+source_hash: 4904c7f3e2146af8229829ef7f54493f3d0e018fb24e3a9720280dc2b21f32a8
+sections_version: '2'

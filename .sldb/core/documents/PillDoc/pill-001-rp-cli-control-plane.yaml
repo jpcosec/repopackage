@@ -1,0 +1,22 @@
+name: pill-001-rp-cli-control-plane
+path: desk/contexts/pill-001-rp-cli-control-plane.md
+source_hash: 47be208b3b950d0f5964f3282af17c79833b1eedd9bd4fbb80605c7054e562c7
+content_hash: 7c8c64d14c9b089a3e3bc80e6bdc639ae8cdc71de3aae00612f3ec42671ef1d3
+field_hashes:
+  title: d645ad5c656a7561268e730d18b1b580f86849cf5e50789d5d5c06c150072aad
+  id: e2ad288bb10570c160a3addce49e588772f18d002e6f7e028d4d4be5421115e1
+  tags: 4224ab4efadea72fde150cb971588b5ee125585351b7cd44664a7b1f04dca9d0
+  what: ac07e1784fa0dfb52337c5cc266b80af815b0a8feb1e5f05012259d82cf23589
+  why: 4473eeda26d88ad39c5a5f11831f26dd07001d9eefaf8c0d6219a0637e9ae20f
+  when: dc543c57726e7f1de50d896b5a00f8f0e7e6706b329217250606cb833d49bf8f
+  where: 8b3986bc7ab9429984a689f990ed5aceb1ed87183efc55f5cdd0c38ced85eb45
+  how: aabcc0cba1740ed6e244d4cca304982d2bf0bdbb02b101cb4ba93264a7324422
+  how_not: 6563ba2eff57dc656903d0a48bff619a47b8764e3cfb640002e42c6859da29f6
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- system:repopackage
+- topic:cli
+- topic:control-plane
+- type.workflow.pill
+- workspace.desk

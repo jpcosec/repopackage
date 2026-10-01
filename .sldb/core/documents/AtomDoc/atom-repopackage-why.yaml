@@ -1,0 +1,19 @@
+name: atom-repopackage-why
+path: desk/atoms/atom-repopackage-why.md
+source_hash: 6fd691bb3e283e212e580d03d17fd2790c0895174c66b6f859dbdba5b233dba6
+content_hash: 38c95c1e3735065ac14d26a367d6e17a6f9c9b3733be9c4654dd391bc885b9de
+field_hashes:
+  id: 8c081fbb2248b72f740dc58af4bf26844b877fe1679021bb499d6806bbc31196
+  title: cc044f520c230d2ffea4ab360596b6af7b37abbe6d715d949b3a1df364b5b869
+  five_wh_one_plus: 1566d618b9ad05f5d6636ef68875b058a3311f288ab671709bb72d36b5dd1a5c
+  answer: d27af1d52d3de256b8b201e48abee3e412a4a65807210b96faab4ef62efb54ea
+  tags: 7295cf25225e054919738af8bc6fe8ce6012462b34e88d3ab1aba0b3dcd52784
+  provenance: 54c1f77f3be6fab5af6c7967d0d1e7a22a37bc26fcf964adad415ba78fbaf4a3
+semantic_tags:
+- kind:code
+- project:repopackage
+- representation.markdown
+- source.document.markdown
+- source:legacy-brief
+- type.knowledge.atom
+- workspace.desk.atoms

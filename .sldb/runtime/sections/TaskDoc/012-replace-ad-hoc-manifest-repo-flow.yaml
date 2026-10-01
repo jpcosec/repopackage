@@ -1,0 +1,162 @@
+doc_name: 012-replace-ad-hoc-manifest-repo-flow
+sections:
+- path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership
+  title: Replace ad hoc manifest repo flow with `git-repo` ownership
+  breadcrumbs:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  about:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - replace ad hoc manifest repo flow with git repo ownership
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership
+  level: 1
+  line_start: 25
+  line_end: 63
+- path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/rationale
+  title: Rationale
+  breadcrumbs:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - Rationale
+  about:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - replace ad hoc manifest repo flow with git repo ownership
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 27
+  line_end: 30
+- path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/goal
+  title: Goal
+  breadcrumbs:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - Goal
+  about:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - replace ad hoc manifest repo flow with git repo ownership
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 31
+  line_end: 36
+- path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/scope
+  title: Scope
+  breadcrumbs:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - Scope
+  about:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - replace ad hoc manifest repo flow with git repo ownership
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 37
+  line_end: 44
+- path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - Implementation Path
+  about:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - replace ad hoc manifest repo flow with git repo ownership
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 45
+  line_end: 52
+- path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/validation
+  title: Validation
+  breadcrumbs:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - Validation
+  about:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - replace ad hoc manifest repo flow with git repo ownership
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 53
+  line_end: 60
+- path: replace-ad-hoc-manifest-repo-flow-with-git-repo-ownership/done-when
+  title: Done When
+  breadcrumbs:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - Done When
+  about:
+  - Replace ad hoc manifest repo flow with `git-repo` ownership
+  - replace ad hoc manifest repo flow with git repo ownership
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 61
+  line_end: 63
+source_hash: 1b1bfc2d9b4e11d478a34dc5b7b863d1566a22dcb377cbfaa6cec86a3be689bd
+sections_version: '2'

@@ -1,0 +1,630 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  node_type: PillDoc
+  semantics:
+    export_id: PillDoc:pill-001-rp-cli-control-plane
+    name: pill-001-rp-cli-control-plane
+    model: PillDoc
+    path: desk/contexts/pill-001-rp-cli-control-plane.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    hash_c: 47be208b3b950d0f5964f3282af17c79833b1eedd9bd4fbb80605c7054e562c7
+    hash_d: 7c8c64d14c9b089a3e3bc80e6bdc639ae8cdc71de3aae00612f3ec42671ef1d3
+  facets: {}
+- id: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary
+    document_id: PillDoc:pill-001-rp-cli-control-plane
+    path: pattern-keep-rp-fixes-inside-the-control-plane-boundary
+    title: 'Pattern: keep rp fixes inside the control-plane boundary'
+    breadcrumbs:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    about:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - pattern keep rp fixes inside the control plane boundary
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    slug: pattern-keep-rp-fixes-inside-the-control-plane-boundary
+    level: 1
+    line_start: 10
+    line_end: 75
+  facets: {}
+- id: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+    document_id: PillDoc:pill-001-rp-cli-control-plane
+    path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+    title: What
+    breadcrumbs:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - What
+    about:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - pattern keep rp fixes inside the control plane boundary
+    - What
+    - what
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    slug: what
+    level: 2
+    line_start: 14
+    line_end: 19
+  facets: {}
+- id: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+    document_id: PillDoc:pill-001-rp-cli-control-plane
+    path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+    title: Why
+    breadcrumbs:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - Why
+    about:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - pattern keep rp fixes inside the control plane boundary
+    - Why
+    - why
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    slug: why
+    level: 2
+    line_start: 20
+    line_end: 25
+  facets: {}
+- id: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+    document_id: PillDoc:pill-001-rp-cli-control-plane
+    path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+    title: When
+    breadcrumbs:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - When
+    about:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - pattern keep rp fixes inside the control plane boundary
+    - When
+    - when
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    slug: when
+    level: 2
+    line_start: 26
+    line_end: 31
+  facets: {}
+- id: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+    document_id: PillDoc:pill-001-rp-cli-control-plane
+    path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+    title: Where
+    breadcrumbs:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - Where
+    about:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - pattern keep rp fixes inside the control plane boundary
+    - Where
+    - where
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    slug: where
+    level: 2
+    line_start: 32
+    line_end: 42
+  facets: {}
+- id: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+    document_id: PillDoc:pill-001-rp-cli-control-plane
+    path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+    title: How
+    breadcrumbs:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - How
+    about:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - pattern keep rp fixes inside the control plane boundary
+    - How
+    - how
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    slug: how
+    level: 2
+    line_start: 43
+    line_end: 70
+  facets: {}
+- id: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+    document_id: PillDoc:pill-001-rp-cli-control-plane
+    path: pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+    title: How Not
+    breadcrumbs:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - How Not
+    about:
+    - 'Pattern: keep rp fixes inside the control-plane boundary'
+    - pattern keep rp fixes inside the control plane boundary
+    - How Not
+    - how not
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:repopackage
+    - topic:cli
+    - topic:control-plane
+    - type.workflow.pill
+    - workspace.desk
+    slug: how-not
+    level: 2
+    line_start: 71
+    line_end: 75
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/system:repopackage
+  node_type: semantic_tag
+  semantics:
+    tag: system:repopackage
+  facets: {}
+- id: sldb://semantic_tag/topic:cli
+  node_type: semantic_tag
+  semantics:
+    tag: topic:cli
+  facets: {}
+- id: sldb://semantic_tag/topic:control-plane
+  node_type: semantic_tag
+  semantics:
+    tag: topic:control-plane
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.pill
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.pill
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/PillDoc
+  target: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://semantic_tag/system:repopackage
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://semantic_tag/topic:cli
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://semantic_tag/topic:control-plane
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-001-rp-cli-control-plane
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary
+  target: sldb://semantic_tag/system:repopackage
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary
+  target: sldb://semantic_tag/topic:cli
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary
+  target: sldb://semantic_tag/topic:control-plane
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+  target: sldb://semantic_tag/system:repopackage
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+  target: sldb://semantic_tag/topic:cli
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+  target: sldb://semantic_tag/topic:control-plane
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/what
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+  target: sldb://semantic_tag/system:repopackage
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+  target: sldb://semantic_tag/topic:cli
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+  target: sldb://semantic_tag/topic:control-plane
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/why
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+  target: sldb://semantic_tag/system:repopackage
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+  target: sldb://semantic_tag/topic:cli
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+  target: sldb://semantic_tag/topic:control-plane
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+  target: sldb://semantic_tag/system:repopackage
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+  target: sldb://semantic_tag/topic:cli
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+  target: sldb://semantic_tag/topic:control-plane
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/where
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+  target: sldb://semantic_tag/system:repopackage
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+  target: sldb://semantic_tag/topic:cli
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+  target: sldb://semantic_tag/topic:control-plane
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+  target: sldb://semantic_tag/system:repopackage
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+  target: sldb://semantic_tag/topic:cli
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+  target: sldb://semantic_tag/topic:control-plane
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-001-rp-cli-control-plane#pattern-keep-rp-fixes-inside-the-control-plane-boundary/how-not
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: pill-001-rp-cli-control-plane
+model_name: PillDoc
+source_hash: 47be208b3b950d0f5964f3282af17c79833b1eedd9bd4fbb80605c7054e562c7
+content_hash: 7c8c64d14c9b089a3e3bc80e6bdc639ae8cdc71de3aae00612f3ec42671ef1d3
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- system:repopackage
+- topic:cli
+- topic:control-plane
+- type.workflow.pill
+- workspace.desk

@@ -1,0 +1,162 @@
+doc_name: 005-add-version-flag-and-format-json-support
+sections:
+- path: add-version-flag-and-format-json-support
+  title: Add --version flag and --format json support
+  breadcrumbs:
+  - Add --version flag and --format json support
+  about:
+  - Add --version flag and --format json support
+  - add version flag and format json support
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: add-version-flag-and-format-json-support
+  level: 1
+  line_start: 17
+  line_end: 50
+- path: add-version-flag-and-format-json-support/rationale
+  title: Rationale
+  breadcrumbs:
+  - Add --version flag and --format json support
+  - Rationale
+  about:
+  - Add --version flag and --format json support
+  - add version flag and format json support
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 19
+  line_end: 22
+- path: add-version-flag-and-format-json-support/goal
+  title: Goal
+  breadcrumbs:
+  - Add --version flag and --format json support
+  - Goal
+  about:
+  - Add --version flag and --format json support
+  - add version flag and format json support
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 23
+  line_end: 28
+- path: add-version-flag-and-format-json-support/scope
+  title: Scope
+  breadcrumbs:
+  - Add --version flag and --format json support
+  - Scope
+  about:
+  - Add --version flag and --format json support
+  - add version flag and format json support
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 29
+  line_end: 35
+- path: add-version-flag-and-format-json-support/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Add --version flag and --format json support
+  - Implementation Path
+  about:
+  - Add --version flag and --format json support
+  - add version flag and format json support
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 36
+  line_end: 39
+- path: add-version-flag-and-format-json-support/validation
+  title: Validation
+  breadcrumbs:
+  - Add --version flag and --format json support
+  - Validation
+  about:
+  - Add --version flag and --format json support
+  - add version flag and format json support
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 40
+  line_end: 47
+- path: add-version-flag-and-format-json-support/done-when
+  title: Done When
+  breadcrumbs:
+  - Add --version flag and --format json support
+  - Done When
+  about:
+  - Add --version flag and --format json support
+  - add version flag and format json support
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 48
+  line_end: 50
+source_hash: 62e3388e134b248540667d1282fd1a3089d64078de6879ff71c45537561d710b
+sections_version: '2'

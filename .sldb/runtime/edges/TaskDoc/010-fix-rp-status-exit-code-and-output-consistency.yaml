@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+    name: 010-fix-rp-status-exit-code-and-output-consistency
+    model: TaskDoc
+    path: desk/tasks/010-fix-rp-status-exit-code-and-output-consistency.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: c90f0585942889553e61399a22b5766ae74dadb872a9552428251e548d31c646
+    hash_d: 918f6860e33ab512e48da4adab16892da445d15365ed1097710cf1a3a464ab41
+  facets: {}
+- id: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency
+    document_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+    path: fix-rp-status-exit-code-and-output-consistency
+    title: Fix rp status exit code and output consistency
+    breadcrumbs:
+    - Fix rp status exit code and output consistency
+    about:
+    - Fix rp status exit code and output consistency
+    - fix rp status exit code and output consistency
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: fix-rp-status-exit-code-and-output-consistency
+    level: 1
+    line_start: 19
+    line_end: 53
+  facets: {}
+- id: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/rationale
+    document_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+    path: fix-rp-status-exit-code-and-output-consistency/rationale
+    title: Rationale
+    breadcrumbs:
+    - Fix rp status exit code and output consistency
+    - Rationale
+    about:
+    - Fix rp status exit code and output consistency
+    - fix rp status exit code and output consistency
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 21
+    line_end: 24
+  facets: {}
+- id: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/goal
+    document_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+    path: fix-rp-status-exit-code-and-output-consistency/goal
+    title: Goal
+    breadcrumbs:
+    - Fix rp status exit code and output consistency
+    - Goal
+    about:
+    - Fix rp status exit code and output consistency
+    - fix rp status exit code and output consistency
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 25
+    line_end: 30
+  facets: {}
+- id: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/scope
+    document_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+    path: fix-rp-status-exit-code-and-output-consistency/scope
+    title: Scope
+    breadcrumbs:
+    - Fix rp status exit code and output consistency
+    - Scope
+    about:
+    - Fix rp status exit code and output consistency
+    - fix rp status exit code and output consistency
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 31
+    line_end: 38
+  facets: {}
+- id: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/implementation-path
+    document_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+    path: fix-rp-status-exit-code-and-output-consistency/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Fix rp status exit code and output consistency
+    - Implementation Path
+    about:
+    - Fix rp status exit code and output consistency
+    - fix rp status exit code and output consistency
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 39
+    line_end: 42
+  facets: {}
+- id: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/validation
+    document_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+    path: fix-rp-status-exit-code-and-output-consistency/validation
+    title: Validation
+    breadcrumbs:
+    - Fix rp status exit code and output consistency
+    - Validation
+    about:
+    - Fix rp status exit code and output consistency
+    - fix rp status exit code and output consistency
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 43
+    line_end: 50
+  facets: {}
+- id: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/done-when
+    document_id: TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+    path: fix-rp-status-exit-code-and-output-consistency/done-when
+    title: Done When
+    breadcrumbs:
+    - Fix rp status exit code and output consistency
+    - Done When
+    about:
+    - Fix rp status exit code and output consistency
+    - fix rp status exit code and output consistency
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 51
+    line_end: 53
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  target: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  target: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  target: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  target: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  target: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  target: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  target: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:010-fix-rp-status-exit-code-and-output-consistency#fix-rp-status-exit-code-and-output-consistency/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 010-fix-rp-status-exit-code-and-output-consistency
+model_name: TaskDoc
+source_hash: c90f0585942889553e61399a22b5766ae74dadb872a9552428251e548d31c646
+content_hash: 918f6860e33ab512e48da4adab16892da445d15365ed1097710cf1a3a464ab41
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

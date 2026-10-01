@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/018-implement-move-and-rename-repair-flow.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: aa6f8c80e710bc486dfd8212e370c671a2626117e18c26bb2476ee60517b9c7d

@@ -1,0 +1,162 @@
+doc_name: 006-fix-rp-generate-and-rp-exports-producing-no-output
+sections:
+- path: fix-rp-generate-and-rp-exports-producing-no-output
+  title: Fix rp generate and rp exports producing no output
+  breadcrumbs:
+  - Fix rp generate and rp exports producing no output
+  about:
+  - Fix rp generate and rp exports producing no output
+  - fix rp generate and rp exports producing no output
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: fix-rp-generate-and-rp-exports-producing-no-output
+  level: 1
+  line_start: 20
+  line_end: 53
+- path: fix-rp-generate-and-rp-exports-producing-no-output/rationale
+  title: Rationale
+  breadcrumbs:
+  - Fix rp generate and rp exports producing no output
+  - Rationale
+  about:
+  - Fix rp generate and rp exports producing no output
+  - fix rp generate and rp exports producing no output
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 22
+  line_end: 25
+- path: fix-rp-generate-and-rp-exports-producing-no-output/goal
+  title: Goal
+  breadcrumbs:
+  - Fix rp generate and rp exports producing no output
+  - Goal
+  about:
+  - Fix rp generate and rp exports producing no output
+  - fix rp generate and rp exports producing no output
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 26
+  line_end: 31
+- path: fix-rp-generate-and-rp-exports-producing-no-output/scope
+  title: Scope
+  breadcrumbs:
+  - Fix rp generate and rp exports producing no output
+  - Scope
+  about:
+  - Fix rp generate and rp exports producing no output
+  - fix rp generate and rp exports producing no output
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 32
+  line_end: 39
+- path: fix-rp-generate-and-rp-exports-producing-no-output/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Fix rp generate and rp exports producing no output
+  - Implementation Path
+  about:
+  - Fix rp generate and rp exports producing no output
+  - fix rp generate and rp exports producing no output
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 40
+  line_end: 43
+- path: fix-rp-generate-and-rp-exports-producing-no-output/validation
+  title: Validation
+  breadcrumbs:
+  - Fix rp generate and rp exports producing no output
+  - Validation
+  about:
+  - Fix rp generate and rp exports producing no output
+  - fix rp generate and rp exports producing no output
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 44
+  line_end: 50
+- path: fix-rp-generate-and-rp-exports-producing-no-output/done-when
+  title: Done When
+  breadcrumbs:
+  - Fix rp generate and rp exports producing no output
+  - Done When
+  about:
+  - Fix rp generate and rp exports producing no output
+  - fix rp generate and rp exports producing no output
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 51
+  line_end: 53
+source_hash: 3cd2f2e1f914cbe0a2ed0f0d0dfa12513322e384d60bb2d4ae3d22aff59832e6
+sections_version: '2'

@@ -1,0 +1,204 @@
+doc_name: pill-002-state-and-false-success-failure-mode
+sections:
+- path: failure-mode-repopackage-false-success-and-stale-state
+  title: 'Failure Mode: repopackage false success and stale state'
+  breadcrumbs:
+  - 'Failure Mode: repopackage false success and stale state'
+  about:
+  - 'Failure Mode: repopackage false success and stale state'
+  - failure mode repopackage false success and stale state
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  slug: failure-mode-repopackage-false-success-and-stale-state
+  level: 1
+  line_start: 10
+  line_end: 73
+- path: failure-mode-repopackage-false-success-and-stale-state/what
+  title: What
+  breadcrumbs:
+  - 'Failure Mode: repopackage false success and stale state'
+  - What
+  about:
+  - 'Failure Mode: repopackage false success and stale state'
+  - failure mode repopackage false success and stale state
+  - What
+  - what
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  slug: what
+  level: 2
+  line_start: 14
+  line_end: 19
+- path: failure-mode-repopackage-false-success-and-stale-state/why
+  title: Why
+  breadcrumbs:
+  - 'Failure Mode: repopackage false success and stale state'
+  - Why
+  about:
+  - 'Failure Mode: repopackage false success and stale state'
+  - failure mode repopackage false success and stale state
+  - Why
+  - why
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  slug: why
+  level: 2
+  line_start: 20
+  line_end: 25
+- path: failure-mode-repopackage-false-success-and-stale-state/when
+  title: When
+  breadcrumbs:
+  - 'Failure Mode: repopackage false success and stale state'
+  - When
+  about:
+  - 'Failure Mode: repopackage false success and stale state'
+  - failure mode repopackage false success and stale state
+  - When
+  - when
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  slug: when
+  level: 2
+  line_start: 26
+  line_end: 31
+- path: failure-mode-repopackage-false-success-and-stale-state/where
+  title: Where
+  breadcrumbs:
+  - 'Failure Mode: repopackage false success and stale state'
+  - Where
+  about:
+  - 'Failure Mode: repopackage false success and stale state'
+  - failure mode repopackage false success and stale state
+  - Where
+  - where
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  slug: where
+  level: 2
+  line_start: 32
+  line_end: 42
+- path: failure-mode-repopackage-false-success-and-stale-state/how
+  title: How
+  breadcrumbs:
+  - 'Failure Mode: repopackage false success and stale state'
+  - How
+  about:
+  - 'Failure Mode: repopackage false success and stale state'
+  - failure mode repopackage false success and stale state
+  - How
+  - how
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  slug: how
+  level: 2
+  line_start: 43
+  line_end: 68
+- path: failure-mode-repopackage-false-success-and-stale-state/how-not
+  title: How Not
+  breadcrumbs:
+  - 'Failure Mode: repopackage false success and stale state'
+  - How Not
+  about:
+  - 'Failure Mode: repopackage false success and stale state'
+  - failure mode repopackage false success and stale state
+  - How Not
+  - how not
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - system:repopackage
+  - topic:failure-mode
+  - topic:state
+  - type.workflow.pill
+  - workspace.desk
+  slug: how-not
+  level: 2
+  line_start: 69
+  line_end: 73
+source_hash: 57dc1740f9c93edd58e43933170452455ce8c9ff834bb216d214c7e432965f34
+sections_version: '2'

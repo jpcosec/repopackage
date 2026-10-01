@@ -1,0 +1,15 @@
+operation: add_model
+address: RitualDoc
+field: null
+previous_value: null
+new_value: deskops.models:RitualDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 19d3552491be6ece8d589a643472c4823e964c7d7646b5a2fa675408ba9debfa
+hash_a_after: 7c9332f0fb596ba867da1fe8fd98df29d30839fc819f6dbbd7ac41ccc79b9eb1
+actor: null
+timestamp: 2026-09-30 13:34:02.019149+00:00
+previous_hash: dc368d1ea89818688c5fcb1128fb07b11a1a051b6f98250ac5d3e1792c312e58
+entry_hash: a1378643af7586e50bff8bf77abdf2054caff86b13ee40521aa32a7303c6279f

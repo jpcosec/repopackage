@@ -1,0 +1,162 @@
+doc_name: 013-build-command-registry
+sections:
+- path: build-canonical-command-registry
+  title: Build canonical command registry
+  breadcrumbs:
+  - Build canonical command registry
+  about:
+  - Build canonical command registry
+  - build canonical command registry
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: build-canonical-command-registry
+  level: 1
+  line_start: 24
+  line_end: 62
+- path: build-canonical-command-registry/rationale
+  title: Rationale
+  breadcrumbs:
+  - Build canonical command registry
+  - Rationale
+  about:
+  - Build canonical command registry
+  - build canonical command registry
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 26
+  line_end: 29
+- path: build-canonical-command-registry/goal
+  title: Goal
+  breadcrumbs:
+  - Build canonical command registry
+  - Goal
+  about:
+  - Build canonical command registry
+  - build canonical command registry
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 30
+  line_end: 35
+- path: build-canonical-command-registry/scope
+  title: Scope
+  breadcrumbs:
+  - Build canonical command registry
+  - Scope
+  about:
+  - Build canonical command registry
+  - build canonical command registry
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 36
+  line_end: 43
+- path: build-canonical-command-registry/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Build canonical command registry
+  - Implementation Path
+  about:
+  - Build canonical command registry
+  - build canonical command registry
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 44
+  line_end: 51
+- path: build-canonical-command-registry/validation
+  title: Validation
+  breadcrumbs:
+  - Build canonical command registry
+  - Validation
+  about:
+  - Build canonical command registry
+  - build canonical command registry
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 52
+  line_end: 59
+- path: build-canonical-command-registry/done-when
+  title: Done When
+  breadcrumbs:
+  - Build canonical command registry
+  - Done When
+  about:
+  - Build canonical command registry
+  - build canonical command registry
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 60
+  line_end: 62
+source_hash: f1a48423216fcaa46b6ae97c5e3807401b1f28ab65a5abf871784ff3935a0126
+sections_version: '2'

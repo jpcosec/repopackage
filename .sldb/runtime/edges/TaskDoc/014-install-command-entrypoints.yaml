@@ -1,0 +1,447 @@
+edges_version: 2|sections:2
+nodes:
+- id: sldb://document/TaskDoc:014-install-command-entrypoints
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:014-install-command-entrypoints
+    name: 014-install-command-entrypoints
+    model: TaskDoc
+    path: desk/tasks/014-install-command-entrypoints.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    hash_c: a9cc3c3dc0591af24ae473bb5a73e65f7405e4d343bb45401c99f42816a59cbf
+    hash_d: c7e53fe3e4f72d690b8aa7900a8514866f2d697f7b91a3d211ae6fd4dd8821d1
+  facets: {}
+- id: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints
+    document_id: TaskDoc:014-install-command-entrypoints
+    path: install-resolved-commands-as-entrypoints
+    title: Install resolved commands as entrypoints
+    breadcrumbs:
+    - Install resolved commands as entrypoints
+    about:
+    - Install resolved commands as entrypoints
+    - install resolved commands as entrypoints
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: install-resolved-commands-as-entrypoints
+    level: 1
+    line_start: 24
+    line_end: 62
+  facets: {}
+- id: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/rationale
+    document_id: TaskDoc:014-install-command-entrypoints
+    path: install-resolved-commands-as-entrypoints/rationale
+    title: Rationale
+    breadcrumbs:
+    - Install resolved commands as entrypoints
+    - Rationale
+    about:
+    - Install resolved commands as entrypoints
+    - install resolved commands as entrypoints
+    - Rationale
+    - rationale
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: rationale
+    level: 2
+    line_start: 26
+    line_end: 29
+  facets: {}
+- id: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/goal
+    document_id: TaskDoc:014-install-command-entrypoints
+    path: install-resolved-commands-as-entrypoints/goal
+    title: Goal
+    breadcrumbs:
+    - Install resolved commands as entrypoints
+    - Goal
+    about:
+    - Install resolved commands as entrypoints
+    - install resolved commands as entrypoints
+    - Goal
+    - goal
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: goal
+    level: 2
+    line_start: 30
+    line_end: 35
+  facets: {}
+- id: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/scope
+    document_id: TaskDoc:014-install-command-entrypoints
+    path: install-resolved-commands-as-entrypoints/scope
+    title: Scope
+    breadcrumbs:
+    - Install resolved commands as entrypoints
+    - Scope
+    about:
+    - Install resolved commands as entrypoints
+    - install resolved commands as entrypoints
+    - Scope
+    - scope
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: scope
+    level: 2
+    line_start: 36
+    line_end: 43
+  facets: {}
+- id: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/implementation-path
+    document_id: TaskDoc:014-install-command-entrypoints
+    path: install-resolved-commands-as-entrypoints/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - Install resolved commands as entrypoints
+    - Implementation Path
+    about:
+    - Install resolved commands as entrypoints
+    - install resolved commands as entrypoints
+    - Implementation Path
+    - implementation path
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: implementation-path
+    level: 2
+    line_start: 44
+    line_end: 51
+  facets: {}
+- id: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/validation
+    document_id: TaskDoc:014-install-command-entrypoints
+    path: install-resolved-commands-as-entrypoints/validation
+    title: Validation
+    breadcrumbs:
+    - Install resolved commands as entrypoints
+    - Validation
+    about:
+    - Install resolved commands as entrypoints
+    - install resolved commands as entrypoints
+    - Validation
+    - validation
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: validation
+    level: 2
+    line_start: 52
+    line_end: 59
+  facets: {}
+- id: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/done-when
+    document_id: TaskDoc:014-install-command-entrypoints
+    path: install-resolved-commands-as-entrypoints/done-when
+    title: Done When
+    breadcrumbs:
+    - Install resolved commands as entrypoints
+    - Done When
+    about:
+    - Install resolved commands as entrypoints
+    - install resolved commands as entrypoints
+    - Done When
+    - done when
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    slug: done-when
+    level: 2
+    line_start: 60
+    line_end: 62
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:014-install-command-entrypoints
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:014-install-command-entrypoints
+  target: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:014-install-command-entrypoints
+  target: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:014-install-command-entrypoints
+  target: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:014-install-command-entrypoints
+  target: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:014-install-command-entrypoints
+  target: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:014-install-command-entrypoints
+  target: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:014-install-command-entrypoints
+  target: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:014-install-command-entrypoints
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:014-install-command-entrypoints
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:014-install-command-entrypoints
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:014-install-command-entrypoints
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:014-install-command-entrypoints#install-resolved-commands-as-entrypoints/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: 014-install-command-entrypoints
+model_name: TaskDoc
+source_hash: a9cc3c3dc0591af24ae473bb5a73e65f7405e4d343bb45401c99f42816a59cbf
+content_hash: c7e53fe3e4f72d690b8aa7900a8514866f2d697f7b91a3d211ae6fd4dd8821d1
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk

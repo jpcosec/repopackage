@@ -1,0 +1,8 @@
+model: TaskDoc
+path: desk/tasks/011-redefine-rp-ownership-boundaries.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+source_hash: 06c2fb478bff04a7b5a6d0ccfe2017f70c68849a70d34aed0a126841729baa68

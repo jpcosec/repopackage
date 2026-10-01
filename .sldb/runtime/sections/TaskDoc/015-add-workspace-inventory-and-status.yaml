@@ -1,0 +1,162 @@
+doc_name: 015-add-workspace-inventory-and-status
+sections:
+- path: add-workspace-inventory-and-status-model
+  title: Add workspace inventory and status model
+  breadcrumbs:
+  - Add workspace inventory and status model
+  about:
+  - Add workspace inventory and status model
+  - add workspace inventory and status model
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: add-workspace-inventory-and-status-model
+  level: 1
+  line_start: 25
+  line_end: 63
+- path: add-workspace-inventory-and-status-model/rationale
+  title: Rationale
+  breadcrumbs:
+  - Add workspace inventory and status model
+  - Rationale
+  about:
+  - Add workspace inventory and status model
+  - add workspace inventory and status model
+  - Rationale
+  - rationale
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: rationale
+  level: 2
+  line_start: 27
+  line_end: 30
+- path: add-workspace-inventory-and-status-model/goal
+  title: Goal
+  breadcrumbs:
+  - Add workspace inventory and status model
+  - Goal
+  about:
+  - Add workspace inventory and status model
+  - add workspace inventory and status model
+  - Goal
+  - goal
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: goal
+  level: 2
+  line_start: 31
+  line_end: 36
+- path: add-workspace-inventory-and-status-model/scope
+  title: Scope
+  breadcrumbs:
+  - Add workspace inventory and status model
+  - Scope
+  about:
+  - Add workspace inventory and status model
+  - add workspace inventory and status model
+  - Scope
+  - scope
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: scope
+  level: 2
+  line_start: 37
+  line_end: 44
+- path: add-workspace-inventory-and-status-model/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - Add workspace inventory and status model
+  - Implementation Path
+  about:
+  - Add workspace inventory and status model
+  - add workspace inventory and status model
+  - Implementation Path
+  - implementation path
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: implementation-path
+  level: 2
+  line_start: 45
+  line_end: 52
+- path: add-workspace-inventory-and-status-model/validation
+  title: Validation
+  breadcrumbs:
+  - Add workspace inventory and status model
+  - Validation
+  about:
+  - Add workspace inventory and status model
+  - add workspace inventory and status model
+  - Validation
+  - validation
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: validation
+  level: 2
+  line_start: 53
+  line_end: 60
+- path: add-workspace-inventory-and-status-model/done-when
+  title: Done When
+  breadcrumbs:
+  - Add workspace inventory and status model
+  - Done When
+  about:
+  - Add workspace inventory and status model
+  - add workspace inventory and status model
+  - Done When
+  - done when
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  slug: done-when
+  level: 2
+  line_start: 61
+  line_end: 63
+source_hash: ccca592f224a18f2e8da3b4be65879e39a8ad50c2cb52dfb5a93ad1c88e5b5c0
+sections_version: '2'
